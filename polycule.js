@@ -8,6 +8,7 @@ const graphWidth = 1920, graphHeight = 1080, graphScale = 1;
 	let data = await d3.json('polycule.json');
 
 	let node_data = [];
+	let group_data = [];
 	let link_data = [];
 
 	data.nodes.forEach(node => {
@@ -15,6 +16,13 @@ const graphWidth = 1920, graphHeight = 1080, graphScale = 1;
 			id: node.name,
 			name: node.name,
 			color: node.color || '#fff'
+		});
+	});
+
+	data.groups.forEach(group => {
+		group_data.push({
+			members: group.members.map(member_id => node_data.filter(node => node.id === member_id)[0]),
+			color: group.color
 		});
 	});
 
@@ -34,6 +42,12 @@ const graphWidth = 1920, graphHeight = 1080, graphScale = 1;
 		.attr('width', graphWidth)
 		.attr('height', graphHeight);
 	
+	let groups = svg.selectAll('.group')
+		.data(group_data)
+		.join('path')
+		.classed('group', true)
+		.style('fill', group => group.color);
+
 	let links = svg.selectAll('.link')
 		.data(link_data)
 		.join('line')
@@ -57,23 +71,33 @@ const graphWidth = 1920, graphHeight = 1080, graphScale = 1;
 		.attr('dy', -12)
 		.attr('text-anchor', 'middle');
 	
-	
 	//---- Simulation
 	let simulation = d3.forceSimulation(node_data)
 		.force('charge', d3.forceManyBody().strength(-50))
 		.force('center', d3.forceCenter(graphWidth * graphScale / 2, graphHeight * graphScale / 2))
 		.force('link', d3.forceLink(link_data).id(node => node.id).distance(20))
 		.on('tick', () => {
+
+			nodes
+				.attr('transform', node => `translate(${node.x}, ${node.y})`)
+				.select('circle')
+					.classed('pinned', node => node.pinned);
+			
+			groups
+				.attr('d', group => {
+					let mappedPoints = group.members.map(node => [node.x, node.y]);
+					let points = d3.polygonHull(mappedPoints) || mappedPoints;
+					let path = d3.path();
+					points.forEach((point, i) => i === 0 ? path.moveTo(point[0], point[1]) : path.lineTo(point[0], point[1]));
+					path.closePath();
+					return path;
+				});
+			
 			links
 				.attr('x1', link => link.source.x)
 				.attr('y1', link => link.source.y)
 				.attr('x2', link => link.target.x)
 				.attr('y2', link => link.target.y);
-
-			nodes
-				.attr('transform', node => `translate(${node.x}, ${node.y})`)
-				.select('circle')
-					.style('stroke', node => node.pinned ? '#000' : null);
 		});
 	
 	nodes

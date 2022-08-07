@@ -8,6 +8,15 @@ svg {
 	cursor: move;
 }
 
+.node circle {
+	stroke: black;
+	stroke-width: 1px;
+}
+
+.node circle.pinned {
+	stroke-width: 2px;
+}
+
 .node text {
 	pointer-events: none;
 	font: 10px sans-serif;
@@ -23,4 +32,8 @@ svg {
 
 .platonic {
 	stroke: pink;
+}
+
+.group {
+	stroke: black;
 }
