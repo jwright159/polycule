@@ -14,33 +14,60 @@ function angleBetween(pointA, pointB)
 	//---- Data
 	let data = await d3.json('polycule.json');
 
-	let node_data = [];
-	let group_data = [];
-	let link_data = [];
+	let nodeData = [];
+	let groupData = [];
+	let linkData = [];
 
-	data.nodes.forEach(node => {
-		node_data.push({
-			id: node.name,
-			name: node.name,
-			color: node.color || '#fff',
-		});
-	});
+	function parseNode(node)
+	{
+		if ('members' in node)
+			return parseGroup(node);
+		else
+		{
+			let newNode = {
+				id: node.id || node.name,
+				name: node.name,
+				color: node.color || '#fff',
+			};
+			nodeData.push(newNode);
+			return newNode;
+		}
+	}
 
-	data.groups.forEach(group => {
-		group_data.push({
+	function parseGroup(group)
+	{
+		let newGroup = {
 			name: group.name,
-			color: group.color || '#fff8',
+			type: group.type || 'generic',
+			color: group.color,
 			radius: group.radius || 20,
-			members: group.members.map(member_id => node_data.filter(node => node.id === member_id)[0]),
-		});
-	});
+			members: group.members.map(member => typeof member === 'string' ? nodeData.filter(node => node.id === member)[0] : parseNode(member)),
+		};
+		groupData.push(newGroup);
+		return newGroup;
+	}
 
-	data.links.forEach(link => {
-		link_data.push({
+	function parseLink(link)
+	{
+		let newLink = {
 			source: link.a,
 			target: link.b,
 			type: link.type || 'romantic',
-		});
+		};
+		linkData.push(newLink);
+		return newLink;
+	}
+
+	data.nodes.forEach(node => {
+		parseNode(node);
+	});
+
+	data.groups.forEach(group => {
+		parseGroup(group);
+	});
+
+	data.links.forEach(link => {
+		parseLink(link);
 	})
 
 
@@ -52,9 +79,10 @@ function angleBetween(pointA, pointB)
 		.attr('height', graphHeight);
 	
 	let groups = svg.selectAll('.group')
-		.data(group_data)
+		.data(groupData)
 		.join('g')
-		.classed('group', true);
+		.classed('group', true)
+		.each(function(group){ d3.select(this).classed(group.type, true); });
 	
 	groups.append('path')
 		.style('fill', group => group.color);
@@ -64,13 +92,13 @@ function angleBetween(pointA, pointB)
 		.attr('text-anchor', 'middle');
 
 	let links = svg.selectAll('.link')
-		.data(link_data)
+		.data(linkData)
 		.join('line')
 		.classed('link', true)
 		.each(function(link){ d3.select(this).classed(link.type, true); });
 	
 	let nodes = svg.selectAll('.node')
-		.data(node_data)
+		.data(nodeData)
 		.join('g')
 		.classed('node', true);
 	
@@ -87,10 +115,11 @@ function angleBetween(pointA, pointB)
 		.attr('text-anchor', 'middle');
 	
 	//---- Simulation
-	let simulation = d3.forceSimulation(node_data)
-		.force('charge', d3.forceManyBody().strength(-50))
-		.force('center', d3.forceCenter(graphWidth * graphScale / 2, graphHeight * graphScale / 2))
-		.force('link', d3.forceLink(link_data).id(node => node.id).distance(20))
+	let simulation = d3.forceSimulation(nodeData)
+		.force('charge', d3.forceManyBody().strength(-100))
+		//.force('center', d3.forceCenter(graphWidth * graphScale / 2, graphHeight * graphScale / 2))
+		.force('centerR', d3.forceRadial(0, graphWidth * graphScale / 2, graphHeight * graphScale / 2).strength(0.05))
+		.force('link', d3.forceLink(linkData).id(node => node.id).distance(20))
 		.on('tick', () => {
 
 			nodes
@@ -126,9 +155,14 @@ function angleBetween(pointA, pointB)
 
 					let averageX = mappedPoints.reduce((previous, current) => previous + current[0], 0) / mappedPoints.length;
 					let averageY = mappedPoints.reduce((previous, current) => previous + current[1], 0) / mappedPoints.length;
+					let highestY = mappedPoints.reduce((previous, current) => Math.min(previous, current[1]), graphHeight * (graphScale + 1));
 					element.select('text')
 						.attr('x', averageX)
-						.attr('y', averageY);
+						.attr('y', highestY - group.radius - 5);
+					
+					let force = simulation.force('center-' + group.name);
+					force.x(averageX);
+					force.y(averageY);
 				});
 			
 			links
@@ -137,6 +171,8 @@ function angleBetween(pointA, pointB)
 				.attr('x2', link => link.target.x)
 				.attr('y2', link => link.target.y);
 		});
+	
+	groups.each(group => simulation.force('center-' + group.name, d3.forceRadial(0).strength(node => group.members.includes(node) ? 0.1 : -0.01)));
 	
 	nodes
 		.call(d3.drag()

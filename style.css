@@ -29,16 +29,24 @@ svg {
 
 .romantic {
 	stroke: red;
+	fill: transparent;
 }
 
 .platonic {
 	stroke: pink;
+	fill: transparent;
 }
 
-.group path {
+.system {
 	stroke: black;
 }
 
+.fusion {
+	fill: #fff8;
+}
+
 .group text {
+	fill: black;
+	stroke: none;
 	font-family: serif;
 }
