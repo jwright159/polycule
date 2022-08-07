@@ -111,6 +111,7 @@
 				{ "name": "Folykl", "color": "" }
 			],
 			"links": [
+				{ "a": "Folykl", "b": "Day", "type": "blackrom" }
 			]
 		},
 		{ "id": "Deathwizard Sys dating proxy" },
