@@ -28,9 +28,10 @@ function angleBetween(pointA, pointB)
 
 	data.groups.forEach(group => {
 		group_data.push({
-			members: group.members.map(member_id => node_data.filter(node => node.id === member_id)[0]),
+			name: group.name,
 			color: group.color || '#fff8',
 			radius: group.radius || 20,
+			members: group.members.map(member_id => node_data.filter(node => node.id === member_id)[0]),
 		});
 	});
 
@@ -52,9 +53,15 @@ function angleBetween(pointA, pointB)
 	
 	let groups = svg.selectAll('.group')
 		.data(group_data)
-		.join('path')
-		.classed('group', true)
+		.join('g')
+		.classed('group', true);
+	
+	groups.append('path')
 		.style('fill', group => group.color);
+	
+	groups.append('text')
+		.text(group => group.name)
+		.attr('text-anchor', 'middle');
 
 	let links = svg.selectAll('.link')
 		.data(link_data)
@@ -92,9 +99,12 @@ function angleBetween(pointA, pointB)
 					.classed('pinned', node => node.pinned);
 			
 			groups
-				.attr('d', group => {
+				.each(function(group){
+					let element = d3.select(this);
+
 					let mappedPoints = group.members.map(node => [node.x, node.y]);
 					let points = d3.polygonHull(mappedPoints) || mappedPoints;
+
 					let path = d3.path();
 					for (let i = 0; i < points.length; i++)
 					{
@@ -111,7 +121,14 @@ function angleBetween(pointA, pointB)
 						path.arc(point[0], point[1], group.radius, startAngle, endAngle, true);
 					}
 					path.closePath();
-					return path;
+					element.select('path')
+						.attr('d', path);
+
+					let averageX = mappedPoints.reduce((previous, current) => previous + current[0], 0) / mappedPoints.length;
+					let averageY = mappedPoints.reduce((previous, current) => previous + current[1], 0) / mappedPoints.length;
+					element.select('text')
+						.attr('x', averageX)
+						.attr('y', averageY);
 				});
 			
 			links

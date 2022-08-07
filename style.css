@@ -35,6 +35,10 @@ svg {
 	stroke: pink;
 }
 
-.group {
+.group path {
 	stroke: black;
+}
+
+.group text {
+	font-family: serif;
 }
