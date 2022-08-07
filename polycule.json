@@ -11,28 +11,29 @@
 				{ "name": "Speck", "color": "#ffeb3b" },
 				{ "name": "Sxra", "color": "#03a9f4" },
 				{ "name": "Diane", "color": "orange" },
-				{ "name": "Repyt", "color": "" },
-				{ "name": "Tango", "color": "" },
-				{ "name": "Skye", "color": "" },
-				{ "name": "Sara", "color": "" },
-				{ "name": "Grimbark Jade", "color": "" },
-				{ "name": "Less", "color": "" },
-				{ "name": "Mod", "color": "" },
-				{ "name": "Jade Harley", "color": "" }
+				{ "name": "Repyt", "color": "#d4bc00" },
+				{ "name": "Tango", "color": "#ffc107" },
+				{ "name": "Skye", "color": "#2196f3" },
+				{ "name": "Sara", "color": "#1a237e" },
+				{ "name": "Grimbark Jade", "color": "#4caf50" },
+				{ "name": "Less", "color": "#ffeb3b" },
+				{ "name": "Mod", "color": "#3f51b5" },
+				{ "name": "Jade Harley", "color": "#4bec13" }
 			],
 			"links": [
 				{ "a": "Jade", "b": "Ty" },
-				{ "a": "Jade",  "b": "Speck", "type": "platonic" },
+				{ "a": "Jade",  "b": "Speck", "type": "palerom" },
 				{ "a": "Jade", "b": "Sxra" },
 				{ "a": "Diane", "b": "Sxra" },
 				{ "a": "Jade", "b": "Diane" },
 				{ "a": "Ty", "b": "Skye" },
-				{ "a": "Skye", "b": "Tango", "type": "platonic" },
-				{ "a": "Ty", "b": "Repyt", "type": "platonic" },
-				{ "a": "Tango", "b": "Repyt" }
+				{ "a": "Skye", "b": "Tango", "type": "palerom" },
+				{ "a": "Ty", "b": "Repyt", "type": "palerom" },
+				{ "a": "Tango", "b": "Repyt" },
+				{ "a": "Less", "b": "Mod", "type":"blackrom" }
 			]
 		},
-		{ "id": "Draconevixens dating proxy" },
+		{ "id": "Draconevixens dating proxy", "color": "#03a9f488" },
 		
 		{
 			"name": "Candy Sys",
@@ -44,11 +45,11 @@
 				{ "name": "Rose", "color": "#b536da" },
 				{ "name": "Roxy", "color": "#ff6ff2" },
 				{ "name": "Kris", "color": "#85e610" },
-				{ "name": "Dave", "color": "#E00707" },
-				{ "name": "Chara" },
-				{ "name": "Esae" },
-				{ "name": "Vriska" },
-				{ "name": "Jaradi" },
+				{ "name": "Dave", "color": "#e00707" },
+				{ "name": "Chara", "color": "#4cd11b" },
+				{ "name": "Esae", "color": "" },
+				{ "name": "Vriska", "color": "#005682" },
+				{ "name": "Jaradi", "color": "" },
 				{ "name": "Addie", "color": "#cc98ff" }
 			],
 			"links": [
@@ -57,7 +58,69 @@
 				{ "a": "Roxy", "b": "Rose" }
 			]
 		},
-		{ "id": "Candy Sys dating proxy" }
+		{ "id": "Candy Sys dating proxy", "color": "#cc98ff88" },
+
+		{
+			"name": "Rat Sys",
+			"type": "system",
+			"color": "",
+			"radius": 30,
+			"nodes": [
+				{ "name": "Lily", "color": "" },
+				{ "name": "Strider", "color": "#e00707" }
+			],
+			"links": [
+				{ "a": "Lily", "b": "Strider" }
+			]
+		},
+		{ "id": "Rat Sys dating proxy" },
+		
+		{
+			"name": "Mosspup Sys",
+			"type": "system",
+			"color": "",
+			"radius": 30,
+			"nodes": [
+				{ "name": "Lichen", "color": "" },
+				{ "name": "Cas", "color": "" }
+			],
+			"links": [
+			]
+		},
+		
+		{
+			"name": "Mycena Sys",
+			"type": "system",
+			"color": "",
+			"radius": 30,
+			"nodes": [
+				{ "name": "Luna", "color": "#416600" }
+			],
+			"links": [
+			]
+		},
+		
+		{
+			"name": "Deathwizard Sys",
+			"type": "system",
+			"color": "",
+			"radius": 30,
+			"nodes": [
+				{ "name": "Day", "color": "#e00707" },
+				{ "name": "Flaire", "color": "" },
+				{ "name": "Folykl", "color": "" }
+			],
+			"links": [
+			]
+		},
+		{ "id": "Deathwizard Sys dating proxy" },
+
+		{ "name": "Ozzy", "color": "" },
+		{ "name": "Callie", "color": "" },
+		{ "name": "Val", "color": "" },
+		{ "name": "Sen", "color": "" },
+		{ "name": "Sim", "color": "" },
+		{ "name": "Banshee", "color": "" }
 	],
 
 	"groups": [
@@ -70,7 +133,15 @@
 			]
 		},
 		{
-			"type": "romantic",
+			"name": "Tesla",
+			"type": "fusion",
+			"nodes": [
+				"Draconevixens:Tango",
+				"Draconevixens:Skye"
+			]
+		},
+		{
+			"type": "redrom",
 			"nodes": [
 				"Draconevixens dating proxy",
 				"Draconevixens:Jade",
@@ -79,18 +150,53 @@
 		},
 
 		{
-			"type": "romantic",
+			"type": "redrom",
 			"nodes": [
 				"Candy Sys dating proxy",
 				"Candy Sys:Nepeta",
 				"Candy Sys:Rose",
 				"Candy Sys:Roxy",
-				"Candy Sys:Dave"
+				"Candy Sys:Dave",
+				"Candy Sys:Vriska",
+				"Candy Sys:Jaradi",
+				"Candy Sys:Addie"
+			]
+		},
+
+		{
+			"type": "redrom",
+			"nodes": [
+				"Rat Sys dating proxy",
+				"Rat Sys:Lily",
+				"Rat Sys:Strider"
+			]
+		},
+
+		{
+			"type": "redrom",
+			"nodes": [
+				"Deathwizard Sys dating proxy",
+				"Deathwizard Sys:Day",
+				"Deathwizard Sys:Flaire"
 			]
 		}
 	],
 
 	"links": [
-		{ "a": "Draconevixens dating proxy", "b": "Candy Sys dating proxy" }
+		{ "a": "Draconevixens dating proxy", "b": "Candy Sys dating proxy" },
+		{ "a": "Rat Sys dating proxy", "b": "Draconevixens dating proxy" },
+		{ "a": "Rat Sys dating proxy", "b": "Candy Sys dating proxy" },
+		{ "a": "Rat Sys dating proxy", "b": "Ozzy", "type": "palerom" },
+		{ "a": "Draconevixens dating proxy", "b": "Ozzy", "type": "palerom" },
+		{ "a": "Mosspup Sys:Lichen", "b": "Ozzy", "type": "palerom" },
+		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens dating proxy" },
+		{ "a": "Mosspup Sys:Lichen", "b": "Rat Sys dating proxy" },
+		{ "a": "Candy Sys:Nepeta", "b": "Mycena Sys:Luna" },
+		{ "a": "Draconevixens dating proxy", "b": "Val", "type": "palerom" },
+		{ "a": "Val", "b": "Sen" },
+		{ "a": "Val", "b": "Sim" },
+		{ "a": "Val", "b": "Banshee" },
+		{ "a": "Draconevixens dating proxy", "b": "Callie" },
+		{ "a": "Deathwizard Sys dating proxy", "b": "Mycena Sys:Luna" }
 	]
 }

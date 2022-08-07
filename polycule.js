@@ -62,7 +62,7 @@ function namespace(parent, node)
 		let newLink = {
 			source: namespace(parentGroup, link.a),
 			target: namespace(parentGroup, link.b),
-			type: link.type || 'romantic',
+			type: link.type || 'redrom',
 		};
 		linkData.push(newLink);
 		return newLink;
@@ -108,7 +108,7 @@ function namespace(parent, node)
 		.attr('r', 10)
 		.style('fill', node => node.color)
 		.append('title')
-			.text(node => node.name);
+			.text(node => node.id);
 	
 	nodes.append('text')
 		.text(node => node.name)
@@ -120,7 +120,7 @@ function namespace(parent, node)
 	let simulation = d3.forceSimulation(nodeData)
 		.force('charge', d3.forceManyBody().strength(-100))
 		//.force('center', d3.forceCenter(graphWidth * graphScale / 2, graphHeight * graphScale / 2))
-		.force('centerR', d3.forceRadial(0, graphWidth * graphScale / 2, graphHeight * graphScale / 2).strength(0.05))
+		.force('centerR', d3.forceRadial(0, graphWidth * graphScale / 2, graphHeight * graphScale / 2).strength(0.1))
 		.force('link', d3.forceLink(linkData).id(node => node.id).distance(20))
 		.on('tick', () => {
 
@@ -137,19 +137,28 @@ function namespace(parent, node)
 					let points = d3.polygonHull(mappedPoints) || mappedPoints;
 
 					let path = d3.path();
-					for (let i = 0; i < points.length; i++)
+					if (points.length > 1)
 					{
-						let prevPoint = points[i - 1 < 0 ? points.length - 1 : i - 1];
-						let point = points[i];
-						let nextPoint = points[i + 1 === points.length ? 0 : i + 1]
-						
-						let startAngle = angleBetween(prevPoint, point) - Math.PI / 2;
-						let endAngle = angleBetween(point, nextPoint) - Math.PI / 2;
+						for (let i = 0; i < points.length; i++)
+						{
+							let prevPoint = points[i - 1 < 0 ? points.length - 1 : i - 1];
+							let point = points[i];
+							let nextPoint = points[i + 1 === points.length ? 0 : i + 1]
+							
+							let startAngle = angleBetween(prevPoint, point) - Math.PI / 2;
+							let endAngle = angleBetween(point, nextPoint) - Math.PI / 2;
 
-						if (i === 0)
-							path.moveTo(point[0] + Math.cos(startAngle) * group.radius, point[1] + Math.sin(startAngle) * group.radius);
-						
-						path.arc(point[0], point[1], group.radius, startAngle, endAngle, true);
+							if (i === 0)
+								path.moveTo(point[0] + Math.cos(startAngle) * group.radius, point[1] + Math.sin(startAngle) * group.radius);
+							
+							path.arc(point[0], point[1], group.radius, startAngle, endAngle, true);
+						}
+					}
+					else
+					{
+						let point = points[0];
+						path.moveTo(point[0] + group.radius, point[1]);
+						path.arc(point[0], point[1], group.radius, 0, Math.PI * 2, true);
 					}
 					path.closePath();
 					element.select('path')
@@ -157,7 +166,7 @@ function namespace(parent, node)
 
 					let averageX = mappedPoints.reduce((previous, current) => previous + current[0], 0) / mappedPoints.length;
 					let averageY = mappedPoints.reduce((previous, current) => previous + current[1], 0) / mappedPoints.length;
-					let highestY = mappedPoints.reduce((previous, current) => Math.min(previous, current[1]), graphHeight * (graphScale + 1));
+					let highestY = mappedPoints.reduce((previous, current) => Math.min(previous, current[1]), points[0][1]);
 					element.select('text')
 						.attr('x', averageX)
 						.attr('y', highestY - group.radius - 5);

@@ -27,22 +27,37 @@ svg {
 	stroke-width: 2;
 }
 
-.romantic {
+.redrom {
 	stroke: red;
 	fill: transparent;
 }
 
-.platonic {
+.palerom {
 	stroke: pink;
+	fill: transparent;
+}
+
+.blackrom {
+	stroke: black;
+	fill: transparent;
+}
+
+.ashrom {
+	stroke: grey;
 	fill: transparent;
 }
 
 .system {
 	stroke: black;
+	fill: transparent;
 }
 
 .fusion {
 	fill: #fff8;
+}
+
+.generic {
+	fill: transparent;
 }
 
 .group text {
