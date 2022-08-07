@@ -37,7 +37,8 @@ const graphWidth = 1920, graphHeight = 1080, graphScale = 1;
 	let links = svg.selectAll('.link')
 		.data(link_data)
 		.join('line')
-		.classed('link', true);
+		.classed('link', true)
+		.each(function(link){ d3.select(this).classed(link.type, true); });
 	
 	let nodes = svg.selectAll('.node')
 		.data(node_data)

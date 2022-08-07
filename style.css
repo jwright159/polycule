@@ -16,3 +16,11 @@ svg {
 .link {
 	stroke: black;
 }
+
+.romantic {
+	stroke: red;
+}
+
+.platonic {
+	stroke: pink;
+}
