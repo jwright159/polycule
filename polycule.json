@@ -1,0 +1,37 @@
+{
+	"nodes": [
+		{ "name": "Jade", "color": "#03a9f4" },
+		{ "name": "Ty", "color": "#00bcd4" },
+		{ "name": "Speck", "color": "#ffeb3b" }
+	],
+
+	"groups": [
+		{
+			"name": "Draconevixens",
+			"members": [
+				"Jade",
+				"Ty",
+				"Speck"
+			]
+		},
+		{
+			"name": "Jadyn",
+			"members": [
+				"Jade",
+				"Ty"
+			]
+		}
+	],
+
+	"links": [
+		{
+			"a": "Jade",
+			"b": "Ty"
+		},
+		{
+			"a": "Jade",
+			"b": "Speck",
+			"type": "platonic"
+		}
+	]
+}
