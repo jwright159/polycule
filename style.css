@@ -24,6 +24,7 @@ svg {
 
 .link {
 	stroke: black;
+	stroke-width: 2;
 }
 
 .romantic {

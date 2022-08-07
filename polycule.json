@@ -1,18 +1,23 @@
 {
 	"nodes": [
-		{ "name": "Jade", "color": "#03a9f4" },
+		{ "name": "Jade", "color": "#4caf50" },
 		{ "name": "Ty", "color": "#00bcd4" },
-		{ "name": "Speck", "color": "#ffeb3b" }
+		{ "name": "Speck", "color": "#ffeb3b" },
+		{ "name": "Sxra", "color": "#03a9f4" },
+		{ "name": "Diane", "color": "orange" }
 	],
 
 	"groups": [
 		{
 			"name": "Draconevixens",
-			"color": "#03a9f4",
+			"color": "#03a9f488",
+			"radius": 30,
 			"members": [
 				"Jade",
 				"Ty",
-				"Speck"
+				"Speck",
+				"Sxra",
+				"Diane"
 			]
 		},
 		{
@@ -25,14 +30,10 @@
 	],
 
 	"links": [
-		{
-			"a": "Jade",
-			"b": "Ty"
-		},
-		{
-			"a": "Jade",
-			"b": "Speck",
-			"type": "platonic"
-		}
+		{ "a": "Jade", "b": "Ty" },
+		{ "a": "Jade",  "b": "Speck", "type": "platonic" },
+		{ "a": "Jade", "b": "Sxra" },
+		{ "a": "Diane", "b": "Sxra" },
+		{ "a": "Jade", "b": "Diane" }
 	]
 }

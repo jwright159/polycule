@@ -3,6 +3,13 @@
 const parameters = new URLSearchParams(window.location.search);
 const graphWidth = 1920, graphHeight = 1080, graphScale = 1;
 
+function angleBetween(pointA, pointB)
+{
+	let x = pointB[0] - pointA[0];
+	let y = pointB[1] - pointA[1];
+	return Math.atan(y / x) + (Math.sign(x) > 0 ? Math.PI : 0);
+}
+
 (async () => {
 	//---- Data
 	let data = await d3.json('polycule.json');
@@ -15,14 +22,15 @@ const graphWidth = 1920, graphHeight = 1080, graphScale = 1;
 		node_data.push({
 			id: node.name,
 			name: node.name,
-			color: node.color || '#fff'
+			color: node.color || '#fff',
 		});
 	});
 
 	data.groups.forEach(group => {
 		group_data.push({
 			members: group.members.map(member_id => node_data.filter(node => node.id === member_id)[0]),
-			color: group.color
+			color: group.color || '#fff8',
+			radius: group.radius || 20,
 		});
 	});
 
@@ -30,7 +38,7 @@ const graphWidth = 1920, graphHeight = 1080, graphScale = 1;
 		link_data.push({
 			source: link.a,
 			target: link.b,
-			type: link.type || 'romantic'
+			type: link.type || 'romantic',
 		});
 	})
 
@@ -88,7 +96,20 @@ const graphWidth = 1920, graphHeight = 1080, graphScale = 1;
 					let mappedPoints = group.members.map(node => [node.x, node.y]);
 					let points = d3.polygonHull(mappedPoints) || mappedPoints;
 					let path = d3.path();
-					points.forEach((point, i) => i === 0 ? path.moveTo(point[0], point[1]) : path.lineTo(point[0], point[1]));
+					for (let i = 0; i < points.length; i++)
+					{
+						let prevPoint = points[i - 1 < 0 ? points.length - 1 : i - 1];
+						let point = points[i];
+						let nextPoint = points[i + 1 === points.length ? 0 : i + 1]
+						
+						let startAngle = angleBetween(prevPoint, point) - Math.PI / 2;
+						let endAngle = angleBetween(point, nextPoint) - Math.PI / 2;
+
+						if (i === 0)
+							path.moveTo(point[0] + Math.cos(startAngle) * group.radius, point[1] + Math.sin(startAngle) * group.radius);
+						
+						path.arc(point[0], point[1], group.radius, startAngle, endAngle, true);
+					}
 					path.closePath();
 					return path;
 				});
