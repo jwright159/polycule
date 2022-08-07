@@ -5,7 +5,7 @@
 			"type": "system",
 			"color": "#03a9f488",
 			"radius": 30,
-			"members": [
+			"nodes": [
 				{ "name": "Jade", "color": "#4caf50" },
 				{ "name": "Ty", "color": "#00bcd4" },
 				{ "name": "Speck", "color": "#ffeb3b" },
@@ -19,17 +19,27 @@
 				{ "name": "Less", "color": "" },
 				{ "name": "Mod", "color": "" },
 				{ "name": "Jade Harley", "color": "" }
+			],
+			"links": [
+				{ "a": "Jade", "b": "Ty" },
+				{ "a": "Jade",  "b": "Speck", "type": "platonic" },
+				{ "a": "Jade", "b": "Sxra" },
+				{ "a": "Diane", "b": "Sxra" },
+				{ "a": "Jade", "b": "Diane" },
+				{ "a": "Ty", "b": "Skye" },
+				{ "a": "Skye", "b": "Tango", "type": "platonic" },
+				{ "a": "Ty", "b": "Repyt", "type": "platonic" },
+				{ "a": "Tango", "b": "Repyt" }
 			]
 		},
 		{ "id": "Draconevixens dating proxy" },
-		
 		
 		{
 			"name": "Candy Sys",
 			"type": "system",
 			"color": "#cc98ff88",
 			"radius": 30,
-			"members": [
+			"nodes": [
 				{ "name": "Nepeta", "color": "#416600" },
 				{ "name": "Rose", "color": "#b536da" },
 				{ "name": "Roxy", "color": "#ff6ff2" },
@@ -40,6 +50,11 @@
 				{ "name": "Vriska" },
 				{ "name": "Jaradi" },
 				{ "name": "Addie", "color": "#cc98ff" }
+			],
+			"links": [
+				{ "a": "Nepeta", "b": "Rose" },
+				{ "a": "Nepeta", "b": "Roxy" },
+				{ "a": "Roxy", "b": "Rose" }
 			]
 		},
 		{ "id": "Candy Sys dating proxy" }
@@ -49,43 +64,33 @@
 		{
 			"name": "Jadyn",
 			"type": "fusion",
-			"members": [
-				"Jade",
-				"Ty"
+			"nodes": [
+				"Draconevixens:Jade",
+				"Draconevixens:Ty"
 			]
 		},
 		{
 			"type": "romantic",
-			"members": [
+			"nodes": [
 				"Draconevixens dating proxy",
-				"Jade",
-				"Ty"
+				"Draconevixens:Jade",
+				"Draconevixens:Ty"
 			]
 		},
 
 		{
 			"type": "romantic",
-			"members": [
+			"nodes": [
 				"Candy Sys dating proxy",
-				"Nepeta",
-				"Rose",
-				"Roxy",
-				"Dave"
+				"Candy Sys:Nepeta",
+				"Candy Sys:Rose",
+				"Candy Sys:Roxy",
+				"Candy Sys:Dave"
 			]
 		}
 	],
 
 	"links": [
-		{ "a": "Jade", "b": "Ty" },
-		{ "a": "Jade",  "b": "Speck", "type": "platonic" },
-		{ "a": "Jade", "b": "Sxra" },
-		{ "a": "Diane", "b": "Sxra" },
-		{ "a": "Jade", "b": "Diane" },
-
-		{ "a": "Nepeta", "b": "Rose" },
-		{ "a": "Nepeta", "b": "Roxy" },
-		{ "a": "Roxy", "b": "Rose" },
-
 		{ "a": "Draconevixens dating proxy", "b": "Candy Sys dating proxy" }
 	]
 }

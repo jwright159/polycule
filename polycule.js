@@ -10,6 +10,11 @@ function angleBetween(pointA, pointB)
 	return Math.atan(y / x) + (Math.sign(x) > 0 ? Math.PI : 0);
 }
 
+function namespace(parent, node)
+{
+	return (parent ? parent + ':' : '') + node;
+}
+
 (async () => {
 	//---- Data
 	let data = await d3.json('polycule.json');
@@ -18,14 +23,14 @@ function angleBetween(pointA, pointB)
 	let groupData = [];
 	let linkData = [];
 
-	function parseNode(node)
+	function parseNode(node, parentGroup)
 	{
-		if ('members' in node)
-			return parseGroup(node);
+		if ('nodes' in node)
+			return parseGroup(node, parentGroup);
 		else
 		{
 			let newNode = {
-				id: node.id || node.name,
+				id: namespace(parentGroup, node.id || node.name),
 				name: node.name,
 				color: node.color || '#fff',
 			};
@@ -34,41 +39,38 @@ function angleBetween(pointA, pointB)
 		}
 	}
 
-	function parseGroup(group)
+	function parseGroup(group, parentGroup)
 	{
+		let id = namespace(parentGroup, group.name)
 		let newGroup = {
 			name: group.name,
 			type: group.type || 'generic',
 			color: group.color,
 			radius: group.radius || 20,
-			members: group.members.map(member => typeof member === 'string' ? nodeData.filter(node => node.id === member)[0] : parseNode(member)),
+			members: group.nodes.map(member => typeof member === 'string' ? nodeData.filter(node => node.id === member)[0] : parseNode(member, id)),
 		};
 		groupData.push(newGroup);
+		
+		if ('links' in group)
+			group.links.forEach(link => parseLink(link, id));
+
 		return newGroup;
 	}
 
-	function parseLink(link)
+	function parseLink(link, parentGroup)
 	{
 		let newLink = {
-			source: link.a,
-			target: link.b,
+			source: namespace(parentGroup, link.a),
+			target: namespace(parentGroup, link.b),
 			type: link.type || 'romantic',
 		};
 		linkData.push(newLink);
 		return newLink;
 	}
 
-	data.nodes.forEach(node => {
-		parseNode(node);
-	});
-
-	data.groups.forEach(group => {
-		parseGroup(group);
-	});
-
-	data.links.forEach(link => {
-		parseLink(link);
-	})
+	data.nodes.forEach(node => parseNode(node));
+	data.groups.forEach(group => parseGroup(group));
+	data.links.forEach(link => parseLink(link))
 
 
 	//---- Graph
