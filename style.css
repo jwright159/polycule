@@ -47,6 +47,10 @@ svg {
 	fill: transparent;
 }
 
+.proxy {
+	stroke: transparent;
+}
+
 .system {
 	stroke: black;
 	fill: transparent;

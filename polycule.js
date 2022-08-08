@@ -12,7 +12,7 @@ function angleBetween(pointA, pointB)
 
 function namespace(parent, node)
 {
-	return (parent ? parent + ':' : '') + node;
+	return (parent ? parent.id + ':' : '') + node;
 }
 
 (async () => {
@@ -25,34 +25,64 @@ function namespace(parent, node)
 
 	function parseNode(node, parentGroup)
 	{
-		if ('nodes' in node)
-			return parseGroup(node, parentGroup);
-		else
-		{
-			let newNode = {
-				id: namespace(parentGroup, node.id || node.name),
-				name: node.name,
-				color: node.color || '#fff',
-			};
-			nodeData.push(newNode);
-			return newNode;
-		}
+		let newNode = {
+			id: namespace(parentGroup, node.id || node.name),
+			name: node.name,
+			color: node.color || '#fff',
+		};
+		nodeData.push(newNode);
+		return newNode;
 	}
 
 	function parseGroup(group, parentGroup)
 	{
-		let id = namespace(parentGroup, group.name)
 		let newGroup = {
+			id: namespace(parentGroup, group.name || group.proxy),
 			name: group.name,
 			type: group.type || 'generic',
 			color: group.color,
 			radius: group.radius || 20,
-			members: group.nodes.map(member => typeof member === 'string' ? nodeData.filter(node => node.id === member)[0] : parseNode(member, id)),
+			createdMembers: [],
+			members: [],
 		};
 		groupData.push(newGroup);
+
+		if ('nodes' in group)
+		{
+			group.nodes.forEach(member =>{
+				if (typeof member === 'string')
+					newGroup.members.push(nodeData.filter(node => node.id === namespace(parentGroup, member))[0]);
+				else
+				{
+					let newNode = parseNode(member, newGroup);
+					newGroup.createdMembers.push(newNode);
+					newGroup.members.push(newNode);
+				}
+			});
+		}
+
+		if ('proxy' in group)
+		{
+			let proxy = parseNode({
+				id: group.proxy,
+				color: parentGroup ? parentGroup.color : undefined,
+			});
+
+			newGroup.members.forEach(member => parseLink({
+				a: member.id,
+				b: proxy.id,
+				type: 'proxy',
+			}));
+
+			newGroup.members.push(proxy);
+			newGroup.proxy = proxy;
+		}
+
+		if ('groups' in group)
+			group.groups.forEach(subgroup => newGroup.members.push(...parseGroup(subgroup, newGroup).createdMembers));
 		
 		if ('links' in group)
-			group.links.forEach(link => parseLink(link, id));
+			group.links.forEach(link => parseLink(link, newGroup));
 
 		return newGroup;
 	}
@@ -120,7 +150,7 @@ function namespace(parent, node)
 	let simulation = d3.forceSimulation(nodeData)
 		.force('charge', d3.forceManyBody().strength(-100).distanceMax(200))
 		//.force('center', d3.forceCenter(graphWidth * graphScale / 2, graphHeight * graphScale / 2))
-		.force('centerR', d3.forceRadial(0, graphWidth * graphScale / 2, graphHeight * graphScale / 2).strength(0.1))
+		.force('centerR', d3.forceRadial(0, graphWidth * graphScale / 2, graphHeight * graphScale / 2).strength(0.11))
 		.force('link', d3.forceLink(linkData).id(node => node.id).distance(20))
 		.on('tick', () => {
 
@@ -135,6 +165,8 @@ function namespace(parent, node)
 
 					let mappedPoints = group.members.map(node => [node.x, node.y]);
 					let points = d3.polygonHull(mappedPoints) || mappedPoints;
+					if (points.length === 0)
+						return;
 
 					let path = d3.path();
 					if (points.length > 1)
@@ -172,8 +204,8 @@ function namespace(parent, node)
 						.attr('y', highestY - group.radius - 5);
 					
 					let force = simulation.force('center-' + group.name);
-					force.x(averageX);
-					force.y(averageY);
+					if (force)
+						force.x(averageX).y(averageY);
 				});
 			
 			links
@@ -183,7 +215,7 @@ function namespace(parent, node)
 				.attr('y2', link => link.target.y);
 		});
 	
-	groups.each(group => simulation.force('center-' + group.name, d3.forceRadial(0).strength(node => group.members.includes(node) ? 0.1 : -0.01)));
+	groups.each(group => group.proxy ? undefined : simulation.force('center-' + group.name, d3.forceRadial(0).strength(node => group.members.includes(node) ? 0.1 : -0.01)));
 	
 	nodes
 		.call(d3.drag()
