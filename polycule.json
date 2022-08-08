@@ -116,6 +116,20 @@
 		},
 		{ "id": "Deathwizard Sys dating proxy", "color": "#00a59688" },
 
+		{
+			"name": "4PPL35",
+			"type": "system",
+			"color": "#009bff88",
+			"radius": 30,
+			"nodes": [
+				{ "name": "Vaea", "color": "" },
+				{ "name": "Maud", "color": "" },
+				{ "name": "Tezi", "color": "" }
+			],
+			"links": [
+			]
+		},
+
 		{ "name": "Ozzy", "color": "#e357d4" },
 		{ "name": "Callie", "color": "#de2916" },
 		{ "name": "Val", "color": "#06ffc9" },
@@ -198,6 +212,7 @@
 		{ "a": "Val", "b": "Sim" },
 		{ "a": "Val", "b": "Banshee" },
 		{ "a": "Draconevixens dating proxy", "b": "Callie" },
-		{ "a": "Deathwizard Sys dating proxy", "b": "Mycena Sys:Luna" }
+		{ "a": "Deathwizard Sys dating proxy", "b": "Mycena Sys:Luna" },
+		{ "a": "Candy Sys:Nepeta", "b": "4PPL35:Tezi" }
 	]
 }
