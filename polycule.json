@@ -191,8 +191,8 @@
 			"color": "#ffc0cb88",
 			"radius": 30,
 			"nodes": [
-				{ "name": "Chloe", "color": "" },
-				{ "name": "Dawn", "color": "" }
+				{ "name": "Chloe", "color": "#ffc0cb" },
+				{ "name": "Dawn", "color": "orange" }
 			],
 			"groups": [
 			],
