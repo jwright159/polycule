@@ -118,7 +118,7 @@ function namespace(parent, node)
 	
 	//---- Simulation
 	let simulation = d3.forceSimulation(nodeData)
-		.force('charge', d3.forceManyBody().strength(-100))
+		.force('charge', d3.forceManyBody().strength(-100).distanceMax(200))
 		//.force('center', d3.forceCenter(graphWidth * graphScale / 2, graphHeight * graphScale / 2))
 		.force('centerR', d3.forceRadial(0, graphWidth * graphScale / 2, graphHeight * graphScale / 2).strength(0.1))
 		.force('link', d3.forceLink(linkData).id(node => node.id).distance(20))
