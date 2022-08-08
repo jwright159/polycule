@@ -44,7 +44,7 @@
 				{ "name": "Nepeta", "color": "#416600" },
 				{ "name": "Rose", "color": "#b536da" },
 				{ "name": "Roxy", "color": "#ff6ff2" },
-				{ "name": "Kris", "color": "#85e610" },
+				{ "name": "Kris", "color": "#3d120e" },
 				{ "name": "Dave", "color": "#e00707" },
 				{ "name": "Chara", "color": "#4cd11b" },
 				{ "name": "Esae", "color": "" },
@@ -63,25 +63,25 @@
 		{
 			"name": "Rat Sys",
 			"type": "system",
-			"color": "",
+			"color": "#ffbded88",
 			"radius": 30,
 			"nodes": [
-				{ "name": "Lily", "color": "" },
+				{ "name": "Lily", "color": "#ffbded" },
 				{ "name": "Strider", "color": "#e00707" }
 			],
 			"links": [
 				{ "a": "Lily", "b": "Strider" }
 			]
 		},
-		{ "id": "Rat Sys dating proxy" },
+		{ "id": "Rat Sys dating proxy", "color": "#ffbded88" },
 		
 		{
 			"name": "Mosspup Sys",
 			"type": "system",
-			"color": "",
+			"color": "#69865788",
 			"radius": 30,
 			"nodes": [
-				{ "name": "Lichen", "color": "" },
+				{ "name": "Lichen", "color": "#698657" },
 				{ "name": "Cas", "color": "" }
 			],
 			"links": [
@@ -91,7 +91,7 @@
 		{
 			"name": "Mycena Sys",
 			"type": "system",
-			"color": "",
+			"color": "#41660088",
 			"radius": 30,
 			"nodes": [
 				{ "name": "Luna", "color": "#416600" }
@@ -103,7 +103,7 @@
 		{
 			"name": "Deathwizard Sys",
 			"type": "system",
-			"color": "",
+			"color": "#00a59688",
 			"radius": 30,
 			"nodes": [
 				{ "name": "Day", "color": "#e00707" },
@@ -114,11 +114,11 @@
 				{ "a": "Folykl", "b": "Day", "type": "blackrom" }
 			]
 		},
-		{ "id": "Deathwizard Sys dating proxy" },
+		{ "id": "Deathwizard Sys dating proxy", "color": "#00a59688" },
 
-		{ "name": "Ozzy", "color": "" },
-		{ "name": "Callie", "color": "" },
-		{ "name": "Val", "color": "" },
+		{ "name": "Ozzy", "color": "#e357d4" },
+		{ "name": "Callie", "color": "#de2916" },
+		{ "name": "Val", "color": "#06ffc9" },
 		{ "name": "Sen", "color": "" },
 		{ "name": "Sim", "color": "" },
 		{ "name": "Banshee", "color": "" }
