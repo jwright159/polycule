@@ -73,11 +73,12 @@
 				{ "name": "Roxy", "color": "#ff6ff2" },
 				{ "name": "Kris", "color": "#3d120e" },
 				{ "name": "Dave", "color": "#e00707" },
-				{ "name": "Chara", "color": "#4cd11b" },
-				{ "name": "Esae", "color": "" },
-				{ "name": "Vriska", "color": "#005682" },
-				{ "name": "Jaradi", "color": "" },
-				{ "name": "Addie", "color": "#cc98ff" }
+				{ "name": "Chara", "color": "#cd3d40" },
+				{ "name": "Esae", "color": "#363541" },
+				{ "name": "Vriska", "color": "#171769" },
+				{ "name": "Jaradi", "color": "#7842ad" },
+				{ "name": "Addie", "color": "#cc98ff" },
+				{ "name": "Destiny", "color": "#7e7a85" }
 			],
 			"groups": [
 				{
@@ -220,6 +221,7 @@
 		{ "a": "4PPL35's Partner Sys:Dawn", "b": "4PPL35:Calliope" },
 		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Vaea", "type":"palerom" },
 		{ "a": "4PPL35's Partner Sys:Chloe", "b": "Amy" },
-		{ "a": "Candy Sys:Nepeta", "b": "Jax" }
+		{ "a": "Candy Sys:Nepeta", "b": "Jax" },
+		{ "a": "Candy Sys:Destiny", "b": "Draconevixens:Jade" }
 	]
 }
