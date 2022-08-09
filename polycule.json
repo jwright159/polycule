@@ -211,7 +211,7 @@
 		{ "a": "Mosspup Sys:Lichen", "b": "Ozzy", "type": "palerom" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Rat Sys dating proxy" },
-		{ "a": "Candy Sys:Nepeta", "b": "Mycena Sys:Luna" },
+		{ "a": "Candy Sys:Nepeta", "b": "Mycena Sys:Luna", "type": "palerom" },
 		{ "a": "Draconevixens dating proxy", "b": "Val", "type": "palerom" },
 		{ "a": "Val", "b": "Sen" },
 		{ "a": "Val", "b": "Sim" },
@@ -222,7 +222,7 @@
 		{ "a": "4PPL35's Partner Sys:Dawn", "b": "4PPL35:Calliope" },
 		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Vaea", "type":"palerom" },
 		{ "a": "4PPL35's Partner Sys:Chloe", "b": "Amy" },
-		{ "a": "Candy Sys:Nepeta", "b": "Jax" },
+		{ "a": "Candy Sys:Nepeta", "b": "Jax", "type": "palerom" },
 		{ "a": "Love", "b": "4PPL35:Calliope", "type":"palerom" },
 		{ "a": "Candy Sys:Destiny", "b": "Draconevixens:Jade" },
 		{ "a": "Mosspup Sys:Cas", "b": "Rat Sys:Strider" }
