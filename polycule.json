@@ -151,17 +151,22 @@
 			"radius": 30,
 			"nodes": [
 				{ "name": "Day", "color": "#e00707" },
-				{ "name": "Flaire", "color": "" },
-				{ "name": "Folykl", "color": "" },
-				{ "name": "Serpaz", "color": "" },
+				{ "name": "Flaire", "color": "#ff0000" },
+				{ "name": "Folykl", "color": "#a2a200" },
+				{ "name": "Serpaz", "color": "#00a596" },
 				{ "name": "Emerald", "color": "" },
-				{ "name": "Kate", "color": "" }
+				{ "name": "Chahut", "color": "#2c0059" },
+				{ "name": "Kate", "color": "" },
+				{ "name": "Calamitas", "color": "" },
+				{ "name": "Claus", "color": "" },
+				{ "name": "Sunny", "color": "" },
+				{ "name": "Eris", "color": "" }
 			],
 			"groups": [
 				{
 					"proxy": "Deathwizard Sys dating proxy",
 					"type": "redrom",
-					"nodes": ["Day", "Flaire"]
+					"nodes": ["Day", "Flaire", "Folykl", "Serpaz", "Emerald", "Kate", "Chahut" ]
 				}
 			],
 			"links": [
