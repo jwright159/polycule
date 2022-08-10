@@ -154,6 +154,7 @@
 				{ "name": "Flaire", "color": "" },
 				{ "name": "Folykl", "color": "" },
 				{ "name": "Serpaz", "color": "" },
+				{ "name": "Emerald", "color": "" },
 				{ "name": "Kate", "color": "" }
 			],
 			"groups": [
@@ -164,7 +165,8 @@
 				}
 			],
 			"links": [
-				{ "a": "Folykl", "b": "Day", "type": "blackrom" }
+				{ "a": "Folykl", "b": "Day", "type": "blackrom" },
+				{ "a": "Serpaz", "b": "Emerald" }
 			]
 		},
 
