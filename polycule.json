@@ -7,7 +7,8 @@
 		{ "name": "Banshee", "color": "" },
 		{ "name": "Amy", "color": "" },
 		{ "name": "Jax", "color": "#8f00ff" },
-		{ "name": "Love", "color": "" }
+		{ "name": "Love", "color": "" },
+		{ "name": "Terra", "color": "#520c97" }
 	],
 
 	"groups": [
@@ -238,6 +239,37 @@
 			],
 			"links": [
 			]
+		},
+
+		{
+			"name": "Gilded Wolf Collective",
+			"type": "system",
+			"color": "#66000088",
+			"radius": 30,
+			"nodes": [
+				{ "name": "Clay", "color": "" },
+				{ "name": "Doma", "color": "" },
+				{ "name": "Mikey", "color": "" }
+			],
+			"groups": [
+			],
+			"links": [
+				{ "a": "Doma", "b": "Mikey" }
+			]
+		},
+
+		{
+			"name": "The Woven Jade",
+			"type": "system",
+			"color": "#88888888",
+			"radius": 30,
+			"nodes": [
+				{ "name": "Ames", "color": "" }
+			],
+			"groups": [
+			],
+			"links": [
+			]
 		}
 	],
 
@@ -268,6 +300,9 @@
 		{ "a": "Candy Sys:Destiny", "b": "Draconevixens:Jade" },
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Day" },
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Kate" },
-		{ "a": "Mosspup Sys:Cas", "b": "Rat Sys:Strider" }
+		{ "a": "Mosspup Sys:Cas", "b": "Rat Sys:Strider" },
+		{ "a": "Terra", "b": "Gilded Wolf Collective:Doma" },
+		{ "a": "Terra", "b": "The Woven Jade:Ames" },
+		{ "a": "Gilded Wolf Collective:Doma", "b": "The Woven Jade:Ames" }
 	]
 }
