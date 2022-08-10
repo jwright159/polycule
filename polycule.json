@@ -2,7 +2,6 @@
 	"nodes": [
 		{ "name": "Ozzy", "color": "#e357d4" },
 		{ "name": "Callie", "color": "#de2916" },
-		{ "name": "Val", "color": "#06ffc9" },
 		{ "name": "Sen", "color": "" },
 		{ "name": "Sim", "color": "" },
 		{ "name": "Banshee", "color": "" },
@@ -199,6 +198,22 @@
 			],
 			"links": [
 			]
+		},
+
+		{
+			"name": "Mystery System",
+			"type": "system",
+			"color": "#06ffc988",
+			"radius": 30,
+			"nodes": [
+				{ "name": "Val", "color": "#06ffc9" },
+				{ "name": "Ethan", "color": "#57f95d" },
+				{ "name": "Sage", "color": "#b90f15" }
+			],
+			"groups": [
+			],
+			"links": [
+			]
 		}
 	],
 
@@ -212,10 +227,12 @@
 		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Rat Sys dating proxy" },
 		{ "a": "Candy Sys:Nepeta", "b": "Mycena Sys:Luna", "type": "palerom" },
-		{ "a": "Draconevixens dating proxy", "b": "Val", "type": "palerom" },
-		{ "a": "Val", "b": "Sen" },
-		{ "a": "Val", "b": "Sim" },
-		{ "a": "Val", "b": "Banshee" },
+		{ "a": "Draconevixens:Jade", "b": "Mystery System:Val", "type": "palerom" },
+		{ "a": "Mystery System:Val", "b": "Sen" },
+		{ "a": "Mystery System:Val", "b": "Sim" },
+		{ "a": "Mystery System:Val", "b": "Banshee" },
+		{ "a": "Mystery System:Ethan", "b": "Banshee" },
+		{ "a": "Mystery System:Ethan", "b": "Draconevixens:Jade" },
 		{ "a": "Draconevixens dating proxy", "b": "Callie" },
 		{ "a": "Deathwizard Sys dating proxy", "b": "Mycena Sys:Luna" },
 		{ "a": "Candy Sys:Nepeta", "b": "4PPL35:Tezi" },
