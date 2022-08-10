@@ -207,8 +207,8 @@
 			"radius": 30,
 			"nodes": [
 				{ "name": "Val", "color": "#06ffc9" },
-				{ "name": "Ethan", "color": "#57f95d" },
-				{ "name": "Sage", "color": "#b90f15" }
+				{ "name": "Ethan", "color": "#b90f15" },
+				{ "name": "Sage", "color": "#f7f95d" }
 			],
 			"groups": [
 			],
