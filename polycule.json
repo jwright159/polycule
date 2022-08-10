@@ -136,11 +136,28 @@
 			"color": "#41660088",
 			"radius": 30,
 			"nodes": [
-				{ "name": "Luna", "color": "#416600" }
+				{ "name": "Luna", "color": "#416600" },
+				{ "name": "Cross", "color": "" },
+				{ "name": "Chara", "color": "" },
+				{ "name": "SS!Chara", "color": "" },
+				{ "name": "Chixie", "color": "" },
+				{ "name": "Meulin", "color": "" },
+				{ "name": "Modeus", "color": "" }
 			],
 			"groups": [
+				{
+					"proxy": "Mycena Sys dating proxy",
+					"type": "redrom",
+					"nodes": [ "Luna", "Cross", "Chara", "SS!Chara" ]
+				},
+				{
+					"name": "Chara Subsystem",
+					"type": "fusion",
+					"nodes": [ "Luna", "Cross", "Chara", "SS!Chara" ]
+				}
 			],
 			"links": [
+				{ "a": "Meulin", "b": "Chixie" }
 			]
 		},
 		
@@ -166,7 +183,7 @@
 				{
 					"proxy": "Deathwizard Sys dating proxy",
 					"type": "redrom",
-					"nodes": ["Day", "Flaire", "Folykl", "Serpaz", "Emerald", "Kate", "Chahut" ]
+					"nodes": ["Day", "Flaire", "Folykl", "Serpaz", "Emerald", "Kate", "Chahut", "Sunny" ]
 				}
 			],
 			"links": [
@@ -233,7 +250,7 @@
 		{ "a": "Mosspup Sys:Lichen", "b": "Ozzy", "type": "palerom" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Rat Sys dating proxy" },
-		{ "a": "Candy Sys:Nepeta", "b": "Mycena Sys:Luna", "type": "palerom" },
+		{ "a": "Candy Sys:Nepeta", "b": "Mycena Sys dating proxy", "type": "palerom" },
 		{ "a": "Draconevixens:Jade", "b": "Mystery System:Val", "type": "palerom" },
 		{ "a": "Mystery System:Val", "b": "Sen" },
 		{ "a": "Mystery System:Val", "b": "Sim" },
@@ -241,7 +258,7 @@
 		{ "a": "Mystery System:Ethan", "b": "Banshee" },
 		{ "a": "Mystery System:Ethan", "b": "Draconevixens:Jade" },
 		{ "a": "Draconevixens dating proxy", "b": "Callie" },
-		{ "a": "Deathwizard Sys dating proxy", "b": "Mycena Sys:Luna" },
+		{ "a": "Deathwizard Sys dating proxy", "b": "Mycena Sys dating proxy" },
 		{ "a": "Candy Sys:Nepeta", "b": "4PPL35:Tezi" },
 		{ "a": "4PPL35's Partner Sys:Dawn", "b": "4PPL35:Calliope" },
 		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Vaea", "type":"palerom" },
@@ -249,6 +266,8 @@
 		{ "a": "Candy Sys:Nepeta", "b": "Jax", "type": "palerom" },
 		{ "a": "Love", "b": "4PPL35:Calliope", "type":"palerom" },
 		{ "a": "Candy Sys:Destiny", "b": "Draconevixens:Jade" },
+		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Day" },
+		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Kate" },
 		{ "a": "Mosspup Sys:Cas", "b": "Rat Sys:Strider" }
 	]
 }

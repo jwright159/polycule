@@ -150,7 +150,7 @@ function namespace(parent, node)
 	let simulation = d3.forceSimulation(nodeData)
 		.force('charge', d3.forceManyBody().strength(-100).distanceMax(200))
 		//.force('center', d3.forceCenter(graphWidth * graphScale / 2, graphHeight * graphScale / 2))
-		.force('centerR', d3.forceRadial(0, graphWidth * graphScale / 2, graphHeight * graphScale / 2).strength(0.11))
+		.force('centerR', d3.forceRadial(0, graphWidth * graphScale / 2, graphHeight * graphScale / 2).strength(0.12))
 		.force('link', d3.forceLink(linkData).id(node => node.id).distance(20))
 		.on('tick', () => {
 
@@ -215,7 +215,7 @@ function namespace(parent, node)
 				.attr('y2', link => link.target.y);
 		});
 	
-	groups.each(group => group.proxy ? undefined : simulation.force('center-' + group.name, d3.forceRadial(0).strength(node => group.members.includes(node) ? 0.1 : -0.01)));
+	groups.each(group => group.proxy ? undefined : simulation.force('center-' + group.name, d3.forceRadial(0).strength(node => group.members.includes(node) ? 0.11 : -0.01)));
 	
 	nodes
 		.call(d3.drag()
