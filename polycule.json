@@ -96,7 +96,7 @@
 		},
 
 		{
-			"name": "Rat Sys",
+			"name": "Rat Gang",
 			"type": "system",
 			"color": "#ffbded88",
 			"radius": 30,
@@ -106,7 +106,7 @@
 			],
 			"groups": [
 				{
-					"proxy": "Rat Sys dating proxy",
+					"proxy": "Rat Gang dating proxy",
 					"type": "redrom",
 					"nodes": ["Lily", "Strider"]
 				}
@@ -275,13 +275,13 @@
 
 	"links": [
 		{ "a": "Draconevixens dating proxy", "b": "Candy Sys dating proxy" },
-		{ "a": "Rat Sys dating proxy", "b": "Draconevixens dating proxy" },
-		{ "a": "Rat Sys dating proxy", "b": "Candy Sys dating proxy" },
-		{ "a": "Rat Sys dating proxy", "b": "Ozzy", "type": "palerom" },
+		{ "a": "Rat Gang dating proxy", "b": "Draconevixens dating proxy" },
+		{ "a": "Rat Gang dating proxy", "b": "Candy Sys dating proxy" },
+		{ "a": "Rat Gang dating proxy", "b": "Ozzy", "type": "palerom" },
 		{ "a": "Draconevixens dating proxy", "b": "Ozzy", "type": "palerom" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Ozzy", "type": "palerom" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens dating proxy" },
-		{ "a": "Mosspup Sys:Lichen", "b": "Rat Sys dating proxy" },
+		{ "a": "Mosspup Sys:Lichen", "b": "Rat Gang dating proxy" },
 		{ "a": "Candy Sys:Nepeta", "b": "Mycena Sys dating proxy", "type": "palerom" },
 		{ "a": "Draconevixens:Jade", "b": "Mystery System:Val", "type": "palerom" },
 		{ "a": "Mystery System:Val", "b": "Sen" },
@@ -300,7 +300,7 @@
 		{ "a": "Candy Sys:Destiny", "b": "Draconevixens:Jade" },
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Day" },
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Kate" },
-		{ "a": "Mosspup Sys:Cas", "b": "Rat Sys:Strider" },
+		{ "a": "Mosspup Sys:Cas", "b": "Rat Gang:Strider" },
 		{ "a": "Terra", "b": "Gilded Wolf Collective:Doma" },
 		{ "a": "Terra", "b": "The Woven Jade:Ames" },
 		{ "a": "Gilded Wolf Collective:Doma", "b": "The Woven Jade:Ames" }
