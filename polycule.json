@@ -232,7 +232,7 @@
 			"radius": 30,
 			"nodes": [
 				{ "name": "Val", "color": "#06ffc9" },
-				{ "name": "Ethan", "color": "#b90f15" },
+				{ "name": "Sep", "color": "#b90f15" },
 				{ "name": "Sage", "color": "#f7f95d" }
 			],
 			"groups": [
@@ -287,8 +287,8 @@
 		{ "a": "Mystery System:Val", "b": "Sen" },
 		{ "a": "Mystery System:Val", "b": "Sim" },
 		{ "a": "Mystery System:Val", "b": "Banshee" },
-		{ "a": "Mystery System:Ethan", "b": "Banshee" },
-		{ "a": "Mystery System:Ethan", "b": "Draconevixens:Jade" },
+		{ "a": "Mystery System:Sep", "b": "Banshee" },
+		{ "a": "Mystery System:Sep", "b": "Draconevixens:Jade" },
 		{ "a": "Draconevixens dating proxy", "b": "Callie" },
 		{ "a": "Deathwizard Sys dating proxy", "b": "Mycena Sys dating proxy" },
 		{ "a": "Candy Sys:Nepeta", "b": "4PPL35:Tezi" },
