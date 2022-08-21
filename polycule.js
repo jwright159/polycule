@@ -1,7 +1,7 @@
 "use strict";
 
 const parameters = new URLSearchParams(window.location.search);
-const graphWidth = 1920, graphHeight = 1080, graphScale = 1;
+const graphWidth = 1600, graphHeight = 900, graphScale = 1;
 
 function angleBetween(pointA, pointB)
 {
