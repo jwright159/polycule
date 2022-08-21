@@ -301,6 +301,7 @@
 		{ "a": "Mosspup Sys:Cas", "b": "Rat Gang:Strider" },
 		{ "a": "Terra", "b": "Gilded Wolf Collective:Doma" },
 		{ "a": "Terra", "b": "The Woven Jade:Ames" },
+		{ "a": "Gilded Wolf Collective:Clay", "b": "The Woven Jade:Ames" },
 		{ "a": "Gilded Wolf Collective:Doma", "b": "The Woven Jade:Ames" }
 	]
 }
