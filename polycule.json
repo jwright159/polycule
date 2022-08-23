@@ -100,13 +100,14 @@
 			"radius": 30,
 			"nodes": [
 				{ "name": "Lily", "color": "#ffbded" },
-				{ "name": "Strider", "color": "#ff0032" }
+				{ "name": "Strider", "color": "#ff0032" },
+				{ "name": "Kitty", "color": "#669900" }
 			],
 			"groups": [
 				{
 					"proxy": "Rat Gang dating proxy",
 					"type": "redrom",
-					"nodes": ["Lily", "Strider"]
+					"nodes": ["Lily", "Strider", "Kitty"]
 				}
 			],
 			"links": [
