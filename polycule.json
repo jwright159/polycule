@@ -7,7 +7,8 @@
 		{ "name": "Banshee", "color": "" },
 		{ "name": "Jax", "color": "#8f00ff" },
 		{ "name": "Love", "color": "" },
-		{ "name": "Terra", "color": "#520c97" }
+		{ "name": "Terra", "color": "#520c97" },
+		{ "name": "Basil", "color": "#96f8b8" }
 	],
 
 	"groups": [
@@ -288,10 +289,12 @@
 		{ "a": "Rat Gang dating proxy", "b": "Draconevixens dating proxy" },
 		{ "a": "Rat Gang dating proxy", "b": "Candy Sys dating proxy" },
 		{ "a": "Rat Gang dating proxy", "b": "Ozzy", "type": "palerom" },
+		{ "a": "Rat Gang dating proxy", "b": "Basil" },
 		{ "a": "Draconevixens dating proxy", "b": "Ozzy", "type": "palerom" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Ozzy", "type": "palerom" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Rat Gang dating proxy" },
+		{ "a": "Mosspup Sys:Lichen", "b": "Basil" },
 		{ "a": "Candy Sys:Nepeta", "b": "Mycena Sys dating proxy", "type": "palerom" },
 		{ "a": "Draconevixens:Jade", "b": "Mystery System:Val", "type": "palerom" },
 		{ "a": "Mystery System:Val", "b": "Sen" },
