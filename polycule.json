@@ -9,7 +9,8 @@
 		{ "name": "Love", "color": "" },
 		{ "name": "Terra", "color": "#520c97" },
 		{ "name": "Basil", "color": "#96f8b8" },
-		{ "name": "April", "color": "#7349c9" }
+		{ "name": "Maggie", "color": "" },
+		{ "name": "Melanie", "color": "" }
 	],
 
 	"groups": [
@@ -283,6 +284,22 @@
 			],
 			"links": [
 			]
+		},
+
+		{
+			"name": "Big Chungus Sys",
+			"type": "system",
+			"color": "#7349c988",
+			"radius": 30,
+			"nodes": [
+				{ "name": "April", "color": "#7349c9" },
+				{ "name": "Terezi", "color": "#008282" },
+				{ "name": "June", "color": "#0715cd" }
+			],
+			"groups": [
+			],
+			"links": [
+			]
 		}
 	],
 
@@ -322,6 +339,9 @@
 		{ "a": "Gilded Wolf Collective:Doma", "b": "The Woven Jade:Ames" },
 		{ "a": "Basil", "b": "Draconevixens:Jade" },
 		{ "a": "Terra", "b": "Mystery System:Val" },
-		{ "a": "April", "b": "Mycena Sys:Luna", "type":"palerom" }
+		{ "a": "Big Chungus Sys:April", "b": "Mycena Sys:Luna", "type":"palerom" },
+		{ "a": "Big Chungus Sys:April", "b": "Maggie" },
+		{ "a": "Big Chungus Sys:April", "b": "Melanie" },
+		{ "a": "Maggie", "b": "Melanie" }
 	]
 }
