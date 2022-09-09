@@ -8,7 +8,8 @@
 		{ "name": "Jax", "color": "#8f00ff" },
 		{ "name": "Love", "color": "" },
 		{ "name": "Terra", "color": "#520c97" },
-		{ "name": "Basil", "color": "#96f8b8" }
+		{ "name": "Basil", "color": "#96f8b8" },
+		{ "name": "April", "color": "#7349c9" }
 	],
 
 	"groups": [
@@ -320,6 +321,7 @@
 		{ "a": "Gilded Wolf Collective:MJ", "b": "The Woven Jade:Ames" },
 		{ "a": "Gilded Wolf Collective:Doma", "b": "The Woven Jade:Ames" },
 		{ "a": "Basil", "b": "Draconevixens:Jade" },
-		{ "a": "Terra", "b": "Mystery System:Val" }
+		{ "a": "Terra", "b": "Mystery System:Val" },
+		{ "a": "April", "b": "Mycena Sys:Luna", "type":"palerom" }
 	]
 }
