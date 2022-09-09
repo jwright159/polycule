@@ -127,7 +127,8 @@
 			"radius": 30,
 			"nodes": [
 				{ "name": "Lichen", "color": "#698657" },
-				{ "name": "Cas", "color": "#0434a2" }
+				{ "name": "Cas", "color": "#0434a2" },
+				{ "name": "Karkat", "color": "#626262" }
 			],
 			"groups": [
 			],
