@@ -315,7 +315,6 @@
 		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Rat Gang dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Basil" },
-		{ "a": "Candy Sys:Nepeta", "b": "Mycena Sys dating proxy", "type": "palerom" },
 		{ "a": "Draconevixens:Jade", "b": "Mystery System:Val", "type": "palerom" },
 		{ "a": "Mystery System:Val", "b": "Sen" },
 		{ "a": "Mystery System:Val", "b": "Sim" },
@@ -344,8 +343,8 @@
 		{ "a": "Big Chungus Sys:April", "b": "Maggie" },
 		{ "a": "Big Chungus Sys:April", "b": "Melanie" },
 		{ "a": "Maggie", "b": "Melanie" },
-		{ "a": "Candy Sys:Addie", "b": "Mycena Sys dating proxy" },
-		{ "a": "Candy Sys:Addie", "b": "Deathwizard Sys:Sunny" },
+		{ "a": "Candy Sys dating proxy", "b": "Mycena Sys dating proxy" },
+		{ "a": "Candy Sys dating proxy", "b": "Deathwizard Sys dating proxy" },
 		{ "a": "Mycena Sys dating proxy", "b": "Draconevixens:Jade", "type": "palerom" }
 	]
 }
