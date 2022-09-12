@@ -343,6 +343,8 @@
 		{ "a": "Big Chungus Sys:April", "b": "Mycena Sys:Luna", "type":"palerom" },
 		{ "a": "Big Chungus Sys:April", "b": "Maggie" },
 		{ "a": "Big Chungus Sys:April", "b": "Melanie" },
-		{ "a": "Maggie", "b": "Melanie" }
+		{ "a": "Maggie", "b": "Melanie" },
+		{ "a": "Candy Sys:Addie", "b": "Mycena Sys dating proxy" },
+		{ "a": "Candy Sys:Addie", "b": "Deathwizard Sys:Sunny" }
 	]
 }
