@@ -326,7 +326,7 @@
 		{ "a": "Deathwizard Sys dating proxy", "b": "Mycena Sys dating proxy" },
 		{ "a": "Candy Sys:Nepeta", "b": "4PPL35:Tezi" },
 		{ "a": "4PPL35's Partner Sys:Dawn", "b": "4PPL35:Calliope" },
-		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Vaea", "type":"palerom" },
+		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Vaea", "type": "palerom" },
 		{ "a": "Candy Sys:Nepeta", "b": "Jax", "type": "palerom" },
 		{ "a": "Love", "b": "4PPL35:Calliope", "type":"palerom" },
 		{ "a": "Candy Sys:Destiny", "b": "Draconevixens:Jade" },
@@ -340,11 +340,12 @@
 		{ "a": "Gilded Wolf Collective:Doma", "b": "The Woven Jade:Ames" },
 		{ "a": "Basil", "b": "Draconevixens:Jade" },
 		{ "a": "Terra", "b": "Mystery System:Val" },
-		{ "a": "Big Chungus Sys:April", "b": "Mycena Sys:Luna", "type":"palerom" },
+		{ "a": "Big Chungus Sys:April", "b": "Mycena Sys:Luna", "type":  "palerom" },
 		{ "a": "Big Chungus Sys:April", "b": "Maggie" },
 		{ "a": "Big Chungus Sys:April", "b": "Melanie" },
 		{ "a": "Maggie", "b": "Melanie" },
 		{ "a": "Candy Sys:Addie", "b": "Mycena Sys dating proxy" },
-		{ "a": "Candy Sys:Addie", "b": "Deathwizard Sys:Sunny" }
+		{ "a": "Candy Sys:Addie", "b": "Deathwizard Sys:Sunny" },
+		{ "a": "Mycena Sys dating proxy", "b": "Draconevixens:Jade", "type": "palerom" }
 	]
 }
