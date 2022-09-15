@@ -8,7 +8,6 @@
 		{ "name": "Jax", "color": "#8f00ff" },
 		{ "name": "Love", "color": "" },
 		{ "name": "Terra", "color": "#520c97" },
-		{ "name": "Basil", "color": "#96f8b8" },
 		{ "name": "Maggie", "color": "" },
 		{ "name": "Melanie", "color": "" }
 	],
@@ -303,6 +302,21 @@
 			],
 			"links": [
 			]
+		},
+
+		{
+			"name": "Basil Sys",
+			"type": "system",
+			"color": "#96f8b888",
+			"radius": 30,
+			"nodes": [
+				{ "name": "Basil", "color": "#96f8b8" },
+				{ "name": "Viktor", "color": "" }
+			],
+			"groups": [
+			],
+			"links": [
+			]
 		}
 	],
 
@@ -311,12 +325,12 @@
 		{ "a": "Rat Gang dating proxy", "b": "Draconevixens dating proxy" },
 		{ "a": "Rat Gang dating proxy", "b": "Candy Sys dating proxy" },
 		{ "a": "Rat Gang dating proxy", "b": "Ame", "type": "palerom" },
-		{ "a": "Rat Gang dating proxy", "b": "Basil" },
+		{ "a": "Rat Gang dating proxy", "b": "Basil Sys:Basil" },
 		{ "a": "Draconevixens dating proxy", "b": "Ame", "type": "palerom" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Ame", "type": "palerom" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Rat Gang dating proxy" },
-		{ "a": "Mosspup Sys:Lichen", "b": "Basil" },
+		{ "a": "Mosspup Sys:Lichen", "b": "Basil Sys:Basil" },
 		{ "a": "Draconevixens:Jade", "b": "Mystery System:Val", "type": "palerom" },
 		{ "a": "Mystery System:Val", "b": "Sen" },
 		{ "a": "Mystery System:Val", "b": "Sim" },
@@ -338,7 +352,7 @@
 		{ "a": "Gilded Wolf Collective:Clay", "b": "The Woven Jade:Ames" },
 		{ "a": "Gilded Wolf Collective:MJ", "b": "The Woven Jade:Ames" },
 		{ "a": "Gilded Wolf Collective:Doma", "b": "The Woven Jade:Ames" },
-		{ "a": "Basil", "b": "Draconevixens:Jade" },
+		{ "a": "Basil Sys:Basil", "b": "Draconevixens:Jade" },
 		{ "a": "Terra", "b": "Mystery System:Val" },
 		{ "a": "Big Chungus Sys:April", "b": "Mycena Sys:Luna", "type":  "palerom" },
 		{ "a": "Big Chungus Sys:April", "b": "Maggie" },
