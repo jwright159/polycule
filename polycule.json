@@ -129,7 +129,8 @@
 			"nodes": [
 				{ "name": "Lichen", "color": "#698657" },
 				{ "name": "Cas", "color": "#0434a2" },
-				{ "name": "Karkat", "color": "#626262" }
+				{ "name": "Karkat", "color": "#626262" },
+				{ "name": "Dirk", "color": "#f2a400" }
 			],
 			"groups": [
 			],
@@ -346,6 +347,8 @@
 		{ "a": "Maggie", "b": "Melanie" },
 		{ "a": "Candy Sys dating proxy", "b": "Mycena Sys dating proxy" },
 		{ "a": "Candy Sys dating proxy", "b": "Deathwizard Sys dating proxy" },
-		{ "a": "Mycena Sys dating proxy", "b": "Draconevixens:Jade", "type": "palerom" }
+		{ "a": "Mycena Sys dating proxy", "b": "Draconevixens:Jade", "type": "palerom" },
+		{ "a": "Rat Gang:Strider", "b": "Mosspup Sys:Dirk" },
+		{ "a": "Rat Gang:Night", "b": "Mosspup Sys:Dirk" }
 	]
 }
