@@ -38,7 +38,7 @@ function namespace(parent, node)
 	{
 		let newGroup = {
 			id: namespace(parentGroup, group.name || group.proxy),
-			name: group.name,
+			name: group.name || (group.proxy && group.type === 'subsystem' ? group.proxy : undefined),
 			type: group.type || 'generic',
 			color: group.color,
 			radius: group.radius || 20,
@@ -51,7 +51,13 @@ function namespace(parent, node)
 		{
 			group.nodes.forEach(member =>{
 				if (typeof member === 'string')
-					newGroup.members.push(nodeData.filter(node => node.id === namespace(parentGroup, member))[0]);
+				{
+					let newNode = nodeData.filter(node => node.id === namespace(parentGroup, member))[0];
+					if (newNode)
+						newGroup.members.push(newNode);
+					else
+						throw new Error(`Couldn't find the node ${member} to link to from the group ${newGroup.id}`);
+				}
 				else
 				{
 					let newNode = parseNode(member, newGroup);
@@ -65,8 +71,8 @@ function namespace(parent, node)
 		{
 			let proxy = parseNode({
 				id: group.proxy,
-				color: parentGroup ? parentGroup.color : undefined,
-			});
+				color: group.color || (parentGroup ? parentGroup.color : undefined),
+			}, parentGroup);
 
 			newGroup.members.forEach(member => parseLink({
 				a: member.id,
@@ -74,6 +80,8 @@ function namespace(parent, node)
 				type: 'proxy',
 			}));
 
+			if (group.type === 'subsystem')
+				newGroup.createdMembers.push(proxy);
 			newGroup.members.push(proxy);
 			newGroup.proxy = proxy;
 		}

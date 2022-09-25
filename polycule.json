@@ -19,8 +19,11 @@
 			"color": "#03a9f488",
 			"radius": 30,
 			"nodes": [
-				{ "name": "Jade", "color": "#4caf50" },
-				{ "name": "Ty", "color": "#00bcd4" },
+				{ "name": "Halley", "color": "#4ac725" },
+				{ "name": "Kanaya", "color": "#008141" },
+				{ "name": "Rose", "color": "#b536da" },
+				{ "name": "Dave", "color": "#e00707" },
+				{ "name": "Unknown?", "color": "" },
 				{ "name": "Speck", "color": "#ffeb3b" },
 				{ "name": "Sxra", "color": "#03a9f4" },
 				{ "name": "Diane", "color": "orange" },
@@ -35,17 +38,30 @@
 			],
 			"groups": [
 				{
-					"name": "Jadyn",
-					"type": "fusion",
-					"nodes": ["Jade", "Ty"]
-				},
-				{
 					"name": "Tesla",
-					"type": "fusion",
+					"type": "subsystem",
 					"nodes": ["Tango", "Skye"]
 				},
 				{
-					"proxy": "Draconevixens dating proxy",
+					"proxy": "Jade",
+					"type": "subsystem",
+					"color": "#4caf5088",
+					"nodes": ["Halley", "Kanaya"]
+				},
+				{
+					"proxy": "Ty",
+					"type": "subsystem",
+					"color": "#00bcd488",
+					"nodes": ["Rose", "Dave", "Unknown?"]
+				},
+				{
+					"name": "Jadyn",
+					"type": "subsystem",
+					"color": "#03a9f488",
+					"nodes": ["Jade", "Ty"]
+				},
+				{
+					"proxy": "dating proxy",
 					"type": "redrom",
 					"nodes": ["Jade", "Ty"]
 				}
@@ -84,7 +100,7 @@
 			],
 			"groups": [
 				{
-					"proxy": "Candy Sys dating proxy",
+					"proxy": "dating proxy",
 					"type": "redrom",
 					"nodes": ["Nepeta", "Rose", "Roxy", "Dave", "Vriska", "Jaradi", "Addie", "Destiny"]
 				}
@@ -110,7 +126,7 @@
 			],
 			"groups": [
 				{
-					"proxy": "Rat Gang dating proxy",
+					"proxy": "dating proxy",
 					"type": "redrom",
 					"nodes": ["Lily", "Strider", "Kitty", "Night"]
 				}
@@ -153,13 +169,13 @@
 			],
 			"groups": [
 				{
-					"proxy": "Mycena Sys dating proxy",
+					"proxy": "dating proxy",
 					"type": "redrom",
 					"nodes": [ "Luna", "Cross", "Chara", "SS!Chara" ]
 				},
 				{
 					"name": "Chara Subsystem",
-					"type": "fusion",
+					"type": "subsystem",
 					"nodes": [ "Luna", "Cross", "Chara", "SS!Chara" ]
 				}
 			],
@@ -188,7 +204,7 @@
 			],
 			"groups": [
 				{
-					"proxy": "Deathwizard Sys dating proxy",
+					"proxy": "dating proxy",
 					"type": "redrom",
 					"nodes": ["Day", "Flaire", "Folykl", "Serpaz", "Emerald", "Kate", "Chahut", "Sunny" ]
 				}
@@ -321,28 +337,28 @@
 	],
 
 	"links": [
-		{ "a": "Draconevixens dating proxy", "b": "Candy Sys dating proxy" },
-		{ "a": "Rat Gang dating proxy", "b": "Draconevixens dating proxy" },
-		{ "a": "Rat Gang dating proxy", "b": "Candy Sys dating proxy" },
-		{ "a": "Rat Gang dating proxy", "b": "Ame", "type": "palerom" },
-		{ "a": "Rat Gang dating proxy", "b": "Basil Sys:Basil" },
-		{ "a": "Draconevixens dating proxy", "b": "Ame", "type": "palerom" },
+		{ "a": "Draconevixens:dating proxy", "b": "Candy Sys:dating proxy" },
+		{ "a": "Rat Gang:dating proxy", "b": "Draconevixens:dating proxy" },
+		{ "a": "Rat Gang:dating proxy", "b": "Candy Sys:dating proxy" },
+		{ "a": "Rat Gang:dating proxy", "b": "Ame", "type": "palerom" },
+		{ "a": "Rat Gang:dating proxy", "b": "Basil Sys:Basil" },
+		{ "a": "Draconevixens:dating proxy", "b": "Ame", "type": "palerom" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Ame", "type": "palerom" },
-		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens dating proxy" },
-		{ "a": "Mosspup Sys:Lichen", "b": "Rat Gang dating proxy" },
+		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens:dating proxy" },
+		{ "a": "Mosspup Sys:Lichen", "b": "Rat Gang:dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Basil Sys:Basil" },
-		{ "a": "Draconevixens dating proxy", "b": "Mystery System:Bonnie", "type": "palerom" },
+		{ "a": "Draconevixens:dating proxy", "b": "Mystery System:Bonnie", "type": "palerom" },
 		{ "a": "Mystery System:Bonnie", "b": "Sen" },
 		{ "a": "Mystery System:Bonnie", "b": "Sim" },
 		{ "a": "Mystery System:Bonnie", "b": "Banshee", "type":"palerom" },
 		{ "a": "Mystery System:Sep", "b": "Banshee", "type":"palerom" },
-		{ "a": "Mystery System:Sep", "b": "Draconevixens dating proxy" },
-		{ "a": "Draconevixens dating proxy", "b": "Callie" },
-		{ "a": "Deathwizard Sys dating proxy", "b": "Mycena Sys dating proxy" },
+		{ "a": "Mystery System:Sep", "b": "Draconevixens:dating proxy" },
+		{ "a": "Draconevixens:dating proxy", "b": "Callie" },
+		{ "a": "Deathwizard Sys:dating proxy", "b": "Mycena Sys:dating proxy" },
 		{ "a": "Candy Sys:Nepeta", "b": "4PPL35:Tezi" },
 		{ "a": "4PPL35's Partner Sys:Dawn", "b": "4PPL35:Calliope" },
 		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Vaea", "type": "palerom" },
-		{ "a": "Candy Sys dating proxy", "b": "Jax", "type": "palerom" },
+		{ "a": "Candy Sys:dating proxy", "b": "Jax", "type": "palerom" },
 		{ "a": "Love", "b": "4PPL35:Calliope", "type":"palerom" },
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Day" },
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Kate" },
@@ -352,18 +368,18 @@
 		{ "a": "Gilded Wolf Collective:Clay", "b": "The Woven Jade:Ames" },
 		{ "a": "Gilded Wolf Collective:MJ", "b": "The Woven Jade:Ames" },
 		{ "a": "Gilded Wolf Collective:Doma", "b": "The Woven Jade:Ames" },
-		{ "a": "Basil Sys:Basil", "b": "Draconevixens dating proxy" },
+		{ "a": "Basil Sys:Basil", "b": "Draconevixens:dating proxy" },
 		{ "a": "Terra", "b": "Mystery System:Bonnie" },
 		{ "a": "Big Chungus Sys:April", "b": "Mycena Sys:Luna", "type":  "palerom" },
 		{ "a": "Big Chungus Sys:April", "b": "Maggie" },
 		{ "a": "Big Chungus Sys:April", "b": "Melanie" },
 		{ "a": "Maggie", "b": "Melanie" },
-		{ "a": "Candy Sys dating proxy", "b": "Mycena Sys dating proxy" },
-		{ "a": "Candy Sys dating proxy", "b": "Deathwizard Sys dating proxy" },
-		{ "a": "Mycena Sys dating proxy", "b": "Draconevixens:Jade", "type": "palerom" },
+		{ "a": "Candy Sys:dating proxy", "b": "Mycena Sys:dating proxy" },
+		{ "a": "Candy Sys:dating proxy", "b": "Deathwizard Sys:dating proxy" },
+		{ "a": "Mycena Sys:dating proxy", "b": "Draconevixens:Jade", "type": "palerom" },
 		{ "a": "Rat Gang:Strider", "b": "Mosspup Sys:Dirk" },
 		{ "a": "Rat Gang:Night", "b": "Mosspup Sys:Dirk" },
-		{ "a": "Deathwizard Sys dating proxy", "b": "Draconevixens dating proxy", "type":"palerom" },
+		{ "a": "Deathwizard Sys:dating proxy", "b": "Draconevixens:dating proxy", "type":"palerom" },
 		{ "a": "Mystery System:Bonnie", "b":"Candy Sys:Vriska", "type": "blackrom" }
 	]
 }
