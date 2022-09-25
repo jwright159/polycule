@@ -237,7 +237,7 @@
 			"color": "#06ffc988",
 			"radius": 30,
 			"nodes": [
-				{ "name": "Val", "color": "#06ffc9" },
+				{ "name": "Bonnie", "color": "#06ffc9" },
 				{ "name": "Sep", "color": "#b90f15" },
 				{ "name": "Sage", "color": "#f7f95d" }
 			],
@@ -331,10 +331,10 @@
 		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Rat Gang dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Basil Sys:Basil" },
-		{ "a": "Draconevixens dating proxy", "b": "Mystery System:Val", "type": "palerom" },
-		{ "a": "Mystery System:Val", "b": "Sen" },
-		{ "a": "Mystery System:Val", "b": "Sim" },
-		{ "a": "Mystery System:Val", "b": "Banshee", "type":"palerom" },
+		{ "a": "Draconevixens dating proxy", "b": "Mystery System:Bonnie", "type": "palerom" },
+		{ "a": "Mystery System:Bonnie", "b": "Sen" },
+		{ "a": "Mystery System:Bonnie", "b": "Sim" },
+		{ "a": "Mystery System:Bonnie", "b": "Banshee", "type":"palerom" },
 		{ "a": "Mystery System:Sep", "b": "Banshee", "type":"palerom" },
 		{ "a": "Mystery System:Sep", "b": "Draconevixens dating proxy" },
 		{ "a": "Draconevixens dating proxy", "b": "Callie" },
@@ -353,7 +353,7 @@
 		{ "a": "Gilded Wolf Collective:MJ", "b": "The Woven Jade:Ames" },
 		{ "a": "Gilded Wolf Collective:Doma", "b": "The Woven Jade:Ames" },
 		{ "a": "Basil Sys:Basil", "b": "Draconevixens dating proxy" },
-		{ "a": "Terra", "b": "Mystery System:Val" },
+		{ "a": "Terra", "b": "Mystery System:Bonnie" },
 		{ "a": "Big Chungus Sys:April", "b": "Mycena Sys:Luna", "type":  "palerom" },
 		{ "a": "Big Chungus Sys:April", "b": "Maggie" },
 		{ "a": "Big Chungus Sys:April", "b": "Melanie" },
@@ -364,6 +364,6 @@
 		{ "a": "Rat Gang:Strider", "b": "Mosspup Sys:Dirk" },
 		{ "a": "Rat Gang:Night", "b": "Mosspup Sys:Dirk" },
 		{ "a": "Deathwizard Sys dating proxy", "b": "Draconevixens dating proxy", "type":"palerom" },
-		{ "a": "Mystery System:Val", "b":"Candy Sys:Vriska", "type": "blackrom" }
+		{ "a": "Mystery System:Bonnie", "b":"Candy Sys:Vriska", "type": "blackrom" }
 	]
 }
