@@ -359,6 +359,8 @@
 		{ "a": "4PPL35's Partner Sys:Dawn", "b": "4PPL35:Calliope" },
 		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Vaea", "type": "palerom" },
 		{ "a": "Candy Sys:dating proxy", "b": "Jax", "type": "palerom" },
+		{ "a": "Mystery System:Bonnie", "b": "Jax", "type": "palerom" },
+		{ "a": "Mystery System:Sep", "b": "Jax" },
 		{ "a": "Love", "b": "4PPL35:Calliope", "type":"palerom" },
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Day" },
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Kate" },
