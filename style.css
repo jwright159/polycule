@@ -47,6 +47,23 @@ svg {
 	fill: transparent;
 }
 
+.vacillating {
+	fill: transparent;
+	animation: vacillating 1s ease infinite;
+}
+
+@keyframes vacillating {
+	0% {
+		stroke: red;
+	}
+	50% {
+		stroke: black;
+	}
+	100% {
+		stroke: red;
+	}
+}
+
 .proxy {
 	stroke: transparent;
 }

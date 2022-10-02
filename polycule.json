@@ -365,6 +365,7 @@
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Day" },
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Kate" },
 		{ "a": "Mosspup Sys:Cas", "b": "Rat Gang:Strider" },
+		{ "a": "Mosspup Sys:Karkat", "b": "Rat Gang:Strider", "type": "vacillating" },
 		{ "a": "Terra", "b": "Gilded Wolf Collective:Doma" },
 		{ "a": "Terra", "b": "The Woven Jade:Ames" },
 		{ "a": "Gilded Wolf Collective:Clay", "b": "The Woven Jade:Ames" },
