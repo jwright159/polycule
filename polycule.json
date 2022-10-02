@@ -21,9 +21,10 @@
 			"nodes": [
 				{ "name": "Halley", "color": "#4ac725" },
 				{ "name": "Kanaya", "color": "#008141" },
+				{ "name": "Chara", "color": "#ff0000" },
 				{ "name": "Rose", "color": "#b536da" },
 				{ "name": "Dave", "color": "#e00707" },
-				{ "name": "Unknown?", "color": "" },
+				{ "name": "Sans", "color": "#326dcb" },
 				{ "name": "Speck", "color": "#ffeb3b" },
 				{ "name": "Sxra", "color": "#03a9f4" },
 				{ "name": "Diane", "color": "orange" },
@@ -46,13 +47,13 @@
 					"proxy": "Jade",
 					"type": "subsystem",
 					"color": "#4caf5088",
-					"nodes": ["Halley", "Kanaya"]
+					"nodes": ["Halley", "Kanaya", "Chara"]
 				},
 				{
 					"proxy": "Ty",
 					"type": "subsystem",
 					"color": "#00bcd488",
-					"nodes": ["Rose", "Dave", "Unknown?"]
+					"nodes": ["Rose", "Dave", "Sans"]
 				},
 				{
 					"name": "Jadyn",
