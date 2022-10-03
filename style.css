@@ -47,17 +47,34 @@ svg {
 	fill: transparent;
 }
 
-.vacillating {
+.vacillating-red-black {
 	fill: transparent;
-	animation: vacillating 1s ease infinite;
+	animation: vacillating-red-black 1s ease infinite;
 }
 
-@keyframes vacillating {
+@keyframes vacillating-red-black {
 	0% {
 		stroke: red;
 	}
 	50% {
 		stroke: black;
+	}
+	100% {
+		stroke: red;
+	}
+}
+
+.vacillating-red-pale {
+	fill: transparent;
+	animation: vacillating-red-pale 1s ease infinite;
+}
+
+@keyframes vacillating-red-pale {
+	0% {
+		stroke: red;
+	}
+	50% {
+		stroke: pink;
 	}
 	100% {
 		stroke: red;
