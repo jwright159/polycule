@@ -348,6 +348,7 @@
 		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens:dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Rat Gang:dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Basil Sys:Basil" },
+		{ "a": "Mosspup Sys:Lichen", "b": "Jax", "type": "palerom" },
 		{ "a": "Draconevixens:dating proxy", "b": "Mystery System:Bonnie" },
 		{ "a": "Draconevixens:dating proxy", "b": "Jax" },
 		{ "a": "Mystery System:Bonnie", "b": "Sen" },
