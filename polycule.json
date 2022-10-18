@@ -361,6 +361,7 @@
 		{ "a": "Candy Sys:Nepeta", "b": "4PPL35:Tezi" },
 		{ "a": "4PPL35's Partner Sys:Dawn", "b": "4PPL35:Calliope" },
 		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Vaea", "type": "palerom" },
+		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Calliope" },
 		{ "a": "Candy Sys:dating proxy", "b": "Jax", "type": "palerom" },
 		{ "a": "Mystery System:Bonnie", "b": "Jax", "type": "vacillating-red-pale" },
 		{ "a": "Mystery System:Sep", "b": "Jax" },
