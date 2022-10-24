@@ -5,7 +5,6 @@
 		{ "name": "Sen", "color": "" },
 		{ "name": "Sim", "color": "" },
 		{ "name": "Banshee", "color": "" },
-		{ "name": "Jax", "color": "#8f00ff" },
 		{ "name": "Love", "color": "" },
 		{ "name": "Terra", "color": "#520c97" },
 		{ "name": "Maggie", "color": "" },
@@ -335,6 +334,30 @@
 			],
 			"links": [
 			]
+		},
+
+		{
+			"name": "Gremlin Sys",
+			"type": "system",
+			"color": "#8f00ff88",
+			"radius": 30,
+			"nodes": [
+				{ "name": "Jax", "color": "#862dff" },
+				{ "name": "Pax", "color": "#b6a1a1" },
+				{ "name": "Dax", "color": "#b6a1a1" },
+				{ "name": "Dave", "color": "#e80000" },
+				{ "name": "Ecto", "color": "#0076ff" },
+				{ "name": "RD", "color": "#98e5ff" }
+			],
+			"groups": [
+				{
+					"proxy": "dating proxy",
+					"type": "redrom",
+					"nodes": ["Jax", "Dax", "Pax", "Ecto", "Dave", "RD"]
+				}
+			],
+			"links": [
+			]
 		}
 	],
 
@@ -349,9 +372,9 @@
 		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens:dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Rat Gang:dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Basil Sys:Basil" },
-		{ "a": "Mosspup Sys:Lichen", "b": "Jax", "type": "palerom" },
+		{ "a": "Mosspup Sys:Lichen", "b": "Gremlin Sys:dating proxy", "type": "palerom" },
 		{ "a": "Draconevixens:dating proxy", "b": "Mystery System:Bonnie" },
-		{ "a": "Draconevixens:dating proxy", "b": "Jax" },
+		{ "a": "Draconevixens:dating proxy", "b": "Gremlin Sys:dating proxy" },
 		{ "a": "Mystery System:Bonnie", "b": "Sen" },
 		{ "a": "Mystery System:Bonnie", "b": "Sim" },
 		{ "a": "Mystery System:Bonnie", "b": "Banshee", "type":"palerom" },
@@ -363,10 +386,10 @@
 		{ "a": "4PPL35's Partner Sys:Dawn", "b": "4PPL35:Calliope" },
 		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Vaea", "type": "palerom" },
 		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Calliope" },
-		{ "a": "Candy Sys:dating proxy", "b": "Jax", "type": "palerom" },
-		{ "a": "Mystery System:Bonnie", "b": "Jax", "type": "vacillating-red-pale" },
-		{ "a": "Mystery System:Sep", "b": "Jax" },
-		{ "a": "Rat Gang:dating proxy", "b": "Jax" },
+		{ "a": "Candy Sys:dating proxy", "b": "Gremlin Sys:dating proxy", "type": "palerom" },
+		{ "a": "Mystery System:Bonnie", "b": "Gremlin Sys:dating proxy", "type": "vacillating-red-pale" },
+		{ "a": "Mystery System:Sep", "b": "Gremlin Sys:dating proxy" },
+		{ "a": "Rat Gang:dating proxy", "b": "Gremlin Sys:dating proxy" },
 		{ "a": "Love", "b": "4PPL35:Calliope", "type":"palerom" },
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Day" },
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Kate" },
