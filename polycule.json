@@ -122,7 +122,9 @@
 				{ "name": "Lily", "color": "#ffbded" },
 				{ "name": "Strider", "color": "#ff0032" },
 				{ "name": "Kitty", "color": "#669900" },
-				{ "name": "Night", "color": "#961ba6" }
+				{ "name": "Night", "color": "#961ba6" },
+				{ "name": "Sol", "color": "white" },
+				{ "name": "Zero Two", "color": "#f0b2bc" }
 			],
 			"groups": [
 				{
@@ -421,6 +423,7 @@
 		{ "a": "Mystery System:Bonnie", "b":"Candy Sys:Vriska", "type": "blackrom" },
 		{ "a": "Deathwizard Sys:V2", "b":"Candy Sys:Addie", "type": "blackrom" },
 		{ "a": "Rat Gang:Strider", "b":"Mosspup Sys:Proxy" },
-		{ "a": "Rat Gang:Night", "b":"Mosspup Sys:Proxy" }
+		{ "a": "Rat Gang:Night", "b":"Mosspup Sys:Proxy" },
+		{ "a": "Rat Gang:Sol", "b":"Mosspup Sys:Wolfie" }
 	]
 }
