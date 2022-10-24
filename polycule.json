@@ -351,7 +351,7 @@
 			"nodes": [
 				{ "name": "Jax", "color": "#862dff" },
 				{ "name": "Pax", "color": "#b6a1a1" },
-				{ "name": "Dax", "color": "#b6a1a1" },
+				{ "name": "Dax", "color": "#fd9191" },
 				{ "name": "Dave", "color": "#e80000" },
 				{ "name": "Ecto", "color": "#0076ff" },
 				{ "name": "RD", "color": "#98e5ff" }
