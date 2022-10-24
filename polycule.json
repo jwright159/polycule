@@ -346,7 +346,7 @@
 		{
 			"name": "Gremlin Sys",
 			"type": "system",
-			"color": "#8f00ff88",
+			"color": "#d06f9488",
 			"radius": 30,
 			"nodes": [
 				{ "name": "Jax", "color": "#862dff" },
