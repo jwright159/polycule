@@ -145,7 +145,10 @@
 				{ "name": "Lichen", "color": "#698657" },
 				{ "name": "Cas", "color": "#0434a2" },
 				{ "name": "Karkat", "color": "#626262" },
-				{ "name": "Dirk", "color": "#f2a400" }
+				{ "name": "Dain", "color": "#f2a400" },
+				{ "name": "Jake", "color": "#209401" },
+				{ "name": "Proxy", "color": "#ff6ff3" },
+				{ "name": "Wolfie", "color": "black" }
 			],
 			"groups": [
 			],
@@ -412,10 +415,12 @@
 		{ "a": "Candy Sys:dating proxy", "b": "Mycena Sys:dating proxy" },
 		{ "a": "Candy Sys:dating proxy", "b": "Deathwizard Sys:dating proxy" },
 		{ "a": "Mycena Sys:dating proxy", "b": "Draconevixens:Jade", "type": "palerom" },
-		{ "a": "Rat Gang:Strider", "b": "Mosspup Sys:Dirk" },
-		{ "a": "Rat Gang:Night", "b": "Mosspup Sys:Dirk" },
+		{ "a": "Rat Gang:Strider", "b": "Mosspup Sys:Dain" },
+		{ "a": "Rat Gang:Night", "b": "Mosspup Sys:Dain" },
 		{ "a": "Deathwizard Sys:dating proxy", "b": "Draconevixens:dating proxy", "type":"palerom" },
 		{ "a": "Mystery System:Bonnie", "b":"Candy Sys:Vriska", "type": "blackrom" },
-		{ "a": "Deathwizard Sys:V2", "b":"Candy Sys:Addie", "type": "blackrom" }
+		{ "a": "Deathwizard Sys:V2", "b":"Candy Sys:Addie", "type": "blackrom" },
+		{ "a": "Rat Gang:Strider", "b":"Mosspup Sys:Proxy" },
+		{ "a": "Rat Gang:Night", "b":"Mosspup Sys:Proxy" }
 	]
 }
