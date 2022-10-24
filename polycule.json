@@ -334,7 +334,8 @@
 			"radius": 30,
 			"nodes": [
 				{ "name": "Basil", "color": "#96f8b8" },
-				{ "name": "Viktor", "color": "" }
+				{ "name": "Viktor", "color": "" },
+				{ "name": "Helmy", "color": "" }
 			],
 			"groups": [
 			],
