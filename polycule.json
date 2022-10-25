@@ -206,13 +206,14 @@
 				{ "name": "Claus", "color": "" },
 				{ "name": "Sunny", "color": "" },
 				{ "name": "Eris", "color": "" },
-				{ "name": "V2", "color": "" }
+				{ "name": "V2", "color": "" },
+				{ "name": "Dirge", "color": "" }
 			],
 			"groups": [
 				{
 					"proxy": "dating proxy",
 					"type": "redrom",
-					"nodes": ["Day", "Flaire", "Folykl", "Serpaz", "Emerald", "Kate", "Chahut", "Sunny" ]
+					"nodes": ["Day", "Flaire", "Folykl", "Serpaz", "Emerald", "Kate", "Chahut", "Sunny", "V2", "Dirge" ]
 				}
 			],
 			"links": [
