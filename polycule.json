@@ -96,7 +96,8 @@
 				{ "name": "Vriska", "color": "#171769" },
 				{ "name": "Jaradi", "color": "#7842ad" },
 				{ "name": "Addie", "color": "#cc98ff" },
-				{ "name": "Destiny", "color": "#7e7a85" }
+				{ "name": "Destiny", "color": "#7e7a85" },
+				{ "name": "Reigen", "color": "" }
 			],
 			"groups": [
 				{
