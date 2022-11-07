@@ -355,7 +355,8 @@
 				{ "name": "Dax", "color": "#fd9191" },
 				{ "name": "Dave", "color": "#e80000" },
 				{ "name": "Ecto", "color": "#0076ff" },
-				{ "name": "RD", "color": "#98e5ff" }
+				{ "name": "RD", "color": "#98e5ff" },
+				{ "name": "Karkat", "color": "#989898" }
 			],
 			"groups": [
 				{
