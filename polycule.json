@@ -368,7 +368,7 @@
 				{
 					"proxy": "dating proxy",
 					"type": "redrom",
-					"nodes": ["Jax", "Dax", "Pax", "Ecto", "Dave", "RD", "Angel", "Patch"]
+					"nodes": ["Jax", "Dax", "Pax", "Ecto", "Dave", "RD", "Angel", "Patch", "Karkat"]
 				}
 			],
 			"links": [
