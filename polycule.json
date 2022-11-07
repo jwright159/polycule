@@ -125,7 +125,8 @@
 				{ "name": "Kitty", "color": "#669900" },
 				{ "name": "Night", "color": "#961ba6" },
 				{ "name": "Sol", "color": "white" },
-				{ "name": "Zero Two", "color": "#f0b2bc" }
+				{ "name": "Zero Two", "color": "#f0b2bc" },
+				{ "name": "G11.4", "color": "#00ff00" }
 			],
 			"groups": [
 				{
