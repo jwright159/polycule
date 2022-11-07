@@ -96,7 +96,8 @@
 				{ "name": "Vriska", "color": "#171769" },
 				{ "name": "Jaradi", "color": "#7842ad" },
 				{ "name": "Addie", "color": "#cc98ff" },
-				{ "name": "Destiny", "color": "#7e7a85" }
+				{ "name": "Destiny", "color": "#7e7a85" },
+				{ "name": "Reigen", "color": "#dcc278" }
 			],
 			"groups": [
 				{
@@ -358,13 +359,15 @@
 				{ "name": "Dave", "color": "#e80000" },
 				{ "name": "Ecto", "color": "#0076ff" },
 				{ "name": "RD", "color": "#98e5ff" },
+				{ "name": "Angel", "color": "#ebe0ff" },
+				{ "name": "Patch", "color": "#ff6f0f" },
 				{ "name": "Karkat", "color": "#989898" }
 			],
 			"groups": [
 				{
 					"proxy": "dating proxy",
 					"type": "redrom",
-					"nodes": ["Jax", "Dax", "Pax", "Ecto", "Dave", "RD"]
+					"nodes": ["Jax", "Dax", "Pax", "Ecto", "Dave", "RD", "Angel", "Patch"]
 				}
 			],
 			"links": [
@@ -429,6 +432,7 @@
 		{ "a": "Deathwizard Sys:V2", "b":"Candy Sys:Addie", "type": "blackrom" },
 		{ "a": "Rat Gang:Strider", "b":"Mosspup Sys:Proxy" },
 		{ "a": "Rat Gang:Night", "b":"Mosspup Sys:Proxy" },
-		{ "a": "Rat Gang:Sol", "b":"Mosspup Sys:Wolfie" }
+		{ "a": "Rat Gang:Sol", "b":"Mosspup Sys:Wolfie" },
+		{ "a": "Candy Sys:Addie", "b":"Mystery System:Bonnie" }
 	]
 }
