@@ -97,13 +97,14 @@
 				{ "name": "Jaradi", "color": "#7842ad" },
 				{ "name": "Addie", "color": "#cc98ff" },
 				{ "name": "Destiny", "color": "#7e7a85" },
-				{ "name": "Reigen", "color": "#dcc278" }
+				{ "name": "Reigen", "color": "#dcc278" },
+				{ "name": "June", "color": "#0715cd" }
 			],
 			"groups": [
 				{
 					"proxy": "dating proxy",
 					"type": "redrom",
-					"nodes": ["Nepeta", "Rose", "Roxy", "Dave", "Vriska", "Jaradi", "Addie", "Destiny"]
+					"nodes": ["Nepeta", "Rose", "Roxy", "Dave", "Vriska", "Jaradi", "Addie", "Destiny", "June"]
 				}
 			],
 			"links": [
