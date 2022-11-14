@@ -158,7 +158,7 @@ function namespace(parent, node)
 	let simulation = d3.forceSimulation(nodeData)
 		.force('charge', d3.forceManyBody().strength(-150).distanceMax(200))
 		//.force('center', d3.forceCenter(graphWidth * graphScale / 2, graphHeight * graphScale / 2))
-		.force('centerR', d3.forceRadial(0, graphWidth * graphScale / 2, graphHeight * graphScale / 2).strength(0.17))
+		.force('centerR', d3.forceRadial(0, graphWidth * graphScale / 2, graphHeight * graphScale / 2).strength(0.19))
 		.force('link', d3.forceLink(linkData).id(node => node.id))
 		.on('tick', () => {
 
@@ -223,7 +223,7 @@ function namespace(parent, node)
 				.attr('y2', link => link.target.y);
 		});
 	
-	groups.each(group => group.proxy ? undefined : simulation.force('center-' + group.name, d3.forceRadial(0).strength(node => group.members.includes(node) ? 0.11 : -0.01)));
+	groups.each(group => group.proxy ? undefined : simulation.force('center-' + group.name, d3.forceRadial(0).strength(node => group.members.includes(node) ? 0.13 : -0.01)));
 	
 	nodes
 		.call(d3.drag()
@@ -265,6 +265,6 @@ function namespace(parent, node)
 		.each(node => node.weight = links.filter(link => link.source === node || link.target === node).size());
 
 	simulation.force('link')
-		.strength(link => 0.5 / Math.min(link.source.weight, link.target.weight))
+		.strength(link => 1 / Math.min(link.source.weight, link.target.weight))
 		.distance(80);
 })();
