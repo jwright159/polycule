@@ -128,13 +128,14 @@
 				{ "name": "Night", "color": "#961ba6" },
 				{ "name": "Sol", "color": "white" },
 				{ "name": "Zero Two", "color": "#f0b2bc" },
-				{ "name": "G11.4", "color": "#00ff00" }
+				{ "name": "G11.4", "color": "#00ff00" },
+				{ "name": "Ianite", "color": "#611083" }
 			],
 			"groups": [
 				{
 					"proxy": "dating proxy",
 					"type": "redrom",
-					"nodes": ["Lily", "Strider", "Kitty", "Night"]
+					"nodes": ["Lily", "Strider", "Kitty", "Night", "Ianite"]
 				}
 			],
 			"links": [
