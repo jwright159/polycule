@@ -467,6 +467,7 @@
 		{ "a": "Rat Gang:Night", "b":"Mosspup Sys:Proxy" },
 		{ "a": "Rat Gang:Sol", "b":"Mosspup Sys:Wolfie" },
 		{ "a": "Candy Sys:Addie", "b":"Mystery System:Bonnie" },
+		{ "a": "Candy Sys:June", "b":"Mystery System:Bonnie" },
 		{ "a": "Draconevixens:dating proxy", "b": "Flesh Sys:dating proxy", "type": "palerom" },
 		{ "a": "Mycena Sys:dating proxy", "b": "Flesh Sys:dating proxy", "type": "palerom" }
 	]
