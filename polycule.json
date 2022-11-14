@@ -8,7 +8,8 @@
 		{ "name": "Love", "color": "" },
 		{ "name": "Terra", "color": "#520c97" },
 		{ "name": "Maggie", "color": "" },
-		{ "name": "Melanie", "color": "" }
+		{ "name": "Melanie", "color": "" },
+		{ "name": "Roxxie", "color": "#631db4" }
 	],
 
 	"groups": [
@@ -469,6 +470,7 @@
 		{ "a": "Candy Sys:Addie", "b":"Mystery System:Bonnie" },
 		{ "a": "Candy Sys:June", "b":"Mystery System:Bonnie" },
 		{ "a": "Draconevixens:dating proxy", "b": "Flesh Sys:dating proxy", "type": "palerom" },
-		{ "a": "Mycena Sys:dating proxy", "b": "Flesh Sys:dating proxy", "type": "palerom" }
+		{ "a": "Mycena Sys:dating proxy", "b": "Flesh Sys:dating proxy", "type": "palerom" },
+		{ "a": "Draconevixens:Jade", "b": "Roxxie" }
 	]
 }
