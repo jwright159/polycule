@@ -389,13 +389,16 @@
 				{ "name": "Izu", "color": "#594e52" },
 				{ "name": "Pandora", "color": "#eedd87" },
 				{ "name": "Laios", "color": "#93bc75" },
-				{ "name": "Elphelt", "color": "#a4e9ae" }
+				{ "name": "Elphelt", "color": "#a4e9ae" },
+				{ "name": "Fleki", "color": "#54546a" },
+				{ "name": "June", "color": "#f6d7eb" },
+				{ "name": "Bridget", "color": "#57a4ca" }
 			],
 			"groups": [
 				{
 					"proxy": "dating proxy",
 					"type": "palerom",
-					"nodes": ["Mithrun", "Izu", "Pandora", "Laios", "Elphelt"]
+					"nodes": ["Mithrun", "Izu", "Pandora", "Laios", "Elphelt", "Fleki", "June", "Bridget"]
 				}
 			],
 			"links": [
