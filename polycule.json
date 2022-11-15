@@ -366,7 +366,8 @@
 				{ "name": "Angel", "color": "#ebe0ff" },
 				{ "name": "Patch", "color": "#ff6f0f" },
 				{ "name": "Karkat", "color": "#989898" },
-				{ "name": "Gamzee", "color": "#5900be" }
+				{ "name": "Gamzee", "color": "#5900be" },
+				{ "name": "Dino", "color": "#00a7ff" }
 			],
 			"groups": [
 				{
