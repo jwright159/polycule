@@ -362,7 +362,6 @@
 				{ "name": "Dax", "color": "#fd9191" },
 				{ "name": "Dave", "color": "#e80000" },
 				{ "name": "Ecto", "color": "#0076ff" },
-				{ "name": "RD", "color": "#98e5ff" },
 				{ "name": "Angel", "color": "#ebe0ff" },
 				{ "name": "Patch", "color": "#ff6f0f" },
 				{ "name": "Karkat", "color": "#989898" },
@@ -373,7 +372,7 @@
 				{
 					"proxy": "dating proxy",
 					"type": "redrom",
-					"nodes": ["Jax", "Dax", "Pax", "Ecto", "Dave", "RD", "Angel", "Patch", "Karkat", "Gamzee"]
+					"nodes": ["Jax", "Dax", "Pax", "Ecto", "Dave", "Angel", "Patch", "Karkat", "Gamzee"]
 				}
 			],
 			"links": [
