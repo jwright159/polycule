@@ -472,6 +472,7 @@
 		{ "a": "Draconevixens:dating proxy", "b": "Flesh:dating proxy", "type": "palerom" },
 		{ "a": "Mycena Sys:dating proxy", "b": "Flesh:dating proxy", "type": "palerom" },
 		{ "a": "Draconevixens:Jade", "b": "Roxxie" },
-		{ "a": "Basil Sys:Basil", "b": "Roxxie" }
+		{ "a": "Basil Sys:Basil", "b": "Roxxie" },
+		{ "a": "Mystery System:Bonnie", "b": "Flesh:dating proxy", "type": "palerom" }
 	]
 }
