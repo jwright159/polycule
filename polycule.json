@@ -217,6 +217,11 @@
 					"proxy": "dating proxy",
 					"type": "redrom",
 					"nodes": ["Day", "Flaire", "Folykl", "Serpaz", "Emerald", "Kate", "Chahut", "Sunny", "V2", "Dirge", "Webbs" ]
+				},
+				{
+					"name": "Sunday",
+					"type": "subsystem",
+					"nodes": ["Sunny", "Day" ]
 				}
 			],
 			"links": [
