@@ -276,47 +276,6 @@
 		},
 
 		{
-			"name": "Gilded Wolf Collective",
-			"type": "system",
-			"color": "#66000088",
-			"radius": 30,
-			"nodes": [
-				{ "name": "Clay", "color": "" },
-				{ "name": "Doma", "color": "" },
-				{ "name": "Mikey", "color": "" },
-				{ "name": "Micolash", "color": "" },
-				{ "name": "MJ", "color": "" },
-				{ "name": "Rom", "color": "" },
-				{ "name": "Wilbur", "color": "" },
-				{ "name": "George", "color": "" }
-			],
-			"groups": [
-			],
-			"links": [
-				{ "a": "Doma", "b": "Mikey" },
-				{ "a": "Doma", "b": "Micolash" },
-				{ "a": "Doma", "b": "MJ" },
-				{ "a": "Rom", "b": "Micolash" },
-				{ "a": "Clay", "b": "Wilbur" },
-				{ "a": "Clay", "b": "George" }
-			]
-		},
-
-		{
-			"name": "The Woven Jade",
-			"type": "system",
-			"color": "#88888888",
-			"radius": 30,
-			"nodes": [
-				{ "name": "Ames", "color": "" }
-			],
-			"groups": [
-			],
-			"links": [
-			]
-		},
-
-		{
 			"name": "Big Chungus Sys",
 			"type": "system",
 			"color": "#7349c988",
@@ -441,11 +400,6 @@
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Kate" },
 		{ "a": "Mosspup Sys:Cas", "b": "Rat Gang:Strider" },
 		{ "a": "Mosspup Sys:Karkat", "b": "Rat Gang:Strider", "type": "vacillating-red-black" },
-		{ "a": "Terra", "b": "Gilded Wolf Collective:Doma" },
-		{ "a": "Terra", "b": "The Woven Jade:Ames" },
-		{ "a": "Gilded Wolf Collective:Clay", "b": "The Woven Jade:Ames" },
-		{ "a": "Gilded Wolf Collective:MJ", "b": "The Woven Jade:Ames" },
-		{ "a": "Gilded Wolf Collective:Doma", "b": "The Woven Jade:Ames" },
 		{ "a": "Basil Sys:Basil", "b": "Draconevixens:dating proxy" },
 		{ "a": "Basil Sys:Basil", "b": "Mosspup Sys:Karkat" },
 		{ "a": "Terra", "b": "Mystery System:Bonnie" },
