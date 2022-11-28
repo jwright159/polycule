@@ -8,7 +8,8 @@
 		{ "name": "Love", "color": "" },
 		{ "name": "Terra", "color": "#520c97" },
 		{ "name": "Maggie", "color": "" },
-		{ "name": "Melanie", "color": "" }
+		{ "name": "Melanie", "color": "" },
+		{ "name": "Roxxie", "color": "#631db4" }
 	],
 
 	"groups": [
@@ -34,7 +35,8 @@
 				{ "name": "Grimbark Jade", "color": "#4caf50" },
 				{ "name": "Less", "color": "#ffeb3b" },
 				{ "name": "Mod", "color": "#3f51b5" },
-				{ "name": "KGTAC!Jade", "color": "#4bec13" }
+				{ "name": "Baby Jade", "color": "#4bec13" },
+				{ "name": "Dogtier Jade", "color": "#4ac725" }
 			],
 			"groups": [
 				{
@@ -97,13 +99,14 @@
 				{ "name": "Jaradi", "color": "#7842ad" },
 				{ "name": "Addie", "color": "#cc98ff" },
 				{ "name": "Destiny", "color": "#7e7a85" },
-				{ "name": "Reigen", "color": "#dcc278" }
+				{ "name": "Reigen", "color": "#dcc278" },
+				{ "name": "June", "color": "#0715cd" }
 			],
 			"groups": [
 				{
 					"proxy": "dating proxy",
 					"type": "redrom",
-					"nodes": ["Nepeta", "Rose", "Roxy", "Dave", "Vriska", "Jaradi", "Addie", "Destiny"]
+					"nodes": ["Nepeta", "Rose", "Roxy", "Dave", "Vriska", "Jaradi", "Addie", "Destiny", "June"]
 				}
 			],
 			"links": [
@@ -126,13 +129,14 @@
 				{ "name": "Night", "color": "#961ba6" },
 				{ "name": "Sol", "color": "white" },
 				{ "name": "Zero Two", "color": "#f0b2bc" },
-				{ "name": "G11.4", "color": "#00ff00" }
+				{ "name": "G11.4", "color": "#00ff00" },
+				{ "name": "Ianite", "color": "#611083" }
 			],
 			"groups": [
 				{
 					"proxy": "dating proxy",
 					"type": "redrom",
-					"nodes": ["Lily", "Strider", "Kitty", "Night"]
+					"nodes": ["Lily", "Strider", "Kitty", "Night", "Ianite"]
 				}
 			],
 			"links": [
@@ -323,17 +327,17 @@
 				{ "name": "Dax", "color": "#fd9191" },
 				{ "name": "Dave", "color": "#e80000" },
 				{ "name": "Ecto", "color": "#0076ff" },
-				{ "name": "RD", "color": "#98e5ff" },
 				{ "name": "Angel", "color": "#ebe0ff" },
 				{ "name": "Patch", "color": "#ff6f0f" },
 				{ "name": "Karkat", "color": "#989898" },
-				{ "name": "Gamzee", "color": "#5900be" }
+				{ "name": "Gamzee", "color": "#5900be" },
+				{ "name": "Dino", "color": "#00a7ff" }
 			],
 			"groups": [
 				{
 					"proxy": "dating proxy",
 					"type": "redrom",
-					"nodes": ["Jax", "Dax", "Pax", "Ecto", "Dave", "RD", "Angel", "Patch", "Karkat", "Gamzee"]
+					"nodes": ["Jax", "Dax", "Pax", "Ecto", "Dave", "Angel", "Patch", "Karkat", "Gamzee"]
 				}
 			],
 			"links": [
@@ -341,7 +345,7 @@
 		},
 
 		{
-			"name": "Flesh Sys",
+			"name": "Flesh",
 			"type": "system",
 			"color": "#99637a88",
 			"radius": 30,
@@ -350,23 +354,21 @@
 				{ "name": "Izu", "color": "#594e52" },
 				{ "name": "Pandora", "color": "#eedd87" },
 				{ "name": "Laios", "color": "#93bc75" },
-				{ "name": "Ralsei", "color": "#94e472" },
-				{ "name": "Cosmo", "color": "#b36422" },
-				{ "name": "Falin", "color": "#efef9a" },
-				{ "name": "Nepeta", "color": "#23e29c" },
-				{ "name": "Pine", "color": "#c33097" },
-				{ "name": "Cassandra", "color": "#f48e2c" },
-				{ "name": "Frisk", "color": "#cf8ab7" },
-				{ "name": "Annie", "color": "#376af" }
+				{ "name": "Elphelt", "color": "#a4e9ae" },
+				{ "name": "Fleki", "color": "#54546a" },
+				{ "name": "June", "color": "#f6d7eb" },
+				{ "name": "Bridget", "color": "#57a4ca" }
 			],
 			"groups": [
 				{
 					"proxy": "dating proxy",
 					"type": "palerom",
-					"nodes": ["Mithrun", "Izu", "Pandora", "Laios", "Ralsei", "Cassandra", "Frisk", "Annie"]
+					"nodes": ["Mithrun", "Izu", "Pandora", "Laios", "Elphelt", "Fleki", "June", "Bridget"]
 				}
 			],
 			"links": [
+				{ "a": "Izu", "b": "Pandora" },
+				{ "a": "Izu", "b": "Elphelt" }
 			]
 		}
 	],
@@ -382,7 +384,7 @@
 		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens:dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Rat Gang:dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Basil Sys:Basil" },
-		{ "a": "Mosspup Sys:Lichen", "b": "Gremlin Sys:dating proxy", "type": "palerom" },
+		{ "a": "Mosspup Sys:Lichen", "b": "Gremlin Sys:dating proxy" },
 		{ "a": "Draconevixens:dating proxy", "b": "Mystery System:Bonnie" },
 		{ "a": "Draconevixens:dating proxy", "b": "Gremlin Sys:dating proxy" },
 		{ "a": "Mystery System:Bonnie", "b": "Sen" },
@@ -397,7 +399,6 @@
 		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Vaea", "type": "palerom" },
 		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Calliope" },
 		{ "a": "Candy Sys:dating proxy", "b": "Gremlin Sys:dating proxy", "type": "palerom" },
-		{ "a": "Mystery System:Bonnie", "b": "Gremlin Sys:dating proxy", "type": "vacillating-red-pale" },
 		{ "a": "Mystery System:September", "b": "Gremlin Sys:dating proxy" },
 		{ "a": "Rat Gang:dating proxy", "b": "Gremlin Sys:dating proxy" },
 		{ "a": "Love", "b": "4PPL35:Calliope", "type":"palerom" },
@@ -425,7 +426,11 @@
 		{ "a": "Rat Gang:Night", "b":"Mosspup Sys:Proxy" },
 		{ "a": "Rat Gang:Sol", "b":"Mosspup Sys:Wolfie" },
 		{ "a": "Candy Sys:Addie", "b":"Mystery System:Bonnie" },
-		{ "a": "Draconevixens:dating proxy", "b": "Flesh Sys:dating proxy", "type": "palerom" },
-		{ "a": "Mycena Sys:dating proxy", "b": "Flesh Sys:dating proxy", "type": "palerom" }
+		{ "a": "Candy Sys:June", "b":"Mystery System:Bonnie" },
+		{ "a": "Draconevixens:dating proxy", "b": "Flesh:dating proxy", "type": "palerom" },
+		{ "a": "Mycena Sys:dating proxy", "b": "Flesh:dating proxy", "type": "palerom" },
+		{ "a": "Draconevixens:Jade", "b": "Roxxie" },
+		{ "a": "Basil Sys:Basil", "b": "Roxxie" },
+		{ "a": "Mystery System:Bonnie", "b": "Flesh:dating proxy", "type": "palerom" }
 	]
 }
