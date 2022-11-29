@@ -213,17 +213,19 @@
 				{ "name": "Eris", "color": "" },
 				{ "name": "V2", "color": "" },
 				{ "name": "Dirge", "color": "" },
-				{ "name": "Webbs", "color": "" }
+				{ "name": "Webbs", "color": "" },
+				{ "name": "Arcjec", "color": "" }
 			],
 			"groups": [
 				{
 					"proxy": "dating proxy",
 					"type": "redrom",
-					"nodes": ["Sunday", "Flaire", "Folykl", "Serpaz", "Emerald", "Kate", "Chahut", "V2", "Dirge", "Webbs" ]
+					"nodes": [ "Sunday", "Flaire", "Folykl", "Serpaz", "Emerald", "Kate", "Chahut", "V2", "Dirge", "Webbs" ]
 				}
 			],
 			"links": [
 				{ "a": "Serpaz", "b": "Emerald" },
+				{ "a": "Sunday", "b": "Arcjec" },
 				{ "a": "Webbs", "b": "V2", "type": "palerom" }
 			]
 		},
