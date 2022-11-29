@@ -201,7 +201,7 @@
 			"color": "#00a59688",
 			"radius": 30,
 			"nodes": [
-				{ "name": "Day", "color": "#e00707" },
+				{ "name": "Sunday", "color": "#e00707" },
 				{ "name": "Flaire", "color": "#ff0000" },
 				{ "name": "Folykl", "color": "#a2a200" },
 				{ "name": "Serpaz", "color": "#00a596" },
@@ -210,7 +210,6 @@
 				{ "name": "Kate", "color": "" },
 				{ "name": "Calamitas", "color": "" },
 				{ "name": "Claus", "color": "" },
-				{ "name": "Sunny", "color": "" },
 				{ "name": "Eris", "color": "" },
 				{ "name": "V2", "color": "" },
 				{ "name": "Dirge", "color": "" },
@@ -220,16 +219,10 @@
 				{
 					"proxy": "dating proxy",
 					"type": "redrom",
-					"nodes": ["Day", "Flaire", "Folykl", "Serpaz", "Emerald", "Kate", "Chahut", "Sunny", "V2", "Dirge", "Webbs" ]
-				},
-				{
-					"name": "Sunday",
-					"type": "subsystem",
-					"nodes": ["Sunny", "Day" ]
+					"nodes": ["Sunday", "Flaire", "Folykl", "Serpaz", "Emerald", "Kate", "Chahut", "V2", "Dirge", "Webbs" ]
 				}
 			],
 			"links": [
-				{ "a": "Folykl", "b": "Day", "type": "blackrom" },
 				{ "a": "Serpaz", "b": "Emerald" },
 				{ "a": "Webbs", "b": "V2", "type": "palerom" }
 			]
@@ -401,7 +394,7 @@
 		{ "a": "Mystery System:September", "b": "Gremlin Sys:dating proxy" },
 		{ "a": "Rat Gang:dating proxy", "b": "Gremlin Sys:dating proxy" },
 		{ "a": "Love", "b": "4PPL35:Calliope", "type":"palerom" },
-		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Day" },
+		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Sunday" },
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Kate" },
 		{ "a": "Mosspup Sys:Cas", "b": "Rat Gang:Strider" },
 		{ "a": "Mosspup Sys:Karkat", "b": "Rat Gang:Strider", "type": "vacillating-red-black" },
