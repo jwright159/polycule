@@ -429,6 +429,8 @@
 		{ "a": "Draconevixens:Jade", "b": "Roxxie" },
 		{ "a": "Basil Sys:Basil", "b": "Roxxie" },
 		{ "a": "Mystery System:Bonnie", "b": "Flesh:dating proxy", "type": "palerom" },
-		{ "a": "Mosspup Sys:Karkat", "b": "Gremlin Sys:dating proxy" }
+		{ "a": "Mosspup Sys:Karkat", "b": "Gremlin Sys:dating proxy" },
+		{ "a": "Roxxie", "b": "Mystery System:Bonnie" },
+		{ "a": "Roxxie", "b": "Terra" }
 	]
 }
