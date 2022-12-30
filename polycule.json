@@ -1,6 +1,5 @@
 {
 	"nodes": [
-		{ "name": "Ame", "color": "#e357d4" },
 		{ "name": "Callie", "color": "#de2916" },
 		{ "name": "Sen", "color": "" },
 		{ "name": "Sim", "color": "" },
@@ -369,6 +368,26 @@
 				{ "a": "Izu", "b": "Pandora" },
 				{ "a": "Izu", "b": "Elphelt" }
 			]
+		},
+
+		{
+			"name": "Rain Sys",
+			"type": "system",
+			"color": "#e357d488",
+			"radius": 30,
+			"nodes": [
+				{ "name": "Shuuji", "color": "" },
+				{ "name": "Nahida", "color": "" }
+			],
+			"groups": [
+				{
+					"proxy": "dating proxy",
+					"type": "palerom",
+					"nodes": ["Shuuji", "Nahida"]
+				}
+			],
+			"links": [
+			]
 		}
 	],
 
@@ -376,10 +395,10 @@
 		{ "a": "Draconevixens:dating proxy", "b": "Candy Sys:dating proxy" },
 		{ "a": "Rat Gang:dating proxy", "b": "Draconevixens:dating proxy" },
 		{ "a": "Rat Gang:dating proxy", "b": "Candy Sys:dating proxy" },
-		{ "a": "Rat Gang:dating proxy", "b": "Ame", "type": "palerom" },
+		{ "a": "Rat Gang:dating proxy", "b": "Rain Sys:dating proxy", "type": "palerom" },
 		{ "a": "Rat Gang:dating proxy", "b": "Basil Sys:Basil" },
-		{ "a": "Draconevixens:dating proxy", "b": "Ame", "type": "palerom" },
-		{ "a": "Mosspup Sys:Lichen", "b": "Ame", "type": "palerom" },
+		{ "a": "Draconevixens:dating proxy", "b": "Rain Sys:dating proxy", "type": "palerom" },
+		{ "a": "Mosspup Sys:Lichen", "b": "Rain Sys:dating proxy", "type": "palerom" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens:dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Rat Gang:dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Basil Sys:Basil" },
