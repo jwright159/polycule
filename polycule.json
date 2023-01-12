@@ -35,7 +35,8 @@
 				{ "name": "Less", "color": "#ffeb3b" },
 				{ "name": "Mod", "color": "#3f51b5" },
 				{ "name": "Baby Jade", "color": "#4bec13" },
-				{ "name": "Dogtier Jade", "color": "#4ac725" }
+				{ "name": "Dogtier Jade", "color": "#4ac725" },
+				{ "name": "Lil Jady", "color": "#FF6600" }
 			],
 			"groups": [
 				{
@@ -59,20 +60,20 @@
 					"name": "Jadyn",
 					"type": "subsystem",
 					"color": "#03a9f488",
-					"nodes": ["Jade", "Ty"]
+					"nodes": ["Jady", "Ty"]
 				},
 				{
 					"proxy": "dating proxy",
 					"type": "redrom",
-					"nodes": ["Jade", "Ty"]
+					"nodes": ["Jady", "Ty"]
 				}
 			],
 			"links": [
-				{ "a": "Jade", "b": "Ty" },
-				{ "a": "Jade",  "b": "Speck", "type": "palerom" },
-				{ "a": "Jade", "b": "Sxra" },
+				{ "a": "Jady", "b": "Ty" },
+				{ "a": "Jady",  "b": "Speck", "type": "palerom" },
+				{ "a": "Jady", "b": "Sxra" },
 				{ "a": "Diane", "b": "Sxra" },
-				{ "a": "Jade", "b": "Diane" },
+				{ "a": "Jady", "b": "Diane" },
 				{ "a": "Ty", "b": "Skye" },
 				{ "a": "Skye", "b": "Tango", "type": "palerom" },
 				{ "a": "Ty", "b": "Repyt", "type": "palerom" },
