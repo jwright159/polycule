@@ -78,7 +78,10 @@
 				{ "a": "Skye", "b": "Tango", "type": "palerom" },
 				{ "a": "Ty", "b": "Repyt", "type": "palerom" },
 				{ "a": "Tango", "b": "Repyt" },
-				{ "a": "Less", "b": "Mod", "type":"blackrom" }
+				{ "a": "Less", "b": "Mod", "type":"blackrom" },
+				{ "a": "Jady", "b": "Lil Jady", "type":"palerom" },
+				{ "a": "Jady", "b": "Dogtier Jade", "type":"palerom" },
+				{ "a": "Jady", "b": "Grimbark Jady", "type":"palerom" }
 			]
 		},
 
