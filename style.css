@@ -47,6 +47,16 @@ svg {
 	fill: transparent;
 }
 
+.mommy {
+	stroke: #008141;
+	fill: transparent;
+}
+
+.benefits {
+	stroke: #7c01a1;
+	fill: transparent;
+}
+
 .vacillating-red-black {
 	fill: transparent;
 	animation: vacillating-red-black 1s ease infinite;
