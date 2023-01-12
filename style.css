@@ -57,6 +57,11 @@ svg {
 	fill: transparent;
 }
 
+.siblings {
+	stroke: #ff9d42;
+	fill: transparent;
+}
+
 .vacillating-red-black {
 	fill: transparent;
 	animation: vacillating-red-black 1s ease infinite;
@@ -85,6 +90,23 @@ svg {
 	}
 	50% {
 		stroke: pink;
+	}
+	100% {
+		stroke: red;
+	}
+}
+
+.vacillating-red-siblings {
+	fill: transparent;
+	animation: vacillating-red-siblings 1s ease infinite;
+}
+
+@keyframes vacillating-red-siblings {
+	0% {
+		stroke: red;
+	}
+	50% {
+		stroke: #ff9d42;
 	}
 	100% {
 		stroke: red;

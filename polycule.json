@@ -69,19 +69,19 @@
 				}
 			],
 			"links": [
-				{ "a": "Jady", "b": "Ty" },
+				{ "a": "Jady", "b": "Ty", "type": "siblings" },
 				{ "a": "Jady",  "b": "Speck", "type": "palerom" },
 				{ "a": "Jady", "b": "Sxra" },
 				{ "a": "Diane", "b": "Sxra" },
-				{ "a": "Jady", "b": "Diane" },
 				{ "a": "Ty", "b": "Skye" },
 				{ "a": "Skye", "b": "Tango", "type": "palerom" },
-				{ "a": "Ty", "b": "Repyt", "type": "palerom" },
+				{ "a": "Ty", "b": "Repyt", "type": "siblings" },
+				{ "a": "Sara", "b": "Sxra", "type": "siblings" },
 				{ "a": "Tango", "b": "Repyt" },
-				{ "a": "Less", "b": "Mod", "type":"blackrom" },
-				{ "a": "Jady", "b": "Lil Jady", "type":"mommy" },
-				{ "a": "Jady", "b": "Dogtier Jade", "type":"benefits" },
-				{ "a": "Jady", "b": "Grimbark Jady", "type":"benefits" }
+				{ "a": "Less", "b": "Mod", "type": "blackrom" },
+				{ "a": "Jady", "b": "Lil Jady", "type": "mommy" },
+				{ "a": "Jady", "b": "Dogtier Jade", "type": "benefits" },
+				{ "a": "Jady", "b": "Grimbark Jady", "type": "benefits" }
 			]
 		},
 
@@ -438,7 +438,7 @@
 		{ "a": "Candy Sys:dating proxy", "b": "Mycena Sys:dating proxy" },
 		{ "a": "Candy Sys:dating proxy", "b": "Deathwizard Sys:dating proxy" },
 		{ "a": "Mycena Sys:dating proxy", "b": "Draconevixens:Jady" },
-		{ "a": "Rat Gang:Strider", "b": "Mosspup Sys:Dain" },
+		{ "a": "Rat Gang:Strider", "b": "Mosspup Sys:Dain", "type": "vacillating-red-siblings" },
 		{ "a": "Rat Gang:Night", "b": "Mosspup Sys:Dain" },
 		{ "a": "Deathwizard Sys:dating proxy", "b": "Draconevixens:Jady" },
 		{ "a": "Mystery System:Bonnie", "b":"Candy Sys:Vriska", "type": "blackrom" },
@@ -454,6 +454,8 @@
 		{ "a": "Mystery System:Bonnie", "b": "Flesh:dating proxy", "type": "palerom" },
 		{ "a": "Mosspup Sys:Karkat", "b": "Gremlin Sys:dating proxy" },
 		{ "a": "Roxxie", "b": "Mystery System:Bonnie" },
-		{ "a": "Roxxie", "b": "Terra" }
+		{ "a": "Roxxie", "b": "Terra" },
+		{ "a": "Rat Gang:Strider", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
+		{ "a": "Mosspup Sys:Dain", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" }
 	]
 }
