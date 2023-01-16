@@ -48,7 +48,6 @@
 		{ "a": "Candy Sys", "b": "4PPL35" },
 		{ "a": "4PPL35's Partner Sys", "b": "4PPL35" },
 		{ "a": "Candy Sys", "b": "Gremlin Sys", "type": "palerom" },
-		{ "a": "Mystery System", "b": "Gremlin Sys" },
 		{ "a": "Rat Gang", "b": "Gremlin Sys" },
 		{ "a": "Love", "b": "4PPL35", "type":"palerom" },
 		{ "a": "Basil Sys", "b": "Draconevixens" },
@@ -66,7 +65,6 @@
 		{ "a": "Draconevixens", "b": "Flesh", "type": "palerom" },
 		{ "a": "Mycena Sys", "b": "Flesh", "type": "palerom" },
 		{ "a": "Draconevixens", "b": "Roxxie" },
-		{ "a": "Mystery System", "b": "Flesh", "type": "palerom" },
 		{ "a": "Roxxie", "b": "Mystery System" },
 		{ "a": "Roxxie", "b": "Terra" }
 	]
