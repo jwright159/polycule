@@ -15,9 +15,10 @@ function namespace(parent, node)
 	return (parent ? parent.id + ':' : '') + node;
 }
 
-(async () => {
+async function doSimulation(filename)
+{
 	//---- Data
-	let data = await d3.json('polycule.json');
+	let data = await d3.json(filename);
 
 	let nodeData = [];
 	let groupData = [];
@@ -267,4 +268,4 @@ function namespace(parent, node)
 	simulation.force('link')
 		.strength(link => 1 / Math.min(link.source.weight, link.target.weight))
 		.distance(80);
-})();
+}
