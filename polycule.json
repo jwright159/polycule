@@ -123,9 +123,9 @@
 				{ "a": "Rose", "b": "Roxy", "type": "siblings" },
 				{ "a": "Rose", "b": "Dave", "type": "siblings" },
 				{ "a": "Roxy", "b": "Dave", "type": "siblings" },
-				{ "a": "Hydra", "b": "June", "type": "siblings" },
+				{ "a": "Hydra", "b": "June", "type": "vacillating-red-siblings" },
 				{ "a": "Hydra", "b": "Jade", "type": "siblings" },
-				{ "a": "Jade", "b": "June", "type": "siblings" }
+				{ "a": "Jade", "b": "June", "type": "vacillating-red-siblings" }
 			]
 		},
 
