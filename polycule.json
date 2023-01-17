@@ -119,7 +119,13 @@
 				{ "a": "Roxy", "b": "Rose" },
 				{ "a": "Kris", "b": "Dave" },
 				{ "a": "Hydra", "b": "June" },
-				{ "a": "Hydra", "b": "Nepeta" }
+				{ "a": "Hydra", "b": "Nepeta" },
+				{ "a": "Rose", "b": "Roxy", "type": "siblings" },
+				{ "a": "Rose", "b": "Dave", "type": "siblings" },
+				{ "a": "Roxy", "b": "Dave", "type": "siblings" },
+				{ "a": "Hydra", "b": "June", "type": "siblings" },
+				{ "a": "Hydra", "b": "Jade", "type": "siblings" },
+				{ "a": "Jade", "b": "June", "type": "siblings" }
 			]
 		},
 
