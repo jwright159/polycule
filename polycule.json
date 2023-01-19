@@ -35,7 +35,7 @@
 				{ "name": "Less", "color": "#ffeb3b" },
 				{ "name": "Mod", "color": "#3f51b5" },
 				{ "name": "Baby Jade", "color": "#4bec13" },
-				{ "name": "Dogtier Jade", "color": "#4ac725" },
+				{ "name": "Jade", "color": "#4ac725" },
 				{ "name": "Lil Jady", "color": "#FF6600" }
 			],
 			"groups": [
@@ -80,7 +80,10 @@
 				{ "a": "Tango", "b": "Repyt" },
 				{ "a": "Less", "b": "Mod", "type": "blackrom" },
 				{ "a": "Jady", "b": "Lil Jady", "type": "mommy" },
-				{ "a": "Jady", "b": "Dogtier Jade", "type": "benefits" },
+				{ "a": "Jady", "b": "Jade", "type": "vacillating-red-siblings" },
+				{ "a": "Kanaya", "b": "Jade", "type": "vacillating-red-siblings" },
+				{ "a": "Halley", "b": "Jade", "type": "vacillating-red-siblings" },
+				{ "a": "Ty", "b": "Jade", "type": "redrom" },
 				{ "a": "Jady", "b": "Grimbark Jady", "type": "benefits" }
 			]
 		},
