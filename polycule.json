@@ -84,7 +84,8 @@
 				{ "a": "Kanaya", "b": "Jade", "type": "vacillating-red-siblings" },
 				{ "a": "Halley", "b": "Jade", "type": "vacillating-red-siblings" },
 				{ "a": "Ty", "b": "Jade", "type": "redrom" },
-				{ "a": "Jady", "b": "Grimbark Jady", "type": "benefits" }
+				{ "a": "Jady", "b": "Grimbark Jady", "type": "benefits" },
+				{ "a": "Halley", "b": "Kanaya", "type": "siblings" }
 			]
 		},
 
