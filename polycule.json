@@ -4,7 +4,6 @@
 		{ "name": "Sen", "color": "" },
 		{ "name": "Sim", "color": "" },
 		{ "name": "Banshee", "color": "" },
-		{ "name": "Love", "color": "" },
 		{ "name": "Terra", "color": "#520c97" },
 		{ "name": "Maggie", "color": "" },
 		{ "name": "Melanie", "color": "" },
@@ -86,50 +85,6 @@
 				{ "a": "Ty", "b": "Jade", "type": "redrom" },
 				{ "a": "Jady", "b": "Grimbark Jady", "type": "benefits" },
 				{ "a": "Halley", "b": "Kanaya", "type": "siblings" }
-			]
-		},
-
-		{
-			"name": "Candy Sys",
-			"type": "system",
-			"color": "#cc98ff88",
-			"radius": 30,
-			"nodes": [
-				{ "name": "Nepeta", "color": "#416600" },
-				{ "name": "Rose", "color": "#b536da" },
-				{ "name": "Roxy", "color": "#ff6ff2" },
-				{ "name": "Kris", "color": "#3d120e" },
-				{ "name": "Dave", "color": "#e00707" },
-				{ "name": "Esae", "color": "#363541" },
-				{ "name": "Vriska", "color": "#171769" },
-				{ "name": "Jaradi", "color": "#7842ad" },
-				{ "name": "Addie", "color": "#cc98ff" },
-				{ "name": "Destiny", "color": "#7e7a85" },
-				{ "name": "Reigen", "color": "#dcc278" },
-				{ "name": "June", "color": "#0715cd" },
-				{ "name": "Hydra", "color": "#067e00" },
-				{ "name": "Jade", "color": "#4ac725" }
-			],
-			"groups": [
-				{
-					"proxy": "dating proxy",
-					"type": "redrom",
-					"nodes": ["Nepeta", "Rose", "Roxy", "Dave", "Vriska", "Jaradi", "Addie", "Destiny", "June", "Jade"]
-				}
-			],
-			"links": [
-				{ "a": "Nepeta", "b": "Rose" },
-				{ "a": "Nepeta", "b": "Roxy" },
-				{ "a": "Roxy", "b": "Rose" },
-				{ "a": "Kris", "b": "Dave" },
-				{ "a": "Hydra", "b": "June" },
-				{ "a": "Hydra", "b": "Nepeta" },
-				{ "a": "Rose", "b": "Roxy", "type": "siblings" },
-				{ "a": "Rose", "b": "Dave", "type": "siblings" },
-				{ "a": "Roxy", "b": "Dave", "type": "siblings" },
-				{ "a": "Hydra", "b": "June", "type": "vacillating-red-siblings" },
-				{ "a": "Hydra", "b": "Jade", "type": "siblings" },
-				{ "a": "Jade", "b": "June", "type": "vacillating-red-siblings" }
 			]
 		},
 
@@ -244,39 +199,6 @@
 				{ "a": "Serpaz", "b": "Emerald" },
 				{ "a": "Sunday", "b": "Arcjec" },
 				{ "a": "Webbs", "b": "V2", "type": "palerom" }
-			]
-		},
-
-		{
-			"name": "4PPL35",
-			"type": "system",
-			"color": "#009bff88",
-			"radius": 30,
-			"nodes": [
-				{ "name": "Vaea", "color": "#009bff" },
-				{ "name": "Maud", "color": "" },
-				{ "name": "Tezi", "color": "#008282" },
-				{ "name": "Calliope", "color": "#77009f" }
-			],
-			"groups": [
-			],
-			"links": [
-			]
-		},
-
-		{
-			"name": "4PPL35's Partner Sys",
-			"type": "system",
-			"color": "#ffc0cb88",
-			"radius": 30,
-			"nodes": [
-				{ "name": "Chloe", "color": "#ffc0cb" },
-				{ "name": "Dawn", "color": "orange" }
-			],
-			"groups": [
-			],
-			"links": [
-				{ "a": "Chloe", "b": "Dawn" }
 			]
 		},
 
@@ -406,9 +328,7 @@
 	],
 
 	"links": [
-		{ "a": "Draconevixens:dating proxy", "b": "Candy Sys:dating proxy" },
 		{ "a": "Rat Gang:dating proxy", "b": "Draconevixens:dating proxy" },
-		{ "a": "Rat Gang:dating proxy", "b": "Candy Sys:dating proxy" },
 		{ "a": "Rat Gang:dating proxy", "b": "Rain Sys:dating proxy", "type": "palerom" },
 		{ "a": "Rat Gang:dating proxy", "b": "Basil Sys:Basil" },
 		{ "a": "Draconevixens:dating proxy", "b": "Rain Sys:dating proxy", "type": "palerom" },
@@ -425,13 +345,7 @@
 		{ "a": "Mystery System:September", "b": "Draconevixens:dating proxy" },
 		{ "a": "Draconevixens:dating proxy", "b": "Callie" },
 		{ "a": "Deathwizard Sys:dating proxy", "b": "Mycena Sys:dating proxy" },
-		{ "a": "Candy Sys:Nepeta", "b": "4PPL35:Tezi" },
-		{ "a": "4PPL35's Partner Sys:Dawn", "b": "4PPL35:Calliope" },
-		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Vaea", "type": "palerom" },
-		{ "a": "4PPL35's Partner Sys:Chloe", "b": "4PPL35:Calliope" },
-		{ "a": "Candy Sys:dating proxy", "b": "Gremlin Sys:dating proxy", "type": "palerom" },
 		{ "a": "Rat Gang:dating proxy", "b": "Gremlin Sys:dating proxy" },
-		{ "a": "Love", "b": "4PPL35:Calliope", "type":"palerom" },
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Sunday" },
 		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Kate" },
 		{ "a": "Mosspup Sys:Cas", "b": "Rat Gang:Strider" },
@@ -444,19 +358,13 @@
 		{ "a": "Big Chungus Sys:April", "b": "Maggie" },
 		{ "a": "Big Chungus Sys:April", "b": "Melanie" },
 		{ "a": "Maggie", "b": "Melanie" },
-		{ "a": "Candy Sys:dating proxy", "b": "Mycena Sys:dating proxy" },
-		{ "a": "Candy Sys:dating proxy", "b": "Deathwizard Sys:dating proxy" },
 		{ "a": "Mycena Sys:dating proxy", "b": "Draconevixens:Jady" },
 		{ "a": "Rat Gang:Strider", "b": "Mosspup Sys:Dain", "type": "vacillating-red-siblings" },
 		{ "a": "Rat Gang:Night", "b": "Mosspup Sys:Dain" },
 		{ "a": "Deathwizard Sys:dating proxy", "b": "Draconevixens:Jady" },
-		{ "a": "Mystery System:Bonnie", "b":"Candy Sys:Vriska", "type": "blackrom" },
-		{ "a": "Deathwizard Sys:V2", "b":"Candy Sys:Addie", "type": "blackrom" },
 		{ "a": "Rat Gang:Strider", "b":"Mosspup Sys:Proxy" },
 		{ "a": "Rat Gang:Night", "b":"Mosspup Sys:Proxy" },
 		{ "a": "Rat Gang:Sol", "b":"Mosspup Sys:Wolfie" },
-		{ "a": "Candy Sys:Addie", "b":"Mystery System:Bonnie" },
-		{ "a": "Candy Sys:June", "b":"Mystery System:Bonnie" },
 		{ "a": "Draconevixens:dating proxy", "b": "Flesh:dating proxy", "type": "palerom" },
 		{ "a": "Mycena Sys:dating proxy", "b": "Flesh:dating proxy", "type": "palerom" },
 		{ "a": "Draconevixens:Jady", "b": "Roxxie" },
