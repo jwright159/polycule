@@ -113,11 +113,33 @@ svg {
 	}
 }
 
+.vacillating-black-siblings {
+	fill: transparent;
+	animation: vacillating-black-siblings 1s ease infinite;
+}
+
+@keyframes vacillating-black-siblings {
+	0% {
+		stroke: black;
+	}
+	50% {
+		stroke: #ff9d42;
+	}
+	100% {
+		stroke: black;
+	}
+}
+
 .proxy {
 	stroke: transparent;
 }
 
 .system {
+	stroke: black;
+	fill: transparent;
+}
+
+.general {
 	stroke: black;
 	fill: transparent;
 }

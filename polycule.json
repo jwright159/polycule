@@ -20,40 +20,20 @@
 				{ "name": "Halley", "color": "#4ae45f" },
 				{ "name": "Kanaya", "color": "#008141" },
 				{ "name": "Chara", "color": "#ff0000" },
-				{ "name": "Rose", "color": "#b536da" },
-				{ "name": "Dave", "color": "#e00707" },
-				{ "name": "Sans", "color": "#326dcb" },
+				{ "name": "Ty", "color": "#00bcd4" },
 				{ "name": "Speck", "color": "#ffeb3b" },
 				{ "name": "Sera", "color": "#03a9f4" },
-				{ "name": "Diane", "color": "orange" },
-				{ "name": "Repyt", "color": "#d4bc00" },
-				{ "name": "Tango", "color": "#ffc107" },
-				{ "name": "Skye", "color": "#2196f3" },
-				{ "name": "Sara", "color": "#1a237e" },
+				{ "name": "Tesla", "color": "#2196f3" },
 				{ "name": "Grimbark Jady", "color": "#4caf50" },
-				{ "name": "Less", "color": "#ffeb3b" },
-				{ "name": "Mod", "color": "#3f51b5" },
-				{ "name": "Baby Jade", "color": "#4bec13" },
 				{ "name": "Jade", "color": "#4ac725" },
-				{ "name": "Lil Jady", "color": "#FF6600" }
+				{ "name": "Lil Jady", "color": "#ff6600" }
 			],
 			"groups": [
-				{
-					"name": "Tesla",
-					"type": "subsystem",
-					"nodes": ["Tango", "Skye"]
-				},
 				{
 					"proxy": "Jady",
 					"type": "subsystem",
 					"color": "#4caf5088",
 					"nodes": ["Halley", "Kanaya", "Chara"]
-				},
-				{
-					"proxy": "Ty",
-					"type": "subsystem",
-					"color": "#00bcd488",
-					"nodes": ["Rose", "Dave", "Sans"]
 				},
 				{
 					"name": "Jadyn",
@@ -71,13 +51,7 @@
 				{ "a": "Jady", "b": "Ty", "type": "siblings" },
 				{ "a": "Jady",  "b": "Speck", "type": "palerom" },
 				{ "a": "Jady", "b": "Sera" },
-				{ "a": "Diane", "b": "Sera" },
-				{ "a": "Ty", "b": "Skye" },
-				{ "a": "Skye", "b": "Tango", "type": "palerom" },
-				{ "a": "Ty", "b": "Repyt", "type": "siblings" },
-				{ "a": "Sara", "b": "Sera", "type": "siblings" },
-				{ "a": "Tango", "b": "Repyt" },
-				{ "a": "Less", "b": "Mod", "type": "blackrom" },
+				{ "a": "Ty", "b": "Tesla" },
 				{ "a": "Jady", "b": "Lil Jady", "type": "mommy" },
 				{ "a": "Jady", "b": "Jade", "type": "vacillating-red-siblings" },
 				{ "a": "Kanaya", "b": "Jade", "type": "vacillating-red-siblings" },

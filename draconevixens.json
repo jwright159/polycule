@@ -1,0 +1,132 @@
+{
+	"nodes": [
+		{ "name": "Halley", "color": "#4ae45f" },
+		{ "name": "Kanaya", "color": "#008141" },
+		{ "name": "Chara", "color": "#ff0000" },
+		{ "name": "Rose", "color": "#b536da" },
+		{ "name": "Dave", "color": "#e00707" },
+		{ "name": "Sans", "color": "#326dcb" },
+		{ "name": "Speck", "color": "#ffeb3b" },
+		{ "name": "Sera", "color": "#03a9f4" },
+		{ "name": "Dia", "color": "orange" },
+		{ "name": "Repyt", "color": "#d4bc00" },
+		{ "name": "Tango", "color": "#ffc107" },
+		{ "name": "Skye", "color": "#2196f3" },
+		{ "name": "Sara", "color": "#1a237e" },
+		{ "name": "Grimbark Jady", "color": "#4caf50" },
+		{ "name": "Less", "color": "#ffeb3b" },
+		{ "name": "Mod", "color": "#3f51b5" },
+		{ "name": "Baby Jade", "color": "#4bec13" },
+		{ "name": "Jade", "color": "#4ac725" },
+		{ "name": "Lil Jady", "color": "#ff6600" },
+		{ "name": "Brandon", "color": "#b2b2dd" },
+		{ "name": "Barry", "color": "#ffa95b" },
+		{ "name": "Luna", "color": "#1e9c86" },
+		{ "name": "Ruffles", "color": "#a3dbf6" }
+	],
+
+	"groups": [
+		{
+			"name": "Tesla",
+			"type": "subsystem",
+			"color": "#2196f388",
+			"nodes": ["Tango", "Skye"]
+		},
+		{
+			"proxy": "Jady",
+			"type": "subsystem",
+			"color": "#4caf5088",
+			"nodes": ["Halley", "Kanaya", "Chara"]
+		},
+		{
+			"proxy": "Ty",
+			"type": "subsystem",
+			"color": "#00bcd488",
+			"nodes": ["Rose", "Dave", "Sans"]
+		},
+		{
+			"name": "Jadyn",
+			"type": "subsystem",
+			"color": "#03a9f488",
+			"nodes": ["Jady", "Ty"]
+		},
+
+		{
+			"name": "Lives in City Block",
+			"type": "general",
+			"color": "",
+			"radius": 30,
+			"nodes": ["Sera", "Dia"]
+		},
+		{
+			"name": "Lives in Ty's House",
+			"type": "general",
+			"color": "",
+			"radius": 30,
+			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Rose", "Dave", "Sans", "Ty", "Lil Jady", "Tango", "Skye", "Repyt", "Jade"]
+		},
+		{
+			"name": "Lives in Forest",
+			"type": "general",
+			"color": "",
+			"radius": 30,
+			"nodes": ["Grimbark Jady", "Barry", "Brandon"]
+		},
+		{
+			"name": "Lives in Jungle",
+			"type": "general",
+			"color": "",
+			"radius": 30,
+			"nodes": ["Luna", "Ruffles"]
+		},
+		{
+			"name": "Lives in Maintenance",
+			"type": "general",
+			"color": "",
+			"radius": 30,
+			"nodes": ["Sara"]
+		},
+		{
+			"name": "Lives in Dungeon",
+			"type": "general",
+			"color": "",
+			"radius": 30,
+			"nodes": ["Mod", "Less"]
+		},
+		{
+			"name": "Wanders",
+			"type": "general",
+			"color": "",
+			"radius": 30,
+			"nodes": ["Speck", "Baby Jade"]
+		}
+	],
+
+	"links": [
+		{ "a": "Jady", "b": "Ty", "type": "siblings" },
+		{ "a": "Jady",  "b": "Speck", "type": "palerom" },
+		{ "a": "Jady", "b": "Sera" },
+		{ "a": "Dia", "b": "Sera" },
+		{ "a": "Ty", "b": "Skye" },
+		{ "a": "Skye", "b": "Tango", "type": "palerom" },
+		{ "a": "Ty", "b": "Repyt", "type": "siblings" },
+		{ "a": "Sara", "b": "Sera", "type": "siblings" },
+		{ "a": "Tango", "b": "Repyt" },
+		{ "a": "Less", "b": "Mod", "type": "blackrom" },
+		{ "a": "Jady", "b": "Mod", "type": "vacillating-black-siblings" },
+		{ "a": "Ty", "b": "Mod", "type": "vacillating-black-siblings" },
+		{ "a": "Jady", "b": "Lil Jady", "type": "mommy" },
+		{ "a": "Jady", "b": "Jade", "type": "vacillating-red-siblings" },
+		{ "a": "Kanaya", "b": "Jade", "type": "vacillating-red-siblings" },
+		{ "a": "Halley", "b": "Jade", "type": "vacillating-red-siblings" },
+		{ "a": "Ty", "b": "Jade", "type": "redrom" },
+		{ "a": "Jady", "b": "Grimbark Jady", "type": "palerom" },
+		{ "a": "Halley", "b": "Kanaya", "type": "siblings" },
+		{ "a": "Luna", "b": "Ruffles", "type": "palerom" },
+		{ "a": "Grimbark Jady", "b": "Barry" },
+		{ "a": "Sera", "b": "Brandon", "type": "palerom" },
+		{ "a": "Dave", "b": "Rose", "type": "siblings" },
+		{ "a": "Speck", "b": "Less", "type": "siblings" },
+		{ "a": "Chara", "b": "Sans", "type": "siblings" }
+	]
+}
