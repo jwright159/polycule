@@ -5,8 +5,6 @@
 		{ "name": "Sim", "color": "" },
 		{ "name": "Banshee", "color": "" },
 		{ "name": "Terra", "color": "#520c97" },
-		{ "name": "Maggie", "color": "" },
-		{ "name": "Melanie", "color": "" },
 		{ "name": "Roxxie", "color": "#631db4" }
 	],
 
@@ -109,72 +107,6 @@
 				{ "a": "Dain", "b": "Proxy", "type": "palerom" }
 			]
 		},
-		
-		{
-			"name": "Mycena Sys",
-			"type": "system",
-			"color": "#41660088",
-			"radius": 30,
-			"nodes": [
-				{ "name": "Luna", "color": "#416600" },
-				{ "name": "Cross", "color": "" },
-				{ "name": "Chara", "color": "" },
-				{ "name": "SS!Chara", "color": "" },
-				{ "name": "Chixie", "color": "" },
-				{ "name": "Meulin", "color": "" },
-				{ "name": "Modeus", "color": "" }
-			],
-			"groups": [
-				{
-					"proxy": "dating proxy",
-					"type": "redrom",
-					"nodes": [ "Luna", "Cross", "Chara", "SS!Chara" ]
-				},
-				{
-					"name": "Chara Subsystem",
-					"type": "subsystem",
-					"nodes": [ "Luna", "Cross", "Chara", "SS!Chara" ]
-				}
-			],
-			"links": [
-				{ "a": "Meulin", "b": "Chixie" }
-			]
-		},
-		
-		{
-			"name": "Deathwizard Sys",
-			"type": "system",
-			"color": "#00a59688",
-			"radius": 30,
-			"nodes": [
-				{ "name": "Sunday", "color": "#e00707" },
-				{ "name": "Flaire", "color": "#ff0000" },
-				{ "name": "Folykl", "color": "#a2a200" },
-				{ "name": "Serpaz", "color": "#00a596" },
-				{ "name": "Emerald", "color": "" },
-				{ "name": "Chahut", "color": "#2c0059" },
-				{ "name": "Kate", "color": "" },
-				{ "name": "Calamitas", "color": "" },
-				{ "name": "Claus", "color": "" },
-				{ "name": "Eris", "color": "" },
-				{ "name": "V2", "color": "" },
-				{ "name": "Dirge", "color": "" },
-				{ "name": "Webbs", "color": "" },
-				{ "name": "Arcjec", "color": "" }
-			],
-			"groups": [
-				{
-					"proxy": "dating proxy",
-					"type": "redrom",
-					"nodes": [ "Sunday", "Flaire", "Folykl", "Serpaz", "Emerald", "Kate", "Chahut", "V2", "Dirge", "Webbs" ]
-				}
-			],
-			"links": [
-				{ "a": "Serpaz", "b": "Emerald" },
-				{ "a": "Sunday", "b": "Arcjec" },
-				{ "a": "Webbs", "b": "V2", "type": "palerom" }
-			]
-		},
 
 		{
 			"name": "Mystery System",
@@ -185,22 +117,6 @@
 				{ "name": "Bonnie", "color": "#06ffc9" },
 				{ "name": "September", "color": "#b90f15" },
 				{ "name": "Casey", "color": "#f7f95d" }
-			],
-			"groups": [
-			],
-			"links": [
-			]
-		},
-
-		{
-			"name": "Big Chungus Sys",
-			"type": "system",
-			"color": "#7349c988",
-			"radius": 30,
-			"nodes": [
-				{ "name": "April", "color": "#7349c9" },
-				{ "name": "Terezi", "color": "#008282" },
-				{ "name": "June", "color": "#0715cd" }
 			],
 			"groups": [
 			],
@@ -253,34 +169,6 @@
 		},
 
 		{
-			"name": "Flesh",
-			"type": "system",
-			"color": "#99637a88",
-			"radius": 30,
-			"nodes": [
-				{ "name": "Mithrun", "color": "#ad8964" },
-				{ "name": "Izu", "color": "#594e52" },
-				{ "name": "Pandora", "color": "#eedd87" },
-				{ "name": "Laios", "color": "#93bc75" },
-				{ "name": "Elphelt", "color": "#a4e9ae" },
-				{ "name": "Fleki", "color": "#54546a" },
-				{ "name": "June", "color": "#f6d7eb" },
-				{ "name": "Bridget", "color": "#57a4ca" }
-			],
-			"groups": [
-				{
-					"proxy": "dating proxy",
-					"type": "palerom",
-					"nodes": ["Mithrun", "Izu", "Pandora", "Laios", "Elphelt", "Fleki", "June", "Bridget"]
-				}
-			],
-			"links": [
-				{ "a": "Izu", "b": "Pandora" },
-				{ "a": "Izu", "b": "Elphelt" }
-			]
-		},
-
-		{
 			"name": "Rain Sys",
 			"type": "system",
 			"color": "#e357d488",
@@ -318,29 +206,18 @@
 		{ "a": "Mystery System:September", "b": "Banshee", "type":"palerom" },
 		{ "a": "Mystery System:September", "b": "Draconevixens:dating proxy" },
 		{ "a": "Draconevixens:dating proxy", "b": "Callie" },
-		{ "a": "Deathwizard Sys:dating proxy", "b": "Mycena Sys:dating proxy" },
 		{ "a": "Rat Gang:dating proxy", "b": "Gremlin Sys:dating proxy" },
-		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Sunday" },
-		{ "a": "Mycena Sys:Modeus", "b": "Deathwizard Sys:Kate" },
 		{ "a": "Mosspup Sys:Cas", "b": "Rat Gang:Strider" },
 		{ "a": "Mosspup Sys:Karkat", "b": "Rat Gang:Strider", "type": "vacillating-red-black" },
 		{ "a": "Basil Sys:Basil", "b": "Draconevixens:dating proxy" },
 		{ "a": "Basil Sys:Basil", "b": "Mosspup Sys:Karkat" },
 		{ "a": "Terra", "b": "Mystery System:Bonnie" },
 		{ "a": "Terra", "b": "Draconevixens:dating proxy" },
-		{ "a": "Big Chungus Sys:April", "b": "Mycena Sys:Luna", "type": "palerom" },
-		{ "a": "Big Chungus Sys:April", "b": "Maggie" },
-		{ "a": "Big Chungus Sys:April", "b": "Melanie" },
-		{ "a": "Maggie", "b": "Melanie" },
-		{ "a": "Mycena Sys:dating proxy", "b": "Draconevixens:Jady" },
 		{ "a": "Rat Gang:Strider", "b": "Mosspup Sys:Dain", "type": "vacillating-red-siblings" },
 		{ "a": "Rat Gang:Night", "b": "Mosspup Sys:Dain" },
-		{ "a": "Deathwizard Sys:dating proxy", "b": "Draconevixens:Jady" },
 		{ "a": "Rat Gang:Strider", "b":"Mosspup Sys:Proxy" },
 		{ "a": "Rat Gang:Night", "b":"Mosspup Sys:Proxy" },
 		{ "a": "Rat Gang:Sol", "b":"Mosspup Sys:Wolfie" },
-		{ "a": "Draconevixens:dating proxy", "b": "Flesh:dating proxy", "type": "palerom" },
-		{ "a": "Mycena Sys:dating proxy", "b": "Flesh:dating proxy", "type": "palerom" },
 		{ "a": "Draconevixens:Jady", "b": "Roxxie" },
 		{ "a": "Mosspup Sys:Karkat", "b": "Gremlin Sys:dating proxy" },
 		{ "a": "Roxxie", "b": "Mystery System:Bonnie" },
