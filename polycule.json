@@ -72,7 +72,8 @@
 				{ "name": "Sol", "color": "white" },
 				{ "name": "Second", "color": "#f0b2bc" },
 				{ "name": "G11.4", "color": "#00ff00" },
-				{ "name": "Ianite", "color": "#611083" }
+				{ "name": "Ianite", "color": "#611083" },
+				{ "name": "Link", "color": "#ff0032" }
 			],
 			"groups": [
 				{
@@ -82,7 +83,8 @@
 				}
 			],
 			"links": [
-				{ "a": "Lily", "b": "Strider" }
+				{ "a": "Lily", "b": "Strider" },
+				{ "a": "Link", "b": "Strider", "type":"siblings" }
 			]
 		},
 		
@@ -98,12 +100,14 @@
 				{ "name": "Dain", "color": "#f2a400" },
 				{ "name": "Jake", "color": "#209401" },
 				{ "name": "Proxy", "color": "#ff6ff3" },
-				{ "name": "Wolfie", "color": "black" }
+				{ "name": "Wolfie", "color": "black" },
+				{ "name": "Dante", "color": "#f2a400" }
 			],
 			"groups": [
 			],
 			"links": [
-				{ "a": "Dain", "b": "Proxy", "type": "palerom" }
+				{ "a": "Dain", "b": "Proxy", "type": "palerom" },
+				{ "a": "Dain", "b": "Dante", "type":"siblings" }
 			]
 		},
 
@@ -211,6 +215,7 @@
 		{ "a": "Terra", "b": "Mystery System:Bonnie" },
 		{ "a": "Terra", "b": "Draconevixens:dating proxy" },
 		{ "a": "Rat Gang:Strider", "b": "Mosspup Sys:Dain", "type": "vacillating-red-siblings" },
+		{ "a": "Rat Gang:Link", "b": "Mosspup Sys:Dante", "type": "vacillating-red-siblings" },
 		{ "a": "Rat Gang:Night", "b": "Mosspup Sys:Dain" },
 		{ "a": "Rat Gang:Strider", "b":"Mosspup Sys:Proxy" },
 		{ "a": "Rat Gang:Night", "b":"Mosspup Sys:Proxy" },
