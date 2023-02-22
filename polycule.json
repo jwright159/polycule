@@ -23,7 +23,8 @@
 				{ "name": "Tesla", "color": "#2196f3" },
 				{ "name": "Grimbark Jady", "color": "#4caf50" },
 				{ "name": "Jade", "color": "#4ac725" },
-				{ "name": "Lil Jady", "color": "#ff6600" }
+				{ "name": "Lil Jady", "color": "#ff6600" },
+				{ "name": "Rudy", "color": "#e91e63" }
 			],
 			"groups": [
 				{
@@ -55,7 +56,8 @@
 				{ "a": "Halley", "b": "Jade", "type": "vacillating-red-siblings" },
 				{ "a": "Ty", "b": "Jade", "type": "redrom" },
 				{ "a": "Jady", "b": "Grimbark Jady", "type": "benefits" },
-				{ "a": "Halley", "b": "Kanaya", "type": "siblings" }
+				{ "a": "Halley", "b": "Kanaya", "type": "siblings" },
+				{ "a": "Jady", "b": "Rudy", "type": "siblings" }
 			]
 		},
 

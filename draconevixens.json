@@ -2,7 +2,7 @@
 	"nodes": [
 		{ "name": "Halley", "color": "#4ae45f" },
 		{ "name": "Kanaya", "color": "#008141" },
-		{ "name": "Chara", "color": "#ff0000" },
+		{ "name": "Chara", "color": "#31e03e" },
 		{ "name": "Rose", "color": "#b536da" },
 		{ "name": "Dave", "color": "#e00707" },
 		{ "name": "Sans", "color": "#326dcb" },
@@ -22,16 +22,13 @@
 		{ "name": "Brandon", "color": "#b2b2dd" },
 		{ "name": "Barry", "color": "#ffa95b" },
 		{ "name": "Luna", "color": "#1e9c86" },
-		{ "name": "Ruffles", "color": "#a3dbf6" }
+		{ "name": "Ruffles", "color": "#a3dbf6" },
+		{ "name": "Roxy", "color": "#ff6ff6" },
+		{ "name": "Ruby", "color": "#cd345f" },
+		{ "name": "Ralsei", "color": "#ff96a0" }
 	],
 
 	"groups": [
-		{
-			"name": "Tesla",
-			"type": "subsystem",
-			"color": "#2196f388",
-			"nodes": ["Tango", "Skye"]
-		},
 		{
 			"proxy": "Jady",
 			"type": "subsystem",
@@ -39,10 +36,22 @@
 			"nodes": ["Halley", "Kanaya", "Chara"]
 		},
 		{
+			"proxy": "Rudy",
+			"type": "subsystem",
+			"color": "#e91e6388",
+			"nodes": ["Ruby", "Ralsei", "Roxy"]
+		},
+		{
 			"proxy": "Ty",
 			"type": "subsystem",
 			"color": "#00bcd488",
 			"nodes": ["Rose", "Dave", "Sans"]
+		},
+		{
+			"name": "Tesla",
+			"type": "subsystem",
+			"color": "#2196f388",
+			"nodes": ["Tango", "Skye"]
 		},
 		{
 			"name": "Jadyn",
@@ -63,7 +72,7 @@
 			"type": "general",
 			"color": "",
 			"radius": 30,
-			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Rose", "Dave", "Sans", "Ty", "Lil Jady", "Tango", "Skye", "Repyt", "Jade"]
+			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Rose", "Dave", "Sans", "Ty", "Lil Jady", "Tango", "Skye", "Repyt", "Jade", "Ruby", "Rudy", "Ralsei", "Roxy"]
 		},
 		{
 			"name": "Lives in Forest",
@@ -128,6 +137,14 @@
 		{ "a": "Dave", "b": "Rose", "type": "siblings" },
 		{ "a": "Speck", "b": "Less", "type": "siblings" },
 		{ "a": "Chara", "b": "Sans", "type": "siblings" },
-		{ "a": "Repyt", "b": "Sara" }
+		{ "a": "Ralsei", "b": "Sans", "type": "siblings" },
+		{ "a": "Repyt", "b": "Sara" },
+		{ "a": "Jady", "b": "Rudy", "type": "siblings" },
+		{ "a": "Halley", "b": "Ruby", "type": "siblings" },
+		{ "a": "Jade", "b": "Ruby", "type": "siblings" },
+		{ "a": "Chara", "b": "Ralsei", "type": "siblings" },
+		{ "a": "Ty", "b": "Rudy", "type": "siblings" },
+		{ "a": "Rose", "b": "Roxy", "type": "siblings" },
+		{ "a": "Dave", "b": "Roxy", "type": "siblings" }
 	]
 }
