@@ -16,7 +16,6 @@
 		{ "name": "Grimbark Jady", "color": "#4caf50" },
 		{ "name": "Less", "color": "#ffeb3b" },
 		{ "name": "Mod", "color": "#3f51b5" },
-		{ "name": "Baby Jade", "color": "#4bec13" },
 		{ "name": "Jade", "color": "#4ac725" },
 		{ "name": "Lil Jady", "color": "#ff6600" },
 		{ "name": "Brandon", "color": "#b2b2dd" },
@@ -63,51 +62,50 @@
 		{
 			"name": "Lives in City Block",
 			"type": "general",
-			"color": "",
 			"radius": 30,
 			"nodes": ["Sera", "Dia"]
 		},
 		{
 			"name": "Lives in Ty's House",
 			"type": "general",
-			"color": "",
 			"radius": 30,
-			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Rose", "Dave", "Sans", "Ty", "Lil Jady", "Tango", "Skye", "Repyt", "Jade", "Ruby", "Rudy", "Ralsei", "Roxy"]
+			"nodes": ["Rose", "Dave", "Sans", "Ty", "Tango", "Skye", "Repyt", "Jade"]
+		},
+		{
+			"name": "Lives in Voidroom",
+			"type": "general",
+			"radius": 30,
+			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy"]
 		},
 		{
 			"name": "Lives in Forest",
 			"type": "general",
-			"color": "",
 			"radius": 30,
 			"nodes": ["Grimbark Jady", "Barry", "Brandon"]
 		},
 		{
 			"name": "Lives in Jungle",
 			"type": "general",
-			"color": "",
 			"radius": 30,
 			"nodes": ["Luna", "Ruffles"]
 		},
 		{
 			"name": "Lives in Maintenance",
 			"type": "general",
-			"color": "",
 			"radius": 30,
 			"nodes": ["Sara"]
 		},
 		{
 			"name": "Lives in Dungeon",
 			"type": "general",
-			"color": "",
 			"radius": 30,
 			"nodes": ["Mod", "Less"]
 		},
 		{
 			"name": "Wanders",
 			"type": "general",
-			"color": "",
 			"radius": 30,
-			"nodes": ["Speck", "Baby Jade"]
+			"nodes": ["Speck"]
 		}
 	],
 
