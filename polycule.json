@@ -14,9 +14,7 @@
 			"color": "#03a9f488",
 			"radius": 30,
 			"nodes": [
-				{ "name": "Halley", "color": "#4ae45f" },
-				{ "name": "Kanaya", "color": "#008141" },
-				{ "name": "Chara", "color": "#ff0000" },
+				{ "name": "Jady", "color": "#4caf50" },
 				{ "name": "Ty", "color": "#00bcd4" },
 				{ "name": "Speck", "color": "#ffeb3b" },
 				{ "name": "Sera", "color": "#03a9f4" },
@@ -27,12 +25,6 @@
 				{ "name": "Rudy", "color": "#e91e63" }
 			],
 			"groups": [
-				{
-					"proxy": "Jady",
-					"type": "subsystem",
-					"color": "#4caf5088",
-					"nodes": ["Halley", "Kanaya", "Chara"]
-				},
 				{
 					"name": "Jadyn",
 					"type": "subsystem",
@@ -52,12 +44,10 @@
 				{ "a": "Ty", "b": "Tesla" },
 				{ "a": "Jady", "b": "Lil Jady", "type": "mommy" },
 				{ "a": "Jady", "b": "Jade", "type": "vacillating-red-siblings" },
-				{ "a": "Kanaya", "b": "Jade", "type": "vacillating-red-siblings" },
-				{ "a": "Halley", "b": "Jade", "type": "vacillating-red-siblings" },
 				{ "a": "Ty", "b": "Jade", "type": "redrom" },
 				{ "a": "Jady", "b": "Grimbark Jady", "type": "benefits" },
-				{ "a": "Halley", "b": "Kanaya", "type": "siblings" },
-				{ "a": "Jady", "b": "Rudy", "type": "siblings" }
+				{ "a": "Jady", "b": "Rudy", "type": "siblings" },
+				{ "a": "Ty", "b": "Rudy", "type": "siblings" }
 			]
 		},
 
