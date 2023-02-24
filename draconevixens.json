@@ -127,7 +127,7 @@
 		{ "a": "Kanaya", "b": "Jade", "type": "vacillating-red-siblings" },
 		{ "a": "Halley", "b": "Jade", "type": "vacillating-red-siblings" },
 		{ "a": "Ty", "b": "Jade", "type": "redrom" },
-		{ "a": "Jady", "b": "Grimbark Jady", "type": "palerom" },
+		{ "a": "Jady", "b": "Grimbark Jady", "type": "benefits" },
 		{ "a": "Halley", "b": "Kanaya", "type": "siblings" },
 		{ "a": "Luna", "b": "Ruffles", "type": "palerom" },
 		{ "a": "Grimbark Jady", "b": "Barry" },
@@ -135,7 +135,6 @@
 		{ "a": "Dave", "b": "Rose", "type": "siblings" },
 		{ "a": "Speck", "b": "Less", "type": "siblings" },
 		{ "a": "Chara", "b": "Sans", "type": "siblings" },
-		{ "a": "Ralsei", "b": "Sans", "type": "siblings" },
 		{ "a": "Repyt", "b": "Sara" },
 		{ "a": "Jady", "b": "Rudy", "type": "siblings" },
 		{ "a": "Halley", "b": "Ruby", "type": "siblings" },
@@ -143,6 +142,7 @@
 		{ "a": "Chara", "b": "Ralsei", "type": "siblings" },
 		{ "a": "Ty", "b": "Rudy", "type": "siblings" },
 		{ "a": "Rose", "b": "Roxy", "type": "siblings" },
-		{ "a": "Dave", "b": "Roxy", "type": "siblings" }
+		{ "a": "Rose", "b": "Kanaya" },
+		{ "a": "Dave", "b": "Halley" }
 	]
 }
