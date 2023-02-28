@@ -75,7 +75,7 @@
 			"name": "Lives in Voidroom",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy"]
+			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Speck"]
 		},
 		{
 			"name": "Lives in Forest",
@@ -100,12 +100,6 @@
 			"type": "general",
 			"radius": 30,
 			"nodes": ["Mod", "Less"]
-		},
-		{
-			"name": "Wanders",
-			"type": "general",
-			"radius": 30,
-			"nodes": ["Speck"]
 		}
 	],
 
