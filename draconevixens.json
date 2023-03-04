@@ -78,13 +78,13 @@
 			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Speck"]
 		},
 		{
-			"name": "Lives in Forest",
+			"name": "Lives in Woods",
 			"type": "general",
 			"radius": 30,
 			"nodes": ["Grimbark Jady", "Barry", "Brandon"]
 		},
 		{
-			"name": "Lives in Jungle",
+			"name": "Lives in Tenebrae Forest",
 			"type": "general",
 			"radius": 30,
 			"nodes": ["Luna", "Ruffles"]
