@@ -157,7 +157,7 @@ async function doSimulation(filename)
 	
 	//---- Simulation
 	let simulation = d3.forceSimulation(nodeData)
-		.force('charge', d3.forceManyBody().strength(-150).distanceMax(200))
+		.force('charge', d3.forceManyBody().strength(-300).distanceMax(200))
 		.force('center', d3.forceCenter(graphWidth * graphScale / 2, graphHeight * graphScale / 2))
 		.force('centerR', d3.forceRadial(0, graphWidth * graphScale / 2, graphHeight * graphScale / 2).strength(0.01))
 		.force('link', d3.forceLink(linkData).id(node => node.id))

@@ -17,6 +17,7 @@
 		{ "name": "Less", "color": "#ffeb3b" },
 		{ "name": "Mod", "color": "#3f51b5" },
 		{ "name": "Jade", "color": "#4ac725" },
+		{ "name": "Bec", "color": "#ffffff" },
 		{ "name": "Lil Jady", "color": "#ff6600" },
 		{ "name": "Brandon", "color": "#b2b2dd" },
 		{ "name": "Barry", "color": "#ffa95b" },
@@ -47,7 +48,7 @@
 			"nodes": ["Rose", "Dave", "Sans"]
 		},
 		{
-			"name": "Tesla",
+			"proxy": "Tesla",
 			"type": "subsystem",
 			"color": "#2196f388",
 			"nodes": ["Tango", "Skye"]
@@ -60,7 +61,7 @@
 		},
 
 		{
-			"name": "Lives in City Block",
+			"name": "Lives on the City Block",
 			"type": "general",
 			"radius": 30,
 			"nodes": ["Sera", "Dia"]
@@ -69,22 +70,22 @@
 			"name": "Lives in Ty's House",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Rose", "Dave", "Sans", "Ty", "Tango", "Skye", "Repyt", "Jade"]
+			"nodes": ["Rose", "Dave", "Sans", "Ty", "Tango", "Skye", "Tesla", "Repyt"]
 		},
 		{
-			"name": "Lives in Voidroom",
+			"name": "Lives on the Dog Bed",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Speck"]
+			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Speck", "Jade", "Bec"]
 		},
 		{
-			"name": "Lives in Woods",
+			"name": "Lives in the Woods",
 			"type": "general",
 			"radius": 30,
 			"nodes": ["Grimbark Jady", "Barry", "Brandon"]
 		},
 		{
-			"name": "Lives in Tenebrae Forest",
+			"name": "Lives in the Tenebrae Forest",
 			"type": "general",
 			"radius": 30,
 			"nodes": ["Luna", "Ruffles"]
@@ -96,7 +97,7 @@
 			"nodes": ["Sara"]
 		},
 		{
-			"name": "Lives in Dungeon",
+			"name": "Imprisoned",
 			"type": "general",
 			"radius": 30,
 			"nodes": ["Mod", "Less"]
@@ -108,35 +109,37 @@
 		{ "a": "Jady",  "b": "Speck", "type": "palerom" },
 		{ "a": "Jady", "b": "Sera" },
 		{ "a": "Dia", "b": "Sera" },
-		{ "a": "Ty", "b": "Skye" },
-		{ "a": "Skye", "b": "Tango", "type": "palerom" },
+		{ "a": "Ty", "b": "Tesla" },
+		{ "a": "Skye", "b": "Tango", "type": "siblings" },
 		{ "a": "Ty", "b": "Repyt", "type": "siblings" },
 		{ "a": "Sara", "b": "Sera", "type": "siblings" },
 		{ "a": "Tango", "b": "Repyt" },
 		{ "a": "Less", "b": "Mod", "type": "blackrom" },
-		{ "a": "Jady", "b": "Mod", "type": "vacillating-black-siblings" },
-		{ "a": "Ty", "b": "Mod", "type": "vacillating-black-siblings" },
+		{ "a": "Jady", "b": "Mod", "type": "blackrom" },
+		{ "a": "Ty", "b": "Mod", "type": "blackrom" },
 		{ "a": "Jady", "b": "Lil Jady", "type": "mommy" },
-		{ "a": "Jady", "b": "Jade", "type": "vacillating-red-siblings" },
-		{ "a": "Kanaya", "b": "Jade", "type": "vacillating-red-siblings" },
-		{ "a": "Halley", "b": "Jade", "type": "vacillating-red-siblings" },
-		{ "a": "Ty", "b": "Jade", "type": "redrom" },
-		{ "a": "Jady", "b": "Grimbark Jady", "type": "benefits" },
-		{ "a": "Halley", "b": "Kanaya", "type": "siblings" },
-		{ "a": "Luna", "b": "Ruffles", "type": "palerom" },
+		{ "a": "Rudy", "b": "Lil Jady", "type": "mommy" },
+		{ "a": "Kanaya", "b": "Jade" },
+		{ "a": "Halley", "b": "Jade", "type": "siblings" },
+		{ "a": "Jady", "b": "Grimbark Jady", "type": "siblings" },
+		{ "a": "Halley", "b": "Kanaya" },
 		{ "a": "Grimbark Jady", "b": "Barry" },
 		{ "a": "Sera", "b": "Brandon", "type": "palerom" },
 		{ "a": "Dave", "b": "Rose", "type": "siblings" },
-		{ "a": "Speck", "b": "Less", "type": "siblings" },
 		{ "a": "Chara", "b": "Sans", "type": "siblings" },
 		{ "a": "Repyt", "b": "Sara" },
 		{ "a": "Jady", "b": "Rudy", "type": "siblings" },
 		{ "a": "Halley", "b": "Ruby", "type": "siblings" },
 		{ "a": "Jade", "b": "Ruby", "type": "siblings" },
+		{ "a": "Roxy", "b": "Ruby", "type": "siblings" },
 		{ "a": "Chara", "b": "Ralsei", "type": "siblings" },
-		{ "a": "Ty", "b": "Rudy", "type": "siblings" },
-		{ "a": "Rose", "b": "Roxy", "type": "siblings" },
-		{ "a": "Rose", "b": "Kanaya" },
-		{ "a": "Dave", "b": "Halley" }
+		{ "a": "Luna", "b": "Ruffles", "type": "palerom" },
+		{ "a": "Luna", "b": "Tesla", "type": "palerom" },
+		{ "a": "Ruffles", "b": "Tesla", "type": "palerom" },
+		{ "a": "Jade", "b": "Bec" },
+		{ "a": "Halley", "b": "Bec" },
+		{ "a": "Ruby", "b": "Bec" },
+		{ "a": "Bec", "b": "Grimbark Jady" },
+		{ "a": "Bec", "b": "Barry" }
 	]
 }
