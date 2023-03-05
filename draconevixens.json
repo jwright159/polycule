@@ -76,13 +76,13 @@
 			"name": "Lives on the Dog Bed",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Speck", "Jade", "Bec"]
+			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Speck"]
 		},
 		{
 			"name": "Lives in the Woods",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Grimbark Jady", "Barry", "Brandon"]
+			"nodes": ["Grimbark Jady", "Barry", "Brandon", "Jade", "Bec"]
 		},
 		{
 			"name": "Lives in the Tenebrae Forest",
