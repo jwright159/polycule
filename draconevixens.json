@@ -17,6 +17,8 @@
 		{ "name": "Less", "color": "#ffeb3b" },
 		{ "name": "Mod", "color": "#3f51b5" },
 		{ "name": "Jade", "color": "#4ac725" },
+		{ "name": "Aradia", "color": "#a10000" },
+		{ "name": "Davebot", "color": "#f4193b" },
 		{ "name": "Bec", "color": "#ffffff" },
 		{ "name": "Lil Jady", "color": "#ff6600" },
 		{ "name": "Brandon", "color": "#b2b2dd" },
@@ -40,6 +42,12 @@
 			"type": "subsystem",
 			"color": "#e91e6388",
 			"nodes": ["Ruby", "Ralsei", "Roxy"]
+		},
+		{
+			"name": "Spaceship Polycule",
+			"type": "subsystem",
+			"color": "#88ff8888",
+			"nodes": ["Jade", "Davebot", "Aradia"]
 		},
 		{
 			"proxy": "Ty",
@@ -76,7 +84,7 @@
 			"name": "Lives on the Dog Bed",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Speck", "Jade", "Bec"]
+			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Speck", "Jade", "Davebot", "Aradia", "Bec"]
 		},
 		{
 			"name": "Lives in the Woods",
@@ -138,6 +146,8 @@
 		{ "a": "Ruffles", "b": "Tesla", "type": "palerom" },
 		{ "a": "Jade", "b": "Bec" },
 		{ "a": "Halley", "b": "Bec" },
-		{ "a": "Ruby", "b": "Bec" }
+		{ "a": "Ruby", "b": "Bec" },
+		{ "a": "Dave", "b": "Davebot" },
+		{ "a": "Rose", "b": "Davebot" }
 	]
 }
