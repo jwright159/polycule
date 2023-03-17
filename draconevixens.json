@@ -44,7 +44,6 @@
 			"nodes": ["Ruby", "Ralsei", "Roxy"]
 		},
 		{
-			"name": "Spaceship Polycule",
 			"type": "subsystem",
 			"color": "#88ff8888",
 			"nodes": ["Jade", "Davebot", "Aradia"]
@@ -109,6 +108,15 @@
 			"type": "general",
 			"radius": 30,
 			"nodes": ["Mod", "Less"]
+		},
+		
+		{
+			"type": "siblings",
+			"nodes": ["Halley", "Jade", "Ruby", "Bec"]
+		},
+		{
+			"type": "siblings",
+			"nodes": ["Rose", "Dave", "Davebot"]
 		}
 	],
 
