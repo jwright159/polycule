@@ -3,7 +3,6 @@
 		{ "name": "Callie", "color": "#de2916" },
 		{ "name": "Sen", "color": "" },
 		{ "name": "Sim", "color": "" },
-		{ "name": "Terra", "color": "#520c97" },
 		{ "name": "Roxxie", "color": "#631db4" },
 		{ "name": "Draconevixens", "color": "#03a9f4" },
 		{ "name": "Rat Gang", "color": "#ffbded" },
@@ -27,7 +26,7 @@
 			"type": "general",
 			"color": "",
 			"radius": 30,
-			"nodes": ["Terra", "Roxxie", "Mystery System"]
+			"nodes": ["Roxxie", "Mystery System"]
 		}
 	],
 
@@ -47,10 +46,7 @@
 		{ "a": "Draconevixens", "b": "Callie" },
 		{ "a": "Rat Gang", "b": "Gremlin Sys" },
 		{ "a": "Basil Sys", "b": "Draconevixens" },
-		{ "a": "Terra", "b": "Mystery System" },
-		{ "a": "Terra", "b": "Draconevixens" },
 		{ "a": "Draconevixens", "b": "Roxxie" },
-		{ "a": "Roxxie", "b": "Mystery System" },
-		{ "a": "Roxxie", "b": "Terra" }
+		{ "a": "Roxxie", "b": "Mystery System" }
 	]
 }

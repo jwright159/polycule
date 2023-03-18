@@ -3,7 +3,6 @@
 		{ "name": "Callie", "color": "#de2916" },
 		{ "name": "Sen", "color": "" },
 		{ "name": "Sim", "color": "" },
-		{ "name": "Terra", "color": "#520c97" },
 		{ "name": "Roxxie", "color": "#631db4" }
 	],
 
@@ -204,8 +203,6 @@
 		{ "a": "Mosspup Sys:Karkat", "b": "Rat Gang:Strider", "type": "vacillating-red-black" },
 		{ "a": "Basil Sys:Basil", "b": "Draconevixens:dating proxy" },
 		{ "a": "Basil Sys:Basil", "b": "Mosspup Sys:Karkat" },
-		{ "a": "Terra", "b": "Mystery System:Bonnie" },
-		{ "a": "Terra", "b": "Draconevixens:dating proxy" },
 		{ "a": "Rat Gang:Strider", "b": "Mosspup Sys:Dain", "type": "vacillating-red-siblings" },
 		{ "a": "Rat Gang:Link", "b": "Mosspup Sys:Dante", "type": "vacillating-red-siblings" },
 		{ "a": "Rat Gang:Night", "b": "Mosspup Sys:Dain" },
@@ -215,7 +212,6 @@
 		{ "a": "Draconevixens:Jady", "b": "Roxxie" },
 		{ "a": "Mosspup Sys:Karkat", "b": "Gremlin Sys:dating proxy" },
 		{ "a": "Roxxie", "b": "Mystery System:Bonnie" },
-		{ "a": "Roxxie", "b": "Terra" },
 		{ "a": "Rat Gang:Strider", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
 		{ "a": "Mosspup Sys:Dain", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" }
 	]
