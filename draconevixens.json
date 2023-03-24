@@ -23,7 +23,8 @@
 		{ "name": "Ruffles", "color": "#a3dbf6" },
 		{ "name": "Roxy", "color": "#ff6ff6" },
 		{ "name": "Ruby", "color": "#cd345f" },
-		{ "name": "Ralsei", "color": "#ff96a0" }
+		{ "name": "Ralsei", "color": "#ff96a0" },
+		{ "name": "Sucrose", "color": "#cbe6cb" }
 	],
 
 	"groups": [
@@ -71,10 +72,10 @@
 			"nodes": ["Rose", "Dave", "Sans", "Ty", "Tango", "Skye", "Tesla", "Repyt"]
 		},
 		{
-			"name": "Lives on the Dog Bed",
+			"name": "Lives in the Voidroom",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Speck"]
+			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Sucrose", "Speck"]
 		},
 		{
 			"name": "Lives in the Woods",
