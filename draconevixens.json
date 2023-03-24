@@ -16,10 +16,6 @@
 		{ "name": "Grimbark Jady", "color": "#4caf50" },
 		{ "name": "Less", "color": "#ffeb3b" },
 		{ "name": "Mod", "color": "#3f51b5" },
-		{ "name": "Jade", "color": "#4ac725" },
-		{ "name": "Aradia", "color": "#a10000" },
-		{ "name": "Davebot", "color": "#f4193b" },
-		{ "name": "Bec", "color": "#ffffff" },
 		{ "name": "Lil Jady", "color": "#ff6600" },
 		{ "name": "Brandon", "color": "#b2b2dd" },
 		{ "name": "Barry", "color": "#ffa95b" },
@@ -42,11 +38,6 @@
 			"type": "subsystem",
 			"color": "#e91e6388",
 			"nodes": ["Ruby", "Ralsei", "Roxy"]
-		},
-		{
-			"type": "subsystem",
-			"color": "#88ff8888",
-			"nodes": ["Jade", "Davebot", "Aradia"]
 		},
 		{
 			"proxy": "Ty",
@@ -83,7 +74,7 @@
 			"name": "Lives on the Dog Bed",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Speck", "Jade", "Davebot", "Aradia", "Bec"]
+			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Speck"]
 		},
 		{
 			"name": "Lives in the Woods",
@@ -108,15 +99,6 @@
 			"type": "general",
 			"radius": 30,
 			"nodes": ["Mod", "Less"]
-		},
-		
-		{
-			"type": "siblings",
-			"nodes": ["Halley", "Jade", "Ruby", "Bec"]
-		},
-		{
-			"type": "siblings",
-			"nodes": ["Rose", "Dave", "Davebot"]
 		}
 	],
 
@@ -135,8 +117,6 @@
 		{ "a": "Ty", "b": "Mod", "type": "blackrom" },
 		{ "a": "Jady", "b": "Lil Jady", "type": "mommy" },
 		{ "a": "Rudy", "b": "Lil Jady", "type": "mommy" },
-		{ "a": "Kanaya", "b": "Jade" },
-		{ "a": "Halley", "b": "Jade", "type": "siblings" },
 		{ "a": "Jady", "b": "Grimbark Jady", "type": "siblings" },
 		{ "a": "Halley", "b": "Kanaya" },
 		{ "a": "Grimbark Jady", "b": "Barry" },
@@ -146,16 +126,10 @@
 		{ "a": "Repyt", "b": "Sara" },
 		{ "a": "Jady", "b": "Rudy", "type": "siblings" },
 		{ "a": "Halley", "b": "Ruby", "type": "siblings" },
-		{ "a": "Jade", "b": "Ruby", "type": "siblings" },
 		{ "a": "Roxy", "b": "Ruby", "type": "siblings" },
 		{ "a": "Chara", "b": "Ralsei", "type": "siblings" },
 		{ "a": "Luna", "b": "Ruffles", "type": "palerom" },
 		{ "a": "Luna", "b": "Tesla", "type": "palerom" },
-		{ "a": "Ruffles", "b": "Tesla", "type": "palerom" },
-		{ "a": "Jade", "b": "Bec" },
-		{ "a": "Halley", "b": "Bec" },
-		{ "a": "Ruby", "b": "Bec" },
-		{ "a": "Dave", "b": "Davebot" },
-		{ "a": "Rose", "b": "Davebot" }
+		{ "a": "Ruffles", "b": "Tesla", "type": "palerom" }
 	]
 }
