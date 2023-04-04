@@ -60,10 +60,10 @@
 		},
 
 		{
-			"name": "Lives on the City Block",
+			"name": "Lives in Mondstadt",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Sera", "Dia"]
+			"nodes": ["Sera", "Dia", "Sucrose"]
 		},
 		{
 			"name": "Lives in Ty's House",
@@ -75,10 +75,10 @@
 			"name": "Lives in the Voidroom",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Sucrose", "Speck"]
+			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Speck"]
 		},
 		{
-			"name": "Lives in the Woods",
+			"name": "Lives in Wolvendom",
 			"type": "general",
 			"radius": 30,
 			"nodes": ["Grimbark Jady", "Barry", "Brandon"]
