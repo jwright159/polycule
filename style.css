@@ -13,6 +13,10 @@ svg {
 	stroke-width: 1px;
 }
 
+.node.proxy circle {
+	stroke-width: 1.5px;
+}
+
 .node circle.pinned {
 	stroke-width: 2px;
 }
@@ -25,6 +29,10 @@ svg {
 .link {
 	stroke: black;
 	stroke-width: 2;
+}
+
+.link.proxy {
+	stroke: transparent;
 }
 
 .redrom {
@@ -128,10 +136,6 @@ svg {
 	100% {
 		stroke: black;
 	}
-}
-
-.proxy {
-	stroke: transparent;
 }
 
 .system {

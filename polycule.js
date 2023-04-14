@@ -30,6 +30,7 @@ async function doSimulation(filename)
 			id: namespace(parentGroup, node.id || node.name),
 			name: node.name,
 			color: node.color || '#fff',
+			proxy: node.proxy || false,
 		};
 		nodeData.push(newNode);
 		return newNode;
@@ -73,6 +74,7 @@ async function doSimulation(filename)
 			let proxy = parseNode({
 				id: group.proxy,
 				color: group.color || (parentGroup ? parentGroup.color : undefined),
+				proxy: true,
 			}, parentGroup);
 
 			newGroup.members.forEach(member => parseLink({
@@ -141,7 +143,8 @@ async function doSimulation(filename)
 	let nodes = svg.selectAll('.node')
 		.data(nodeData)
 		.join('g')
-		.classed('node', true);
+		.classed('node', true)
+		.classed('proxy', function(node){ return node.proxy; });
 	
 	nodes.append('circle')
 		.attr('r', 10)
