@@ -2,8 +2,7 @@
 	"nodes": [
 		{ "name": "Callie", "color": "#de2916" },
 		{ "name": "Sen", "color": "" },
-		{ "name": "Sim", "color": "" },
-		{ "name": "Roxxie", "color": "#631db4" }
+		{ "name": "Sim", "color": "" }
 	],
 
 	"groups": [
@@ -116,6 +115,22 @@
 		},
 
 		{
+			"name": "Psistem",
+			"type": "system",
+			"color": "#631db488",
+			"radius": 30,
+			"nodes": [
+				{ "name": "Roxxie", "color": "#631db4" },
+				{ "name": "Kanaya", "color": "#008141" }
+			],
+			"groups": [
+			],
+			"links": [
+				{ "a": "Roxxie", "b": "Kanaya", "type": "palerom" }
+			]
+		},
+
+		{
 			"name": "Basil Sys",
 			"type": "system",
 			"color": "#96f8b888",
@@ -206,9 +221,9 @@
 		{ "a": "Rat Gang:Strider", "b":"Mosspup Sys:Proxy" },
 		{ "a": "Rat Gang:Night", "b":"Mosspup Sys:Proxy" },
 		{ "a": "Rat Gang:Sol", "b":"Mosspup Sys:Wolfie" },
-		{ "a": "Draconevixens:Jady", "b": "Roxxie" },
+		{ "a": "Draconevixens:Jady", "b": "Psistem:Roxxie" },
 		{ "a": "Mosspup Sys:Karkat", "b": "Gremlin Sys:dating proxy" },
-		{ "a": "Roxxie", "b": "Mystery System:Bonnie" },
+		{ "a": "Psistem:Roxxie", "b": "Mystery System:Bonnie" },
 		{ "a": "Rat Gang:Strider", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
 		{ "a": "Mosspup Sys:Dain", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" }
 	]
