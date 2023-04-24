@@ -5,7 +5,7 @@
 		{ "name": "Dia", "color": "orange" },
 		{ "name": "Repyt", "color": "#d4bc00" },
 		{ "name": "Sara", "color": "#1a237e" },
-		{ "name": "Grimbark Jady", "color": "#4caf50" },
+		{ "name": "Mama Jady", "color": "#4caf50" },
 		{ "name": "Lil Jady", "color": "#ff6600" },
 		{ "name": "Brandon", "color": "#b2b2dd" },
 		{ "name": "Barry", "color": "#ffa95b" },
@@ -117,7 +117,7 @@
 			"name": "Lives in Wolvendom",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Grimbark Jady", "Barry", "Brandon"]
+			"nodes": ["Mama Jady", "Barry", "Brandon"]
 		},
 		{
 			"name": "Lives in the Tenebrae Forest",
@@ -144,9 +144,9 @@
 		{ "a": "Tesla:Tango", "b": "Repyt" },
 		{ "a": "Jady", "b": "Lil Jady", "type": "parent" },
 		{ "a": "Rudy", "b": "Lil Jady", "type": "parent" },
-		{ "a": "Jady", "b": "Grimbark Jady", "type": "siblings" },
-		{ "a": "Rudy", "b": "Grimbark Jady", "type": "siblings" },
-		{ "a": "Grimbark Jady", "b": "Barry" },
+		{ "a": "Jady", "b": "Mama Jady", "type": "parent" },
+		{ "a": "Rudy", "b": "Mama Jady", "type": "parent" },
+		{ "a": "Mama Jady", "b": "Barry" },
 		{ "a": "Sera", "b": "Brandon", "type": "palerom" },
 		{ "a": "Jady:Chara", "b": "Ty:Sans", "type": "siblings" },
 		{ "a": "Repyt", "b": "Sara" },
