@@ -14,8 +14,6 @@
 		{ "name": "Skye", "color": "#2196f3" },
 		{ "name": "Sara", "color": "#1a237e" },
 		{ "name": "Grimbark Jady", "color": "#4caf50" },
-		{ "name": "Dream", "color": "#ffeb3b" },
-		{ "name": "Johnny", "color": "#3f51b5" },
 		{ "name": "Lil Jady", "color": "#ff6600" },
 		{ "name": "Brandon", "color": "#b2b2dd" },
 		{ "name": "Barry", "color": "#ffa95b" },
@@ -24,7 +22,13 @@
 		{ "name": "Roxy", "color": "#ff6ff6" },
 		{ "name": "Ruby", "color": "#cd345f" },
 		{ "name": "Ralsei", "color": "#ff96a0" },
-		{ "name": "Sucrose", "color": "#cbe6cb" }
+		{ "name": "Sucrose", "color": "#cbe6cb" },
+		{ "name": "Dream", "color": "#ffeb3b" },
+		{ "name": "Johnny", "color": "#3f51b5" },
+		{ "name": "Apple Bloom", "color": "#f4f49b" },
+		{ "name": "Scootaloo", "color": "#fbba65" },
+		{ "name": "Sweetie Belle", "color": "#f6b9d2" },
+		{ "name": "Button Mash", "color": "#a53a3a" }
 	],
 
 	"groups": [
@@ -58,6 +62,11 @@
 			"color": "#03a9f488",
 			"nodes": ["Jady", "Ty"]
 		},
+		{
+			"proxy": "Kids",
+			"type": "mommy",
+			"nodes": ["Johnny", "Dream", "Apple Bloom", "Scootaloo", "Sweetie Belle", "Button Mash"]
+		},
 
 		{
 			"name": "Lives in Mondstadt",
@@ -69,7 +78,7 @@
 			"name": "Lives in Ty's House",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Rose", "Dave", "Sans", "Ty", "Tango", "Skye", "Tesla", "Johnny", "Dream"]
+			"nodes": ["Rose", "Dave", "Sans", "Ty", "Tango", "Skye", "Tesla", "Johnny", "Dream", "Apple Bloom", "Scootaloo", "Sweetie Belle", "Button Mash"]
 		},
 		{
 			"name": "Lives in the Voidroom",
@@ -108,8 +117,6 @@
 		{ "a": "Sara", "b": "Sera", "type": "siblings" },
 		{ "a": "Tango", "b": "Repyt" },
 		{ "a": "Dream", "b": "Johnny", "type": "palerom" },
-		{ "a": "Jady", "b": "Mod", "type": "siblings" },
-		{ "a": "Ty", "b": "Mod", "type": "siblings" },
 		{ "a": "Jady", "b": "Lil Jady", "type": "mommy" },
 		{ "a": "Rudy", "b": "Lil Jady", "type": "mommy" },
 		{ "a": "Jady", "b": "Grimbark Jady", "type": "siblings" },
@@ -126,6 +133,11 @@
 		{ "a": "Chara", "b": "Ralsei", "type": "siblings" },
 		{ "a": "Luna", "b": "Ruffles", "type": "palerom" },
 		{ "a": "Luna", "b": "Tesla", "type": "palerom" },
-		{ "a": "Ruffles", "b": "Tesla", "type": "palerom" }
+		{ "a": "Ruffles", "b": "Tesla", "type": "palerom" },
+		{ "a": "Ty", "b": "Kids", "type": "mommy" },
+		{ "a": "Button Mash", "b": "Sweetie Belle" },
+		{ "a": "Apple Bloom", "b": "Sweetie Belle", "type": "palerom" },
+		{ "a": "Sweetie Belle", "b": "Scootaloo", "type": "palerom" },
+		{ "a": "Scootaloo", "b": "Apple Bloom", "type": "palerom" }
 	]
 }
