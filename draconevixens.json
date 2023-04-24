@@ -77,7 +77,7 @@
 		},
 		{
 			"proxy": "Kids",
-			"type": "mommy",
+			"type": "parent",
 			"nodes": [
 				{ "name": "Dream", "color": "#ffeb3b" },
 				{ "name": "Johnny", "color": "#3f51b5" },
@@ -142,8 +142,8 @@
 		{ "a": "Ty", "b": "Repyt", "type": "siblings" },
 		{ "a": "Sara", "b": "Sera", "type": "siblings" },
 		{ "a": "Tesla:Tango", "b": "Repyt" },
-		{ "a": "Jady", "b": "Lil Jady", "type": "mommy" },
-		{ "a": "Rudy", "b": "Lil Jady", "type": "mommy" },
+		{ "a": "Jady", "b": "Lil Jady", "type": "parent" },
+		{ "a": "Rudy", "b": "Lil Jady", "type": "parent" },
 		{ "a": "Jady", "b": "Grimbark Jady", "type": "siblings" },
 		{ "a": "Rudy", "b": "Grimbark Jady", "type": "siblings" },
 		{ "a": "Grimbark Jady", "b": "Barry" },
@@ -156,9 +156,9 @@
 		{ "a": "Luna", "b": "Ruffles", "type": "palerom" },
 		{ "a": "Luna", "b": "Tesla", "type": "palerom" },
 		{ "a": "Ruffles", "b": "Tesla", "type": "palerom" },
-		{ "a": "Ty", "b": "Kids", "type": "mommy" },
+		{ "a": "Ty", "b": "Kids", "type": "parent" },
 		{ "a": "Jady:Ruby Rose", "b": "Rudy:Penny" },
-		{ "a": "Jady:Ruby Rose", "b": "Ty:Crow", "type": "mommy" },
-		{ "a": "Rudy:Penny", "b": "Ty:Crow", "type": "mommy" }
+		{ "a": "Jady:Ruby Rose", "b": "Ty:Crow", "type": "parent" },
+		{ "a": "Rudy:Penny", "b": "Ty:Crow", "type": "parent" }
 	]
 }
