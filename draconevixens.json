@@ -1,17 +1,9 @@
 {
 	"nodes": [
-		{ "name": "Halley", "color": "#4ae45f" },
-		{ "name": "Kanaya", "color": "#008141" },
-		{ "name": "Chara", "color": "#31e03e" },
-		{ "name": "Rose", "color": "#b536da" },
-		{ "name": "Dave", "color": "#e00707" },
-		{ "name": "Sans", "color": "#326dcb" },
 		{ "name": "Speck", "color": "#ffeb3b" },
 		{ "name": "Sera", "color": "#03a9f4" },
 		{ "name": "Dia", "color": "orange" },
 		{ "name": "Repyt", "color": "#d4bc00" },
-		{ "name": "Tango", "color": "#ffc107" },
-		{ "name": "Skye", "color": "#2196f3" },
 		{ "name": "Sara", "color": "#1a237e" },
 		{ "name": "Grimbark Jady", "color": "#4caf50" },
 		{ "name": "Lil Jady", "color": "#ff6600" },
@@ -19,16 +11,7 @@
 		{ "name": "Barry", "color": "#ffa95b" },
 		{ "name": "Luna", "color": "#1e9c86" },
 		{ "name": "Ruffles", "color": "#a3dbf6" },
-		{ "name": "Roxy", "color": "#ff6ff6" },
-		{ "name": "Ruby", "color": "#cd345f" },
-		{ "name": "Ralsei", "color": "#ff96a0" },
-		{ "name": "Sucrose", "color": "#cbe6cb" },
-		{ "name": "Dream", "color": "#ffeb3b" },
-		{ "name": "Johnny", "color": "#3f51b5" },
-		{ "name": "Apple Bloom", "color": "#f4f49b" },
-		{ "name": "Scootaloo", "color": "#fbba65" },
-		{ "name": "Sweetie Belle", "color": "#f6b9d2" },
-		{ "name": "Button Mash", "color": "#a53a3a" }
+		{ "name": "Sucrose", "color": "#cbe6cb" }
 	],
 
 	"groups": [
@@ -36,25 +19,55 @@
 			"proxy": "Jady",
 			"type": "subsystem",
 			"color": "#4caf5088",
-			"nodes": ["Halley", "Kanaya", "Chara"]
+			"nodes": [
+				{ "name": "Halley", "color": "#4ae45f" },
+				{ "name": "Kanaya", "color": "#008141" },
+				{ "name": "Chara", "color": "#31e03e" },
+				{ "name": "Ruby Rose", "color": "#971e13" }
+			],
+			"links": [
+				{ "a": "Halley", "b": "Kanaya" }
+			]
 		},
 		{
 			"proxy": "Rudy",
 			"type": "subsystem",
 			"color": "#e91e6388",
-			"nodes": ["Ruby", "Ralsei", "Roxy"]
+			"nodes": [
+				{ "name": "Roxy", "color": "#ff6ff6" },
+				{ "name": "Ruby", "color": "#cd345f" },
+				{ "name": "Ralsei", "color": "#ff96a0" },
+				{ "name": "Penny", "color": "#2b865c" }
+			],
+			"links": [
+				{ "a": "Roxy", "b": "Ruby", "type": "siblings" }
+			]
 		},
 		{
 			"proxy": "Ty",
 			"type": "subsystem",
 			"color": "#00bcd488",
-			"nodes": ["Rose", "Dave", "Sans"]
+			"nodes": [
+				{ "name": "Rose", "color": "#b536da" },
+				{ "name": "Dave", "color": "#e00707" },
+				{ "name": "Sans", "color": "#326dcb" },
+				{ "name": "Crow", "color": "#333333" }
+			],
+			"links": [
+				{ "a": "Dave", "b": "Rose", "type": "siblings" }
+			]
 		},
 		{
 			"proxy": "Tesla",
 			"type": "subsystem",
 			"color": "#2196f388",
-			"nodes": ["Tango", "Skye"]
+			"nodes": [
+				{ "name": "Tango", "color": "#ffc107" },
+				{ "name": "Skye", "color": "#2196f3" }
+			],
+			"links": [
+				{ "a": "Skye", "b": "Tango", "type": "siblings" }
+			]
 		},
 		{
 			"name": "Jadyn",
@@ -65,7 +78,21 @@
 		{
 			"proxy": "Kids",
 			"type": "mommy",
-			"nodes": ["Johnny", "Dream", "Apple Bloom", "Scootaloo", "Sweetie Belle", "Button Mash"]
+			"nodes": [
+				{ "name": "Dream", "color": "#ffeb3b" },
+				{ "name": "Johnny", "color": "#3f51b5" },
+				{ "name": "Apple Bloom", "color": "#f4f49b" },
+				{ "name": "Scootaloo", "color": "#fbba65" },
+				{ "name": "Sweetie Belle", "color": "#f6b9d2" },
+				{ "name": "Button Mash", "color": "#a53a3a" }
+			],
+			"links": [
+				{ "a": "Dream", "b": "Johnny", "type": "palerom" },
+				{ "a": "Button Mash", "b": "Sweetie Belle" },
+				{ "a": "Apple Bloom", "b": "Sweetie Belle", "type": "palerom" },
+				{ "a": "Sweetie Belle", "b": "Scootaloo", "type": "palerom" },
+				{ "a": "Scootaloo", "b": "Apple Bloom", "type": "palerom" }
+			]
 		},
 
 		{
@@ -78,13 +105,13 @@
 			"name": "Lives in Ty's House",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Rose", "Dave", "Sans", "Ty", "Tango", "Skye", "Tesla", "Johnny", "Dream", "Apple Bloom", "Scootaloo", "Sweetie Belle", "Button Mash"]
+			"nodes": ["Ty:Rose", "Ty:Dave", "Ty:Sans", "Ty:Crow", "Ty", "Tesla:Tango", "Tesla:Skye", "Tesla", "Kids:Johnny", "Kids:Dream", "Kids:Apple Bloom", "Kids:Scootaloo", "Kids:Sweetie Belle", "Kids:Button Mash"]
 		},
 		{
 			"name": "Lives in the Voidroom",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Halley", "Kanaya", "Chara", "Jady", "Lil Jady", "Ruby", "Rudy", "Ralsei", "Roxy", "Speck"]
+			"nodes": ["Jady:Halley", "Jady:Kanaya", "Jady:Chara", "Jady:Ruby Rose", "Jady", "Lil Jady", "Rudy:Ruby", "Rudy:Ralsei", "Rudy:Roxy", "Rudy:Penny", "Rudy", "Speck"]
 		},
 		{
 			"name": "Lives in Wolvendom",
@@ -112,32 +139,26 @@
 		{ "a": "Jady", "b": "Sera" },
 		{ "a": "Dia", "b": "Sera" },
 		{ "a": "Ty", "b": "Tesla" },
-		{ "a": "Skye", "b": "Tango", "type": "siblings" },
 		{ "a": "Ty", "b": "Repyt", "type": "siblings" },
 		{ "a": "Sara", "b": "Sera", "type": "siblings" },
-		{ "a": "Tango", "b": "Repyt" },
-		{ "a": "Dream", "b": "Johnny", "type": "palerom" },
+		{ "a": "Tesla:Tango", "b": "Repyt" },
 		{ "a": "Jady", "b": "Lil Jady", "type": "mommy" },
 		{ "a": "Rudy", "b": "Lil Jady", "type": "mommy" },
 		{ "a": "Jady", "b": "Grimbark Jady", "type": "siblings" },
 		{ "a": "Rudy", "b": "Grimbark Jady", "type": "siblings" },
-		{ "a": "Halley", "b": "Kanaya" },
 		{ "a": "Grimbark Jady", "b": "Barry" },
 		{ "a": "Sera", "b": "Brandon", "type": "palerom" },
-		{ "a": "Dave", "b": "Rose", "type": "siblings" },
-		{ "a": "Chara", "b": "Sans", "type": "siblings" },
+		{ "a": "Jady:Chara", "b": "Ty:Sans", "type": "siblings" },
 		{ "a": "Repyt", "b": "Sara" },
 		{ "a": "Jady", "b": "Rudy", "type": "siblings" },
-		{ "a": "Halley", "b": "Ruby", "type": "siblings" },
-		{ "a": "Roxy", "b": "Ruby", "type": "siblings" },
-		{ "a": "Chara", "b": "Ralsei", "type": "siblings" },
+		{ "a": "Jady:Halley", "b": "Rudy:Ruby", "type": "siblings" },
+		{ "a": "Jady:Chara", "b": "Rudy:Ralsei", "type": "siblings" },
 		{ "a": "Luna", "b": "Ruffles", "type": "palerom" },
 		{ "a": "Luna", "b": "Tesla", "type": "palerom" },
 		{ "a": "Ruffles", "b": "Tesla", "type": "palerom" },
 		{ "a": "Ty", "b": "Kids", "type": "mommy" },
-		{ "a": "Button Mash", "b": "Sweetie Belle" },
-		{ "a": "Apple Bloom", "b": "Sweetie Belle", "type": "palerom" },
-		{ "a": "Sweetie Belle", "b": "Scootaloo", "type": "palerom" },
-		{ "a": "Scootaloo", "b": "Apple Bloom", "type": "palerom" }
+		{ "a": "Jady:Ruby Rose", "b": "Rudy:Penny" },
+		{ "a": "Jady:Ruby Rose", "b": "Ty:Crow", "type": "mommy" },
+		{ "a": "Rudy:Penny", "b": "Ty:Crow", "type": "mommy" }
 	]
 }
