@@ -69,7 +69,7 @@
 			"name": "Lives in Ty's House",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Rose", "Dave", "Sans", "Ty", "Tango", "Skye", "Tesla"]
+			"nodes": ["Rose", "Dave", "Sans", "Ty", "Tango", "Skye", "Tesla", "Johnny", "Dream"]
 		},
 		{
 			"name": "Lives in the Voidroom",
@@ -94,12 +94,6 @@
 			"type": "general",
 			"radius": 30,
 			"nodes": ["Sara", "Repyt"]
-		},
-		{
-			"name": "Imprisoned",
-			"type": "general",
-			"radius": 30,
-			"nodes": ["Mod", "Less"]
 		}
 	],
 
@@ -113,9 +107,9 @@
 		{ "a": "Ty", "b": "Repyt", "type": "siblings" },
 		{ "a": "Sara", "b": "Sera", "type": "siblings" },
 		{ "a": "Tango", "b": "Repyt" },
-		{ "a": "Less", "b": "Mod", "type": "blackrom" },
-		{ "a": "Jady", "b": "Mod", "type": "blackrom" },
-		{ "a": "Ty", "b": "Mod", "type": "blackrom" },
+		{ "a": "Dream", "b": "Johnny", "type": "palerom" },
+		{ "a": "Jady", "b": "Mod", "type": "siblings" },
+		{ "a": "Ty", "b": "Mod", "type": "siblings" },
 		{ "a": "Jady", "b": "Lil Jady", "type": "mommy" },
 		{ "a": "Rudy", "b": "Lil Jady", "type": "mommy" },
 		{ "a": "Jady", "b": "Grimbark Jady", "type": "siblings" },
