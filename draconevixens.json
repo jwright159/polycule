@@ -51,7 +51,7 @@
 				{ "name": "Rose", "color": "#b536da" },
 				{ "name": "Dave", "color": "#e00707" },
 				{ "name": "Sans", "color": "#326dcb" },
-				{ "name": "Crow", "color": "#333333" }
+				{ "name": "Qrow", "color": "#333333" }
 			],
 			"links": [
 				{ "a": "Dave", "b": "Rose", "type": "siblings" }
