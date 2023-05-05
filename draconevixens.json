@@ -105,7 +105,7 @@
 			"name": "Lives in Ty's House",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Ty:Rose", "Ty:Dave", "Ty:Sans", "Ty:Crow", "Ty", "Tesla:Tango", "Tesla:Skye", "Tesla", "Kids:Johnny", "Kids:Dream", "Kids:Apple Bloom", "Kids:Scootaloo", "Kids:Sweetie Belle", "Kids:Button Mash"]
+			"nodes": ["Ty:Rose", "Ty:Dave", "Ty:Sans", "Ty:Qrow", "Ty", "Tesla:Tango", "Tesla:Skye", "Tesla", "Kids:Johnny", "Kids:Dream", "Kids:Apple Bloom", "Kids:Scootaloo", "Kids:Sweetie Belle", "Kids:Button Mash"]
 		},
 		{
 			"name": "Lives in the Voidroom",
@@ -158,7 +158,7 @@
 		{ "a": "Ruffles", "b": "Tesla", "type": "palerom" },
 		{ "a": "Ty", "b": "Kids", "type": "parent" },
 		{ "a": "Jady:Ruby Rose", "b": "Rudy:Penny" },
-		{ "a": "Jady:Ruby Rose", "b": "Ty:Crow", "type": "parent" },
-		{ "a": "Rudy:Penny", "b": "Ty:Crow", "type": "parent" }
+		{ "a": "Jady:Ruby Rose", "b": "Ty:Qrow", "type": "parent" },
+		{ "a": "Rudy:Penny", "b": "Ty:Qrow", "type": "parent" }
 	]
 }
