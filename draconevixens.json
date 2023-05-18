@@ -49,7 +49,7 @@
 			"nodes": [
 				{ "name": "Sucrose", "color": "#cbe6cb" },
 				{ "name": "John", "color": "#0715cd" },
-				{ "name": "Susie", "color": "#af67af" },
+				{ "name": "Twilight", "color": "#cc94e0" },
 				{ "name": "Blake", "color": "#472d5f" }
 			],
 			"links": [
@@ -139,7 +139,7 @@
 			"nodes": [
 				"Jady:Halley", "Jady:Kanaya", "Jady:Chara", "Jady:Red", "Jady",
 				"Rudy:Ruby", "Rudy:Ralsei", "Rudy:Roxy", "Rudy:Penny", "Rudy",
-				"Jill:Sucrose", "Jill:Susie", "Jill:John", "Jill:Blake", "Jill",
+				"Jill:Sucrose", "Jill:Twilight", "Jill:John", "Jill:Blake", "Jill",
 				"Lil Jady", "Collei", "Speck"
 			]
 		},
