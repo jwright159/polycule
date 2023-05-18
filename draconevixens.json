@@ -46,7 +46,7 @@
 		{
 			"proxy": "NEW FOXSIS",
 			"type": "subsystem",
-			"color": "#cbe6cb88",
+			"color": "#673ab788",
 			"nodes": [
 				{ "name": "Sucrose", "color": "#cbe6cb" },
 				{ "name": "John", "color": "#0715cd" },
