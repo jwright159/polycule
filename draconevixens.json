@@ -73,12 +73,6 @@
 			]
 		},
 		{
-			"name": "Jadyn",
-			"type": "subsystem",
-			"color": "#03a9f488",
-			"nodes": ["Jady", "Ty"]
-		},
-		{
 			"proxy": "Kids",
 			"type": "parent",
 			"nodes": [
