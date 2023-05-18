@@ -25,7 +25,7 @@
 				{ "name": "Halley", "color": "#4ae45f" },
 				{ "name": "Kanaya", "color": "#008141" },
 				{ "name": "Chara", "color": "#54ff70" },
-				{ "name": "Ruby Rose", "color": "#971e13" }
+				{ "name": "Red", "color": "#971e13" }
 			],
 			"links": [
 			]
@@ -127,7 +127,7 @@
 			"type": "general",
 			"radius": 30,
 			"nodes": [
-				"Jady:Halley", "Jady:Kanaya", "Jady:Chara", "Jady:Ruby Rose", "Jady",
+				"Jady:Halley", "Jady:Kanaya", "Jady:Chara", "Jady:Red", "Jady",
 				"Rudy:Ruby", "Rudy:Ralsei", "Rudy:Roxy", "Rudy:Penny", "Rudy",
 				"NEW FOXSIS:Sucrose", "NEW FOXSIS:Susie", "NEW FOXSIS:John", "NEW FOXSIS:Blake", "NEW FOXSIS",
 				"Lil Jady", "Collei", "Speck"
