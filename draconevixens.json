@@ -12,6 +12,7 @@
 		{ "name": "Luna", "color": "#1e9c86" },
 		{ "name": "Ruffles", "color": "#a3dbf6" },
 		{ "name": "Sucrose", "color": "#cbe6cb" },
+		{ "name": "Collei", "color": "#c0cd7e" },
 		{ "name": "Lumine", "color": "#a4bfdd" },
 		{ "name": "Aether", "color": "#e4b875" }
 	],
@@ -101,7 +102,7 @@
 			"name": "Lives in Mondstadt",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Sera", "Dia", "Sucrose"]
+			"nodes": ["Sera", "Dia", "Sucrose", "Collei"]
 		},
 		{
 			"name": "Lives in Ty's House",
@@ -162,6 +163,7 @@
 		{ "a": "Jady:Ruby Rose", "b": "Rudy:Penny" },
 		{ "a": "Jady:Ruby Rose", "b": "Ty:Qrow", "type": "parent" },
 		{ "a": "Rudy:Penny", "b": "Ty:Qrow", "type": "parent" },
+		{ "a": "Sucrose", "b": "Collei" },
 		{ "a": "Lumine", "b": "Aether", "type": "siblings" }
 	]
 }
