@@ -5,11 +5,11 @@ svg {
 }
 
 .node {
+	stroke: black;
 	cursor: move;
 }
 
 .node circle {
-	stroke: black;
 	stroke-width: 1px;
 	fill: white;
 }
@@ -23,6 +23,7 @@ svg {
 }
 
 .node text {
+	stroke: none;
 	pointer-events: none;
 	font: 10px sans-serif;
 }
@@ -40,63 +41,35 @@ svg {
 	stroke: red;
 	fill: transparent;
 }
-.redrom circle {
-	stroke: red;
-	fill: white;
-}
 
 .palerom {
 	stroke: pink;
 	fill: transparent;
-}
-.palerom circle {
-	stroke: pink;
-	fill: white;
 }
 
 .blackrom {
 	stroke: black;
 	fill: transparent;
 }
-.blackrom circle {
-	stroke: black;
-	fill: white;
-}
 
 .ashrom {
 	stroke: grey;
 	fill: transparent;
-}
-.ashrom circle {
-	stroke: grey;
-	fill: white;
 }
 
 .parent {
 	stroke: #008141;
 	fill: transparent;
 }
-.parent circle {
-	stroke: #008141;
-	fill: white;
-}
 
 .benefits {
 	stroke: #7c01a1;
 	fill: transparent;
 }
-.benefits circle {
-	stroke: #7c01a1;
-	fill: white;
-}
 
 .siblings {
 	stroke: #ff9d42;
 	fill: transparent;
-}
-.siblings circle {
-	stroke: #ff9d42;
-	fill: white;
 }
 
 .vacillating-red-black {
