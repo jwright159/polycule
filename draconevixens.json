@@ -51,9 +51,7 @@
 			"bgcolor": "#673ab788",
 			"nodes": [
 				{ "name": "Sucrose", "color": "#cbe6cb" },
-				{ "name": "John", "color": "#0715cd" },
-				{ "name": "Twilight", "color": "#cc94e0" },
-				{ "name": "Blake", "color": "#472d5f" }
+				{ "name": "John", "color": "#0715cd" }
 			],
 			"links": [
 			]
