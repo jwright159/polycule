@@ -19,7 +19,8 @@
 		{
 			"proxy": "Jady",
 			"type": "subsystem",
-			"color": "#4caf5088",
+			"color": "#4caf50",
+			"bgcolor": "#4caf5088",
 			"nodes": [
 				{ "name": "Halley", "color": "#4ae45f" },
 				{ "name": "Kanaya", "color": "#008141" },
@@ -32,7 +33,8 @@
 		{
 			"proxy": "Rudy",
 			"type": "subsystem",
-			"color": "#e91e6388",
+			"color": "#e91e63",
+			"bgcolor": "#e91e6388",
 			"nodes": [
 				{ "name": "Roxy", "color": "#ff6ff6" },
 				{ "name": "Ruby", "color": "#cd345f" },
@@ -45,7 +47,8 @@
 		{
 			"proxy": "Jill",
 			"type": "subsystem",
-			"color": "#673ab788",
+			"color": "#673ab7",
+			"bgcolor": "#673ab788",
 			"nodes": [
 				{ "name": "Sucrose", "color": "#cbe6cb" },
 				{ "name": "John", "color": "#0715cd" },
@@ -58,7 +61,8 @@
 		{
 			"proxy": "Mama",
 			"type": "subsystem",
-			"color": "#ffeb3b88",
+			"color": "#ffeb3b",
+			"bgcolor": "#ffeb3b88",
 			"nodes": [
 				{ "name": "Mama Jady", "color": "#4caf50" },
 				{ "name": "Bec", "color": "#4bec13" }
@@ -69,7 +73,8 @@
 		{
 			"proxy": "Alpha Jady",
 			"type": "subsystem",
-			"color": "#81c78488",
+			"color": "#81c784",
+			"bgcolor": "#81c78488",
 			"nodes": [
 				{ "name": "Ei", "color": "#603db4" }
 			],
@@ -79,7 +84,8 @@
 		{
 			"proxy": "Beta Rudy",
 			"type": "subsystem",
-			"color": "#f0629288",
+			"color": "#f06292",
+			"bgcolor": "#f0629288",
 			"nodes": [
 				{ "name": "Miko", "color": "#e2868c" }
 			],
@@ -89,7 +95,8 @@
 		{
 			"proxy": "Ty",
 			"type": "subsystem",
-			"color": "#00bcd488",
+			"color": "#00bcd4",
+			"bgcolor": "#00bcd488",
 			"nodes": [
 				{ "name": "Rose", "color": "#b536da" },
 				{ "name": "Dave", "color": "#e00707" },
@@ -102,7 +109,8 @@
 		{
 			"proxy": "Tesla",
 			"type": "subsystem",
-			"color": "#2196f388",
+			"color": "#2196f3",
+			"bgcolor": "#2196f388",
 			"nodes": [
 				{ "name": "Tango", "color": "#ffc107" },
 				{ "name": "Skye", "color": "#2196f3" }

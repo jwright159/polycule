@@ -11,6 +11,7 @@ svg {
 .node circle {
 	stroke: black;
 	stroke-width: 1px;
+	fill: white;
 }
 
 .node.proxy circle {
@@ -39,35 +40,63 @@ svg {
 	stroke: red;
 	fill: transparent;
 }
+.redrom circle {
+	stroke: red;
+	fill: red;
+}
 
 .palerom {
 	stroke: pink;
 	fill: transparent;
+}
+.palerom circle {
+	stroke: pink;
+	fill: pink;
 }
 
 .blackrom {
 	stroke: black;
 	fill: transparent;
 }
+.blackrom circle {
+	stroke: black;
+	fill: black;
+}
 
 .ashrom {
 	stroke: grey;
 	fill: transparent;
+}
+.ashrom circle {
+	stroke: grey;
+	fill: grey;
 }
 
 .parent {
 	stroke: #008141;
 	fill: transparent;
 }
+.parent circle {
+	stroke: #008141;
+	fill: #008141;
+}
 
 .benefits {
 	stroke: #7c01a1;
 	fill: transparent;
 }
+.benefits circle {
+	stroke: #7c01a1;
+	fill: #7c01a1;
+}
 
 .siblings {
 	stroke: #ff9d42;
 	fill: transparent;
+}
+.siblings circle {
+	stroke: #ff9d42;
+	fill: #ff9d42;
 }
 
 .vacillating-red-black {

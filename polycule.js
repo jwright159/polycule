@@ -29,8 +29,9 @@ async function doSimulation(filename)
 		let newNode = {
 			id: namespace(parentGroup, node.id || node.name),
 			name: node.name,
-			color: node.color || '#fff',
+			color: node.color,
 			proxy: node.proxy || false,
+			type: node.type,
 		};
 		nodeData.push(newNode);
 		return newNode;
@@ -43,6 +44,7 @@ async function doSimulation(filename)
 			name: group.name || (group.proxy && group.type === 'subsystem' ? group.proxy : undefined),
 			type: group.type || 'generic',
 			color: group.color,
+			bgcolor: group.bgcolor || group.color,
 			radius: group.radius || 20,
 			createdMembers: [],
 			members: [],
@@ -75,6 +77,7 @@ async function doSimulation(filename)
 				id: group.proxy,
 				color: group.color || (parentGroup ? parentGroup.color : undefined),
 				proxy: true,
+				type: group.type,
 			}, parentGroup);
 
 			newGroup.members.forEach(member => parseLink({
@@ -133,8 +136,8 @@ async function doSimulation(filename)
 			.attr('orient', 'auto-start-reverse')
 		.append('path')
 			.attr('d', `M ${markerBoxSize / 2} ${markerBoxSize / 2} 0 ${markerBoxSize / 4} 0 ${markerBoxSize * 3 / 4} ${markerBoxSize / 2} ${markerBoxSize / 2}`)
-			.attr('stroke', 'context-stroke')
-			.attr('fill', 'context-stroke')
+			.style('stroke', 'context-stroke')
+			.style('fill', 'context-stroke')
 
 	let groups = svg.selectAll('.group')
 		.data(groupData)
@@ -143,7 +146,7 @@ async function doSimulation(filename)
 		.each(function(group){ d3.select(this).classed(group.type, true); });
 	
 	groups.append('path')
-		.style('fill', group => group.color);
+		.style('fill', group => group.bgcolor);
 	
 	groups.append('text')
 		.text(group => group.name)
@@ -159,7 +162,8 @@ async function doSimulation(filename)
 		.data(nodeData)
 		.join('g')
 		.classed('node', true)
-		.classed('proxy', function(node){ return node.proxy; });
+		.classed('proxy', node => node.proxy)
+		.each(function(node){ d3.select(this).classed(node.type, node.proxy); });
 	
 	nodes.append('circle')
 		.attr('r', 10)

@@ -17,14 +17,12 @@
 		{
 			"name": "Living Group A",
 			"type": "general",
-			"color": "",
 			"radius": 30,
 			"nodes": ["Draconevixens", "Mosspup Sys", "Rat Gang", "Basil Sys"]
 		},
 		{
 			"name": "Living Group B",
 			"type": "general",
-			"color": "",
 			"radius": 30,
 			"nodes": ["Roxxie", "Mystery System"]
 		}

@@ -9,7 +9,8 @@
 		{
 			"name": "Draconevixens",
 			"type": "system",
-			"color": "#03a9f488",
+			"color": "#03a9f4",
+			"bgcolor": "#03a9f488",
 			"radius": 30,
 			"nodes": [
 				{ "name": "Jady", "color": "#4caf50" },
@@ -49,7 +50,8 @@
 		{
 			"name": "Rat Gang",
 			"type": "system",
-			"color": "#ffbded88",
+			"color": "#ffbded",
+			"bgcolor": "#ffbded88",
 			"radius": 30,
 			"nodes": [
 				{ "name": "Lily", "color": "#ffbded" },
@@ -78,7 +80,8 @@
 		{
 			"name": "Mosspup Sys",
 			"type": "system",
-			"color": "#69865788",
+			"color": "#698657",
+			"bgcolor": "#69865788",
 			"radius": 30,
 			"nodes": [
 				{ "name": "Lichen", "color": "#698657" },
@@ -101,7 +104,8 @@
 		{
 			"name": "Mystery System",
 			"type": "system",
-			"color": "#06ffc988",
+			"color": "#06ffc9",
+			"bgcolor": "#06ffc988",
 			"radius": 30,
 			"nodes": [
 				{ "name": "Bonnie", "color": "#06ffc9" },
@@ -117,7 +121,8 @@
 		{
 			"name": "Psistem",
 			"type": "system",
-			"color": "#631db488",
+			"color": "#631db4",
+			"bgcolor": "#631db488",
 			"radius": 30,
 			"nodes": [
 				{ "name": "Roxxie", "color": "#631db4" },
@@ -133,7 +138,8 @@
 		{
 			"name": "Basil Sys",
 			"type": "system",
-			"color": "#96f8b888",
+			"color": "#96f8b8",
+			"bgcolor": "#96f8b888",
 			"radius": 30,
 			"nodes": [
 				{ "name": "Basil", "color": "#96f8b8" },
@@ -149,7 +155,8 @@
 		{
 			"name": "Gremlin Sys",
 			"type": "system",
-			"color": "#d06f9488",
+			"color": "#d06f94",
+			"bgcolor": "#d06f9488",
 			"radius": 30,
 			"nodes": [
 				{ "name": "Jax", "color": "#862dff" },
@@ -177,7 +184,8 @@
 		{
 			"name": "Rain Sys",
 			"type": "system",
-			"color": "#e357d488",
+			"color": "#e357d4",
+			"bgcolor": "#e357d488",
 			"radius": 30,
 			"nodes": [
 				{ "name": "Shuuji", "color": "" },
