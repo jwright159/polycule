@@ -42,7 +42,7 @@ svg {
 }
 .redrom circle {
 	stroke: red;
-	fill: red;
+	fill: white;
 }
 
 .palerom {
@@ -51,7 +51,7 @@ svg {
 }
 .palerom circle {
 	stroke: pink;
-	fill: pink;
+	fill: white;
 }
 
 .blackrom {
@@ -60,7 +60,7 @@ svg {
 }
 .blackrom circle {
 	stroke: black;
-	fill: black;
+	fill: white;
 }
 
 .ashrom {
@@ -69,7 +69,7 @@ svg {
 }
 .ashrom circle {
 	stroke: grey;
-	fill: grey;
+	fill: white;
 }
 
 .parent {
@@ -78,7 +78,7 @@ svg {
 }
 .parent circle {
 	stroke: #008141;
-	fill: #008141;
+	fill: white;
 }
 
 .benefits {
@@ -87,7 +87,7 @@ svg {
 }
 .benefits circle {
 	stroke: #7c01a1;
-	fill: #7c01a1;
+	fill: white;
 }
 
 .siblings {
@@ -96,7 +96,7 @@ svg {
 }
 .siblings circle {
 	stroke: #ff9d42;
-	fill: #ff9d42;
+	fill: white;
 }
 
 .vacillating-red-black {
