@@ -67,6 +67,26 @@
 			]
 		},
 		{
+			"proxy": "Alpha Jady",
+			"type": "subsystem",
+			"color": "#81c78488",
+			"nodes": [
+				{ "name": "Ei", "color": "#603db4" }
+			],
+			"links": [
+			]
+		},
+		{
+			"proxy": "Beta Rudy",
+			"type": "subsystem",
+			"color": "#f0629288",
+			"nodes": [
+				{ "name": "Miko", "color": "#e2868c" }
+			],
+			"links": [
+			]
+		},
+		{
 			"proxy": "Ty",
 			"type": "subsystem",
 			"color": "#00bcd488",
@@ -120,6 +140,12 @@
 			"type": "general",
 			"radius": 30,
 			"nodes": ["Sera", "Dia"]
+		},
+		{
+			"name": "Lives in Inazuma",
+			"type": "general",
+			"radius": 30,
+			"nodes": ["Alpha Jady:Ei", "Alpha Jady", "Beta Rudy:Miko", "Beta Rudy"]
 		},
 		{
 			"name": "Lives in Ty's House",
@@ -177,6 +203,9 @@
 		{ "a": "Tesla:Tango", "b": "Repyt" },
 		{ "a": "Fox Sisters", "b": "Lil Jady", "type": "parent" },
 		{ "a": "Fox Sisters", "b": "Mama", "type": "parent" },
+		{ "a": "Fox Sisters", "b": "Alpha Jady", "type": "parent" },
+		{ "a": "Fox Sisters", "b": "Beta Rudy", "type": "parent" },
+		{ "a": "Alpha Jady", "b": "Beta Rudy" },
 		{ "a": "Sera", "b": "Brandon", "type": "palerom" },
 		{ "a": "Dia", "b": "Barry", "type": "palerom" },
 		{ "a": "Repyt", "b": "Sara" },
