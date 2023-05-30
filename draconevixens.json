@@ -193,7 +193,7 @@
 	],
 
 	"links": [
-		{ "a": "Fox Sisters", "b": "Ty", "type": "parent" },
+		{ "a": "Ty", "b": "Fox Sisters", "type": "parent" },
 		{ "a": "Jady",  "b": "Speck", "type": "palerom" },
 		{ "a": "Jady", "b": "Sera" },
 		{ "a": "Dia", "b": "Sera" },
@@ -202,9 +202,9 @@
 		{ "a": "Sara", "b": "Sera", "type": "siblings" },
 		{ "a": "Tesla:Tango", "b": "Repyt" },
 		{ "a": "Fox Sisters", "b": "Lil Jady", "type": "parent" },
-		{ "a": "Fox Sisters", "b": "Mama", "type": "parent" },
-		{ "a": "Fox Sisters", "b": "Alpha Jady", "type": "parent" },
-		{ "a": "Fox Sisters", "b": "Beta Rudy", "type": "parent" },
+		{ "a": "Mama", "b": "Fox Sisters", "type": "parent" },
+		{ "a": "Alpha Jady", "b": "Fox Sisters", "type": "parent" },
+		{ "a": "Beta Rudy", "b": "Fox Sisters", "type": "parent" },
 		{ "a": "Alpha Jady", "b": "Beta Rudy" },
 		{ "a": "Sera", "b": "Brandon", "type": "palerom" },
 		{ "a": "Dia", "b": "Barry", "type": "palerom" },

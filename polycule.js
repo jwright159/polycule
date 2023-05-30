@@ -121,6 +121,21 @@ async function doSimulation(filename)
 		.attr('width', graphWidth)
 		.attr('height', graphHeight);
 	
+	const markerBoxSize = 6;
+	svg.append('defs')
+		.append('marker')
+			.attr('id', 'arrow')
+			.attr('viewBox', [0, 0, markerBoxSize, markerBoxSize])
+			.attr('refX', markerBoxSize / 2 + 5)
+			.attr('refY', markerBoxSize / 2)
+			.attr('markerWidth', markerBoxSize)
+			.attr('markerHeight', markerBoxSize)
+			.attr('orient', 'auto-start-reverse')
+		.append('path')
+			.attr('d', `M ${markerBoxSize / 2} ${markerBoxSize / 2} 0 ${markerBoxSize / 4} 0 ${markerBoxSize * 3 / 4} ${markerBoxSize / 2} ${markerBoxSize / 2}`)
+			.attr('stroke', 'context-stroke')
+			.attr('fill', 'context-stroke')
+
 	let groups = svg.selectAll('.group')
 		.data(groupData)
 		.join('g')
@@ -265,6 +280,8 @@ async function doSimulation(filename)
 	
 	
 	//---- Final attribute/data calls, after links are made
+	links.attr('marker-end', link => link.type == 'parent' ? 'url(#arrow)' : null)
+	
 	nodes.each(node => node.weight = links.filter(link => link.source === node || link.target === node).size());
 
 	simulation.force('link').strength(link => 2 / Math.min(link.source.weight, link.target.weight)).distance(link => link.source.proxy || link.target.proxy ? 30 : 80);
