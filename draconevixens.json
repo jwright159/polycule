@@ -151,7 +151,14 @@
 			"name": "Lives in Inazuma",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Alpha Jady:Ei", "Alpha Jady", "Beta Rudy:Miko", "Beta Rudy"]
+			"nodes": [
+				"Jady:Halley", "Jady:Kanaya", "Jady:Chara", "Jady:Red", "Jady",
+				"Rudy:Ruby", "Rudy:Ralsei", "Rudy:Roxy", "Rudy:Penny", "Rudy",
+				"Jill:Sucrose", "Jill:John", "Jill",
+				"Alpha Jady:Ei", "Alpha Jady",
+				"Beta Rudy:Miko", "Beta Rudy",
+				"Lil Jady", "Collei", "Speck"
+			]
 		},
 		{
 			"name": "Lives in Ty's House",
@@ -162,17 +169,6 @@
 				"Tesla:Tango", "Tesla:Skye", "Tesla",
 				"Kids:Johnny", "Kids:Dream", "Kids:Apple Bloom", "Kids:Scootaloo", "Kids:Sweetie Belle", "Kids:Button Mash",
 				"Lumine", "Aether"
-			]
-		},
-		{
-			"name": "Lives in the Voidroom",
-			"type": "general",
-			"radius": 30,
-			"nodes": [
-				"Jady:Halley", "Jady:Kanaya", "Jady:Chara", "Jady:Red", "Jady",
-				"Rudy:Ruby", "Rudy:Ralsei", "Rudy:Roxy", "Rudy:Penny", "Rudy",
-				"Jill:Sucrose", "Jill:John", "Jill",
-				"Lil Jady", "Collei", "Speck"
 			]
 		},
 		{
