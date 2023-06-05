@@ -2,7 +2,8 @@
 	"nodes": [
 		{ "name": "Callie", "color": "#de2916" },
 		{ "name": "Sen", "color": "" },
-		{ "name": "Sim", "color": "" }
+		{ "name": "Sim", "color": "" },
+		{ "name": "Gremlin Sys", "color": "#d06f94" }
 	],
 
 	"groups": [
@@ -144,35 +145,6 @@
 		},
 
 		{
-			"name": "Gremlin Sys",
-			"type": "system",
-			"color": "#d06f94",
-			"bgcolor": "#d06f9488",
-			"radius": 30,
-			"nodes": [
-				{ "name": "Jax", "color": "#862dff" },
-				{ "name": "Pax", "color": "#b6a1a1" },
-				{ "name": "Dax", "color": "#fd9191" },
-				{ "name": "Dave", "color": "#e80000" },
-				{ "name": "Ecto", "color": "#0076ff" },
-				{ "name": "Angel", "color": "#ebe0ff" },
-				{ "name": "Patch", "color": "#ff6f0f" },
-				{ "name": "Karkat", "color": "#989898" },
-				{ "name": "Gamzee", "color": "#5900be" },
-				{ "name": "Dino", "color": "#00a7ff" }
-			],
-			"groups": [
-				{
-					"proxy": "dating proxy",
-					"type": "redrom",
-					"nodes": ["Jax", "Dax", "Pax", "Ecto", "Dave", "Angel", "Patch", "Karkat", "Gamzee"]
-				}
-			],
-			"links": [
-			]
-		},
-
-		{
 			"name": "Rain Sys",
 			"type": "system",
 			"color": "#e357d4",
@@ -203,13 +175,13 @@
 		{ "a": "Mosspup Sys:Lichen", "b": "Draconevixens:dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Rat Gang:dating proxy" },
 		{ "a": "Mosspup Sys:Lichen", "b": "Basil Sys:Basil" },
-		{ "a": "Mosspup Sys:Lichen", "b": "Gremlin Sys:dating proxy" },
+		{ "a": "Mosspup Sys:Lichen", "b": "Gremlin Sys" },
 		{ "a": "Mystery System:Bonnie", "b": "Sen" },
 		{ "a": "Mystery System:Bonnie", "b": "Sim" },
 		{ "a": "Mystery System:Bonnie", "b": "Draconevixens:dating proxy", "type":"palerom" },
 		{ "a": "Mystery System:September", "b": "Draconevixens:dating proxy" },
 		{ "a": "Draconevixens:dating proxy", "b": "Callie" },
-		{ "a": "Rat Gang:dating proxy", "b": "Gremlin Sys:dating proxy" },
+		{ "a": "Rat Gang:dating proxy", "b": "Gremlin Sys" },
 		{ "a": "Mosspup Sys:Cas", "b": "Rat Gang:Strider" },
 		{ "a": "Mosspup Sys:Karkat", "b": "Rat Gang:Strider", "type": "vacillating-red-black" },
 		{ "a": "Basil Sys:Basil", "b": "Draconevixens:dating proxy" },
@@ -221,7 +193,7 @@
 		{ "a": "Rat Gang:Night", "b":"Mosspup Sys:Proxy" },
 		{ "a": "Rat Gang:Sol", "b":"Mosspup Sys:Wolfie" },
 		{ "a": "Draconevixens:Jady", "b": "Psistem:Roxxie" },
-		{ "a": "Mosspup Sys:Karkat", "b": "Gremlin Sys:dating proxy" },
+		{ "a": "Mosspup Sys:Karkat", "b": "Gremlin Sys" },
 		{ "a": "Psistem:Roxxie", "b": "Mystery System:Bonnie" },
 		{ "a": "Rat Gang:Strider", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
 		{ "a": "Mosspup Sys:Dain", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" }
