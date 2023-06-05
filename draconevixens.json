@@ -6,6 +6,8 @@
 		{ "name": "Repyt", "color": "#d4bc00" },
 		{ "name": "Sara", "color": "#1a237e" },
 		{ "name": "Lil Jady", "color": "#ff6600" },
+		{ "name": "Mama Jady", "color": "#ffeb3b" },
+		{ "name": "Bec", "color": "#4bec13" },
 		{ "name": "Brandon", "color": "#b2b2dd" },
 		{ "name": "Barry", "color": "#ffa95b" },
 		{ "name": "Luna", "color": "#1e9c86" },
@@ -52,18 +54,6 @@
 			"nodes": [
 				{ "name": "Sucrose", "color": "#cbe6cb" },
 				{ "name": "John", "color": "#0715cd" }
-			],
-			"links": [
-			]
-		},
-		{
-			"proxy": "Mama",
-			"type": "subsystem",
-			"color": "#ffeb3b",
-			"bgcolor": "#ffeb3b88",
-			"nodes": [
-				{ "name": "Mama Jady", "color": "#4caf50" },
-				{ "name": "Bec", "color": "#4bec13" }
 			],
 			"links": [
 			]
@@ -180,10 +170,7 @@
 			"name": "Lives in Wolvendom",
 			"type": "general",
 			"radius": 30,
-			"nodes": [
-				"Mama:Mama Jady", "Mama:Bec", "Mama",
-				"Barry", "Brandon"
-			]
+			"nodes": ["Mama Jady", "Bec", "Barry", "Brandon"]
 		},
 		{
 			"name": "Lives in the Tenebrae Forest",
@@ -209,8 +196,9 @@
 		{ "a": "Sara", "b": "Sera", "type": "siblings" },
 		{ "a": "Tesla:Tango", "b": "Repyt" },
 		{ "a": "Fox Sisters", "b": "Lil Jady", "type": "parent" },
-		{ "a": "Mama", "b": "Fox Sisters", "type": "parent" },
+		{ "a": "Mama Jady", "b": "Fox Sisters", "type": "parent" },
 		{ "a": "Fox Moms", "b": "Fox Sisters", "type": "parent" },
+		{ "a": "Mama Jady", "b": "Bec" },
 		{ "a": "Alpha Jady", "b": "Beta Rudy" },
 		{ "a": "Sera", "b": "Brandon", "type": "palerom" },
 		{ "a": "Dia", "b": "Barry", "type": "palerom" },
