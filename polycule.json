@@ -102,7 +102,8 @@
 			"nodes": [
 				{ "name": "Bonnie", "color": "#06ffc9" },
 				{ "name": "September", "color": "#b90f15" },
-				{ "name": "Casey", "color": "#f7f95d" }
+				{ "name": "Casey", "color": "#f7f95d" },
+				{ "name": "Ytil", "color": "#10e0ff" }
 			],
 			"groups": [
 			],
@@ -118,7 +119,9 @@
 			"radius": 30,
 			"nodes": [
 				{ "name": "Roxxie", "color": "#631db4" },
-				{ "name": "Kanaya", "color": "#008141" }
+				{ "name": "Kanaya", "color": "#008141" },
+				{ "name": "Jaden", "color": "#4ac925" },
+				{ "name": "Minette", "color": "#992211" }
 			],
 			"groups": [
 			],
