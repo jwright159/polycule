@@ -140,6 +140,11 @@
 			"type": "siblings",
 			"nodes": ["Jady", "Rudy", "Jill"]
 		},
+		{
+			"proxy": "Fox Moms",
+			"type": "redrom",
+			"nodes": ["Alpha Jady", "Beta Rudy"]
+		},
 
 		{
 			"name": "Lives in Mondstadt",
@@ -205,8 +210,7 @@
 		{ "a": "Tesla:Tango", "b": "Repyt" },
 		{ "a": "Fox Sisters", "b": "Lil Jady", "type": "parent" },
 		{ "a": "Mama", "b": "Fox Sisters", "type": "parent" },
-		{ "a": "Alpha Jady", "b": "Fox Sisters", "type": "parent" },
-		{ "a": "Beta Rudy", "b": "Fox Sisters", "type": "parent" },
+		{ "a": "Fox Moms", "b": "Fox Sisters", "type": "parent" },
 		{ "a": "Alpha Jady", "b": "Beta Rudy" },
 		{ "a": "Sera", "b": "Brandon", "type": "palerom" },
 		{ "a": "Dia", "b": "Barry", "type": "palerom" },
