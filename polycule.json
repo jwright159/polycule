@@ -29,8 +29,8 @@
 				}
 			],
 			"links": [
-				{ "a": "Jady", "b": "Ty", "type": "parent" },
-				{ "a": "Rudy", "b": "Ty", "type": "parent" },
+				{ "a": "Ty", "b": "Jady", "type": "parent" },
+				{ "a": "Ty", "b": "Rudy", "type": "parent" },
 				{ "a": "Jady",  "b": "Speck", "type": "palerom" },
 				{ "a": "Jady", "b": "Lil Jady", "type": "parent" },
 				{ "a": "Jady", "b": "Rudy", "type": "siblings" },
