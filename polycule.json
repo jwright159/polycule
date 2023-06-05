@@ -15,19 +15,11 @@
 				{ "name": "Jady", "color": "#4caf50" },
 				{ "name": "Ty", "color": "#00bcd4" },
 				{ "name": "Speck", "color": "#ffeb3b" },
-				{ "name": "Sera", "color": "#03a9f4" },
-				{ "name": "Tesla", "color": "#2196f3" },
-				{ "name": "Grimbark Jady", "color": "#4caf50" },
 				{ "name": "Lil Jady", "color": "#ff6600" },
-				{ "name": "Rudy", "color": "#e91e63" }
+				{ "name": "Rudy", "color": "#e91e63" },
+				{ "name": "Sucrose", "color": "#cbe6cb" }
 			],
 			"groups": [
-				{
-					"name": "Jadyn",
-					"type": "subsystem",
-					"color": "#03a9f488",
-					"nodes": ["Jady", "Ty"]
-				},
 				{
 					"proxy": "dating proxy",
 					"type": "redrom",
@@ -35,14 +27,13 @@
 				}
 			],
 			"links": [
-				{ "a": "Jady", "b": "Ty", "type": "siblings" },
+				{ "a": "Jady", "b": "Ty", "type": "parent" },
+				{ "a": "Rudy", "b": "Ty", "type": "parent" },
 				{ "a": "Jady",  "b": "Speck", "type": "palerom" },
-				{ "a": "Jady", "b": "Sera" },
-				{ "a": "Ty", "b": "Tesla" },
 				{ "a": "Jady", "b": "Lil Jady", "type": "parent" },
-				{ "a": "Jady", "b": "Grimbark Jady", "type": "siblings" },
 				{ "a": "Jady", "b": "Rudy", "type": "siblings" },
-				{ "a": "Ty", "b": "Rudy", "type": "siblings" }
+				{ "a": "Jady", "b": "Sucrose", "type": "siblings" },
+				{ "a": "Sucrose", "b": "Rudy", "type": "siblings" }
 			]
 		},
 
