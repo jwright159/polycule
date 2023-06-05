@@ -29,8 +29,9 @@ async function doSimulation(filename)
 		let newNode = {
 			id: namespace(parentGroup, node.id || node.name),
 			name: node.name,
-			color: node.color || '#fff',
+			color: node.color,
 			proxy: node.proxy || false,
+			type: node.type,
 		};
 		nodeData.push(newNode);
 		return newNode;
@@ -43,6 +44,7 @@ async function doSimulation(filename)
 			name: group.name || (group.proxy && group.type === 'subsystem' ? group.proxy : undefined),
 			type: group.type || 'generic',
 			color: group.color,
+			bgcolor: group.bgcolor || group.color,
 			radius: group.radius || 20,
 			createdMembers: [],
 			members: [],
@@ -75,6 +77,7 @@ async function doSimulation(filename)
 				id: group.proxy,
 				color: group.color || (parentGroup ? parentGroup.color : undefined),
 				proxy: true,
+				type: group.type,
 			}, parentGroup);
 
 			newGroup.members.forEach(member => parseLink({
@@ -121,6 +124,21 @@ async function doSimulation(filename)
 		.attr('width', graphWidth)
 		.attr('height', graphHeight);
 	
+	const markerBoxSize = 6;
+	svg.append('defs')
+		.append('marker')
+			.attr('id', 'arrow')
+			.attr('viewBox', [0, 0, markerBoxSize, markerBoxSize])
+			.attr('refX', markerBoxSize / 2 + 5)
+			.attr('refY', markerBoxSize / 2)
+			.attr('markerWidth', markerBoxSize)
+			.attr('markerHeight', markerBoxSize)
+			.attr('orient', 'auto-start-reverse')
+		.append('path')
+			.attr('d', `M ${markerBoxSize / 2} ${markerBoxSize / 2} 0 ${markerBoxSize / 4} 0 ${markerBoxSize * 3 / 4} ${markerBoxSize / 2} ${markerBoxSize / 2}`)
+			.style('stroke', 'context-stroke')
+			.style('fill', 'context-stroke')
+
 	let groups = svg.selectAll('.group')
 		.data(groupData)
 		.join('g')
@@ -128,7 +146,7 @@ async function doSimulation(filename)
 		.each(function(group){ d3.select(this).classed(group.type, true); });
 	
 	groups.append('path')
-		.style('fill', group => group.color);
+		.style('fill', group => group.bgcolor);
 	
 	groups.append('text')
 		.text(group => group.name)
@@ -144,7 +162,8 @@ async function doSimulation(filename)
 		.data(nodeData)
 		.join('g')
 		.classed('node', true)
-		.classed('proxy', function(node){ return node.proxy; });
+		.classed('proxy', node => node.proxy)
+		.each(function(node){ d3.select(this).classed(node.type, node.proxy); });
 	
 	nodes.append('circle')
 		.attr('r', 10)
@@ -265,6 +284,8 @@ async function doSimulation(filename)
 	
 	
 	//---- Final attribute/data calls, after links are made
+	links.attr('marker-end', link => link.type == 'parent' ? 'url(#arrow)' : null)
+	
 	nodes.each(node => node.weight = links.filter(link => link.source === node || link.target === node).size());
 
 	simulation.force('link').strength(link => 2 / Math.min(link.source.weight, link.target.weight)).distance(link => link.source.proxy || link.target.proxy ? 30 : 80);

@@ -5,12 +5,13 @@ svg {
 }
 
 .node {
+	stroke: black;
 	cursor: move;
 }
 
 .node circle {
-	stroke: black;
 	stroke-width: 1px;
+	fill: white;
 }
 
 .node.proxy circle {
@@ -22,6 +23,7 @@ svg {
 }
 
 .node text {
+	stroke: none;
 	pointer-events: none;
 	font: 10px sans-serif;
 }
