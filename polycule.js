@@ -288,5 +288,5 @@ async function doSimulation(filename)
 	
 	nodes.each(node => node.weight = links.filter(link => link.source === node || link.target === node).size());
 
-	simulation.force('link').strength(link => 2 / Math.min(link.source.weight, link.target.weight)).distance(link => link.source.proxy || link.target.proxy ? 30 : 80);
+	simulation.force('link').strength(link => 2 / Math.min(link.source.weight, link.target.weight)).distance(link => link.type === 'proxy' ? 30 : 80);
 }
