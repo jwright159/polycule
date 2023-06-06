@@ -126,7 +126,9 @@
 			"groups": [
 			],
 			"links": [
-				{ "a": "Roxxie", "b": "Kanaya", "type": "palerom" }
+				{ "a": "Roxxie", "b": "Kanaya", "type": "palerom" },
+				{ "a": "Roxxie", "b": "Minette", "type": "parent" },
+				{ "a": "Roxxie", "b": "Jaden" }
 			]
 		},
 
