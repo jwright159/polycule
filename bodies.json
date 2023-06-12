@@ -13,20 +13,7 @@
 		{ "name": "Rain Sys", "color": "#e357d4" }
 	],
 
-	"groups": [
-		{
-			"name": "Living Group A",
-			"type": "general",
-			"radius": 30,
-			"nodes": ["Draconevixens", "Plant Sys", "Rat Gang", "Basil Sys"]
-		},
-		{
-			"name": "Living Group B",
-			"type": "general",
-			"radius": 30,
-			"nodes": ["Roxxie", "Mystery System"]
-		}
-	],
+	"groups": [],
 
 	"links": [
 		{ "a": "Rat Gang", "b": "Draconevixens" },
