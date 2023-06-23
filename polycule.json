@@ -195,7 +195,7 @@
 		{ "a": "Rat Gang:Strider", "b":"Plant Sys:Proxy" },
 		{ "a": "Rat Gang:Night", "b":"Plant Sys:Proxy" },
 		{ "a": "Rat Gang:Sol", "b":"Plant Sys:Wolfie" },
-		{ "a": "Draconevixens:Jady", "b": "Psistem:Roxxie" },
+		{ "a": "Draconevixens:Jady", "b": "Psistem:Roxxie", "type": "benefits" },
 		{ "a": "Plant Sys:Karkat", "b": "Gremlin Sys" },
 		{ "a": "Psistem:Roxxie", "b": "Mystery System:Bonnie" },
 		{ "a": "Rat Gang:Strider", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
