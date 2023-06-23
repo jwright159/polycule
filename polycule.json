@@ -188,7 +188,6 @@
 		{ "a": "Rat Gang:dating proxy", "b": "Gremlin Sys" },
 		{ "a": "Plant Sys:Cas", "b": "Rat Gang:Strider" },
 		{ "a": "Plant Sys:Karkat", "b": "Rat Gang:Strider", "type": "vacillating-red-black" },
-		{ "a": "Basil Sys:Basil", "b": "Draconevixens:dating proxy" },
 		{ "a": "Basil Sys:Basil", "b": "Plant Sys:Karkat" },
 		{ "a": "Rat Gang:Strider", "b": "Plant Sys:Dain", "type": "vacillating-red-siblings" },
 		{ "a": "Rat Gang:Link", "b": "Plant Sys:Dante", "type": "vacillating-red-siblings" },
