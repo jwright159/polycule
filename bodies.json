@@ -9,18 +9,14 @@
 		{ "name": "Plant Sys", "color": "#698657" },
 		{ "name": "Mystery System", "color": "#06ffc9" },
 		{ "name": "Basil Sys", "color": "#96f8b8" },
-		{ "name": "Gremlin Sys", "color": "#d06f94" },
-		{ "name": "Rain Sys", "color": "#e357d4" }
+		{ "name": "Gremlin Sys", "color": "#d06f94" }
 	],
 
 	"groups": [],
 
 	"links": [
 		{ "a": "Rat Gang", "b": "Draconevixens" },
-		{ "a": "Rat Gang", "b": "Rain Sys", "type": "palerom" },
 		{ "a": "Rat Gang", "b": "Basil Sys" },
-		{ "a": "Draconevixens", "b": "Rain Sys", "type": "palerom" },
-		{ "a": "Plant Sys", "b": "Rain Sys", "type": "palerom" },
 		{ "a": "Plant Sys", "b": "Draconevixens" },
 		{ "a": "Plant Sys", "b": "Rat Gang" },
 		{ "a": "Plant Sys", "b": "Basil Sys" },

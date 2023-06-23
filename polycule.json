@@ -147,36 +147,12 @@
 			],
 			"links": [
 			]
-		},
-
-		{
-			"name": "Rain Sys",
-			"type": "system",
-			"color": "#e357d4",
-			"bgcolor": "#e357d488",
-			"radius": 30,
-			"nodes": [
-				{ "name": "Shuuji", "color": "" },
-				{ "name": "Nahida", "color": "" }
-			],
-			"groups": [
-				{
-					"proxy": "dating proxy",
-					"type": "palerom",
-					"nodes": ["Shuuji", "Nahida"]
-				}
-			],
-			"links": [
-			]
 		}
 	],
 
 	"links": [
 		{ "a": "Rat Gang:dating proxy", "b": "Draconevixens:dating proxy" },
-		{ "a": "Rat Gang:dating proxy", "b": "Rain Sys:dating proxy", "type": "palerom" },
 		{ "a": "Rat Gang:dating proxy", "b": "Basil Sys:Basil" },
-		{ "a": "Draconevixens:dating proxy", "b": "Rain Sys:dating proxy", "type": "palerom" },
-		{ "a": "Plant Sys:Lichen", "b": "Rain Sys:dating proxy", "type": "palerom" },
 		{ "a": "Plant Sys:Lichen", "b": "Draconevixens:dating proxy" },
 		{ "a": "Plant Sys:Lichen", "b": "Rat Gang:dating proxy" },
 		{ "a": "Plant Sys:Lichen", "b": "Basil Sys:Basil" },
