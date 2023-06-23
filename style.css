@@ -26,6 +26,7 @@ svg {
 	stroke: none;
 	pointer-events: none;
 	font: 10px sans-serif;
+	fill: black;
 }
 
 .link {

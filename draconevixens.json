@@ -1,107 +1,126 @@
 {
 	"nodes": [
-		{ "name": "Speck", "color": "#ffeb3b" },
-		{ "name": "Sera", "color": "#03a9f4" },
-		{ "name": "Dia", "color": "orange" },
-		{ "name": "Repyt", "color": "#d4bc00" },
-		{ "name": "Sara", "color": "#1a237e" },
-		{ "name": "Lil Jady", "color": "#ff6600" },
-		{ "name": "Mama Jady", "color": "#ffeb3b" },
-		{ "name": "Bec", "color": "#4bec13" },
-		{ "name": "Brandon", "color": "#b2b2dd" },
-		{ "name": "Barry", "color": "#ffa95b" },
-		{ "name": "Luna", "color": "#1e9c86" },
-		{ "name": "Ruffles", "color": "#a3dbf6" },
-		{ "name": "Collei", "color": "#c0cd7e" },
-		{ "name": "Lumine", "color": "#a4bfdd" },
-		{ "name": "Aether", "color": "#e4b875" }
+		{ "name": "Speck", "color": "#ffeb3b", "tag": "✨" },
+		{ "name": "Sera", "color": "#03a9f4", "tag": "🐴" },
+		{ "name": "Dia", "color": "orange", "tag": "🦹‍♀️" },
+		{ "name": "Repyt", "color": "#d4bc00", "tag": "🐉" },
+		{ "name": "Sara", "color": "#1a237e", "tag": "🧮" },
+		{ "name": "Lil Jady", "color": "#ff6600", "tag": "🍼" },
+		{ "name": "Mama Jady", "color": "#ffeb3b", "tag": "🐺" },
+		{ "name": "Bec", "color": "#4bec13", "tag": "⚛️" },
+		{ "name": "Brandon", "color": "#b2b2dd", "tag": "🐎" },
+		{ "name": "Barry", "color": "#ffa95b", "tag": "🐕" },
+		{ "name": "Luna", "color": "#1e9c86", "tag": "🌕" },
+		{ "name": "Ruffles", "color": "#a3dbf6", "tag": "🦦" },
+		{ "name": "Lumine", "color": "#a4bfdd", "tag": "🌙" },
+		{ "name": "Aether", "color": "#e4b875", "tag": "⭐" }
 	],
 
 	"groups": [
 		{
 			"proxy": "Jady",
+			"tag": "🦊",
 			"type": "subsystem",
 			"color": "#4caf50",
 			"bgcolor": "#4caf5088",
 			"nodes": [
-				{ "name": "Halley", "color": "#4ae45f" },
-				{ "name": "Kanaya", "color": "#008141" },
-				{ "name": "Chara", "color": "#54ff70" },
-				{ "name": "Red", "color": "#971e13" }
+				{ "name": "Halley", "color": "#4ae45f", "tag": "💻" },
+				{ "name": "Kanaya", "color": "#008141", "tag": "🩸" },
+				{ "name": "Chara", "color": "#54ff70", "tag": "🍫" },
+				{ "name": "Red", "color": "#971e13", "tag": "🌹" }
 			],
 			"links": [
 			]
 		},
 		{
 			"proxy": "Rudy",
+			"tag": "🪷",
 			"type": "subsystem",
 			"color": "#e91e63",
 			"bgcolor": "#e91e6388",
 			"nodes": [
-				{ "name": "Roxy", "color": "#ff6ff6" },
-				{ "name": "Ruby", "color": "#cd345f" },
-				{ "name": "Ralsei", "color": "#ff96a0" },
-				{ "name": "Penny", "color": "#2b865c" }
+				{ "name": "Roxy", "color": "#ff6ff6", "tag": "💖" },
+				{ "name": "Ruby", "color": "#cd345f", "tag": "🐾" },
+				{ "name": "Ralsei", "color": "#ff96a0", "tag": "🧣" },
+				{ "name": "Penny", "color": "#2b865c", "tag": "🪙" }
 			],
 			"links": [
 			]
 		},
 		{
 			"proxy": "Jill",
+			"tag": "🦄",
 			"type": "subsystem",
 			"color": "#673ab7",
 			"bgcolor": "#673ab788",
 			"nodes": [
-				{ "name": "Sucrose", "color": "#cbe6cb" },
-				{ "name": "John", "color": "#0715cd" }
+				{ "name": "Sucrose", "color": "#cbe6cb", "tag": "🌸" },
+				{ "name": "John", "color": "#0715cd", "tag": "♏" },
+				{ "name": "Twilight", "color": "#cc94e0", "tag": "🪄" }
+			],
+			"links": [
+			]
+		},
+		{
+			"proxy": "Kris",
+			"tag": "🌿",
+			"type": "subsystem",
+			"color": "#cddc39",
+			"bgcolor": "#cddc3988",
+			"nodes": [
+				{ "name": "Collei", "color": "#c0cd7e", "tag": "🥦" }
 			],
 			"links": [
 			]
 		},
 		{
 			"proxy": "Alpha Jady",
+			"tag": "A🦊",
 			"type": "subsystem",
 			"color": "#81c784",
 			"bgcolor": "#81c78488",
 			"nodes": [
-				{ "name": "Ei", "color": "#603db4" }
+				{ "name": "Ei", "color": "#603db4", "tag": "⚡" }
 			],
 			"links": [
 			]
 		},
 		{
 			"proxy": "Beta Rudy",
+			"tag": "B🪷",
 			"type": "subsystem",
 			"color": "#f06292",
 			"bgcolor": "#f0629288",
 			"nodes": [
-				{ "name": "Miko", "color": "#e2868c" }
+				{ "name": "Miko", "color": "#e2868c", "tag": "⛩️" }
 			],
 			"links": [
 			]
 		},
 		{
 			"proxy": "Ty",
+			"tag": "🥁/🐲",
 			"type": "subsystem",
 			"color": "#00bcd4",
 			"bgcolor": "#00bcd488",
 			"nodes": [
-				{ "name": "Rose", "color": "#b536da" },
-				{ "name": "Dave", "color": "#e00707" },
-				{ "name": "Sans", "color": "#326dcb" },
-				{ "name": "Qrow", "color": "#333333" }
+				{ "name": "Rose", "color": "#b536da", "tag": "📚" },
+				{ "name": "Dave", "color": "#e00707", "tag": "💿" },
+				{ "name": "Sans", "color": "#326dcb", "tag": "💀" },
+				{ "name": "Qrow", "color": "#333333", "tag": "🐦" }
 			],
 			"links": [
 			]
 		},
 		{
 			"proxy": "Tesla",
+			"tag": "💾",
 			"type": "subsystem",
 			"color": "#2196f3",
 			"bgcolor": "#2196f388",
 			"nodes": [
-				{ "name": "Tango", "color": "#ffc107" },
-				{ "name": "Skye", "color": "#2196f3" }
+				{ "name": "Tango", "color": "#ffc107", "tag": "🛼" },
+				{ "name": "Skye", "color": "#2196f3", "tag": "🩰" }
 			],
 			"links": [
 			]
@@ -110,12 +129,12 @@
 			"proxy": "Kids",
 			"type": "parent",
 			"nodes": [
-				{ "name": "Dream", "color": "#ffeb3b" },
-				{ "name": "Johnny", "color": "#3f51b5" },
-				{ "name": "Apple Bloom", "color": "#f4f49b" },
-				{ "name": "Scootaloo", "color": "#fbba65" },
-				{ "name": "Sweetie Belle", "color": "#f6b9d2" },
-				{ "name": "Button Mash", "color": "#a53a3a" }
+				{ "name": "Dream", "color": "#ffeb3b", "tag": "👼" },
+				{ "name": "Johnny", "color": "#3f51b5", "tag": "🖊️" },
+				{ "name": "Apple Bloom", "color": "#f4f49b", "tag": "🍎" },
+				{ "name": "Scootaloo", "color": "#fbba65", "tag": "🛴" },
+				{ "name": "Sweetie Belle", "color": "#f6b9d2", "tag": "🎵" },
+				{ "name": "Button Mash", "color": "#a53a3a", "tag": "🕹️" }
 			],
 			"links": [
 				{ "a": "Dream", "b": "Johnny", "type": "palerom" },
@@ -128,7 +147,7 @@
 		{
 			"proxy": "Fox Sisters",
 			"type": "siblings",
-			"nodes": ["Jady", "Rudy", "Jill"]
+			"nodes": ["Jady", "Rudy", "Jill", "Kris"]
 		},
 		{
 			"proxy": "Fox Moms",
@@ -149,10 +168,11 @@
 			"nodes": [
 				"Jady:Halley", "Jady:Kanaya", "Jady:Chara", "Jady:Red", "Jady",
 				"Rudy:Ruby", "Rudy:Ralsei", "Rudy:Roxy", "Rudy:Penny", "Rudy",
-				"Jill:Sucrose", "Jill:John", "Jill",
+				"Jill:Sucrose", "Jill:John", "Jill:Twilight", "Jill",
+				"Kris:Collei", "Kris",
 				"Alpha Jady:Ei", "Alpha Jady",
 				"Beta Rudy:Miko", "Beta Rudy",
-				"Lil Jady", "Collei", "Speck"
+				"Lil Jady", "Speck"
 			]
 		},
 		{
@@ -207,7 +227,7 @@
 		{ "a": "Luna", "b": "Tesla", "type": "palerom" },
 		{ "a": "Ruffles", "b": "Tesla", "type": "palerom" },
 		{ "a": "Ty", "b": "Kids", "type": "parent" },
-		{ "a": "Jill:Sucrose", "b": "Collei" },
+		{ "a": "Tesla", "b": "Kids", "type": "parent" },
 		{ "a": "Lumine", "b": "Aether", "type": "siblings" }
 	]
 }

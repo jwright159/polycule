@@ -32,6 +32,7 @@ async function doSimulation(filename)
 			color: node.color,
 			proxy: node.proxy || false,
 			type: node.type,
+			tag: node.tag,
 		};
 		nodeData.push(newNode);
 		return newNode;
@@ -78,6 +79,7 @@ async function doSimulation(filename)
 				color: group.color || (parentGroup ? parentGroup.color : undefined),
 				proxy: true,
 				type: group.type,
+				tag: group.tag,
 			}, parentGroup);
 
 			newGroup.members.forEach(member => parseLink({
@@ -175,6 +177,12 @@ async function doSimulation(filename)
 		.text(node => node.name)
 		.attr('dx', 0)
 		.attr('dy', -12)
+		.attr('text-anchor', 'middle');
+	
+	nodes.append('text')
+		.text(node => node.tag)
+		.attr('dx', 0)
+		.attr('dy', 3)
 		.attr('text-anchor', 'middle');
 	
 	//---- Simulation
