@@ -6,8 +6,6 @@
 		{ "name": "Repyt", "color": "#d4bc00", "tag": "🐉" },
 		{ "name": "Sara", "color": "#1a237e", "tag": "🧮" },
 		{ "name": "Lil Jady", "color": "#ff6600", "tag": "🍼" },
-		{ "name": "Mama Jady", "color": "#ffeb3b", "tag": "🐺" },
-		{ "name": "Bec", "color": "#4bec13", "tag": "⚛️" },
 		{ "name": "Brandon", "color": "#b2b2dd", "tag": "🐎" },
 		{ "name": "Barry", "color": "#ffa95b", "tag": "🐕" },
 		{ "name": "Luna", "color": "#1e9c86", "tag": "🌕" },
@@ -98,6 +96,30 @@
 			]
 		},
 		{
+			"proxy": "Mama Jady",
+			"tag": "🐺",
+			"type": "subsystem",
+			"color": "#ffeb3b",
+			"bgcolor": "#ffeb3b88",
+			"nodes": [
+				{ "name": "Lilith", "color": "#9a060c", "tag": "🩹" }
+			],
+			"links": [
+			]
+		},
+		{
+			"proxy": "Bec",
+			"tag": "⚛️",
+			"type": "subsystem",
+			"color": "#4bec13",
+			"bgcolor": "#4bec1388",
+			"nodes": [
+				{ "name": "Azazel", "color": "#161616", "tag": "😈" }
+			],
+			"links": [
+			]
+		},
+		{
 			"proxy": "Ty",
 			"tag": "🥁/🐲",
 			"type": "subsystem",
@@ -125,6 +147,7 @@
 			"links": [
 			]
 		},
+
 		{
 			"proxy": "Kids",
 			"type": "parent",
@@ -190,7 +213,11 @@
 			"name": "Lives in Wolvendom",
 			"type": "general",
 			"radius": 30,
-			"nodes": ["Mama Jady", "Bec", "Barry", "Brandon"]
+			"nodes": [
+				"Mama Jady:Lilith", "Mama Jady",
+				"Bec:Azazel", "Bec",
+				"Barry", "Brandon"
+			]
 		},
 		{
 			"name": "Lives in the Tenebrae Forest",
