@@ -112,7 +112,7 @@
 		},
 
 		{
-			"name": "Psistem",
+			"name": "PsichoSphere",
 			"type": "system",
 			"color": "#631db4",
 			"bgcolor": "#631db488",
@@ -171,9 +171,9 @@
 		{ "a": "Rat Gang:Strider", "b":"Plant Sys:Proxy" },
 		{ "a": "Rat Gang:Night", "b":"Plant Sys:Proxy" },
 		{ "a": "Rat Gang:Sol", "b":"Plant Sys:Wolfie" },
-		{ "a": "Draconevixens:Jady", "b": "Psistem:Roxxie", "type": "benefits" },
+		{ "a": "Draconevixens:Jady", "b": "PsichoSphere:Roxxie", "type": "benefits" },
 		{ "a": "Plant Sys:Karkat", "b": "Gremlin Sys" },
-		{ "a": "Psistem:Roxxie", "b": "Mystery System:Bonnie" },
+		{ "a": "PsichoSphere:Roxxie", "b": "Mystery System:Bonnie" },
 		{ "a": "Rat Gang:Strider", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
 		{ "a": "Plant Sys:Dain", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" }
 	]
