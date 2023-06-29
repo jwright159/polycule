@@ -121,14 +121,20 @@
 				{ "name": "Roxxie", "color": "#631db4" },
 				{ "name": "Kanaya", "color": "#008141" },
 				{ "name": "Jaden", "color": "#4ac925" },
-				{ "name": "Minette", "color": "#992211" }
+				{ "name": "Minette", "color": "#992211" },
+				{ "name": "Sollux", "color": "#a1a100" }
 			],
 			"groups": [
 			],
 			"links": [
 				{ "a": "Roxxie", "b": "Kanaya", "type": "palerom" },
 				{ "a": "Roxxie", "b": "Minette", "type": "parent" },
-				{ "a": "Roxxie", "b": "Jaden" }
+				{ "a": "Roxxie", "b": "Jaden" },
+				{ "a": "Roxxie", "b": "Sollux" },
+				{ "a": "Jaden", "b": "Sollux", "type": "palerom" },
+				{ "a": "Kanaya", "b": "Sollux", "type": "palerom" },
+				{ "a": "Minette", "b": "Sollux", "type": "palerom" },
+				{ "a": "Jaden", "b": "Kanaya", "type": "vacillating-red-pale" }
 			]
 		},
 
