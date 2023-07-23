@@ -153,14 +153,14 @@
 			"type": "parent",
 			"nodes": [
 				{ "name": "Dream", "color": "#ffeb3b", "tag": "👼" },
-				{ "name": "Johnny", "color": "#3f51b5", "tag": "🖊️" },
+				{ "name": "Jay", "color": "#3f51b5", "tag": "🖊️" },
 				{ "name": "Apple Bloom", "color": "#f4f49b", "tag": "🍎" },
 				{ "name": "Scootaloo", "color": "#fbba65", "tag": "🛴" },
 				{ "name": "Sweetie Belle", "color": "#f6b9d2", "tag": "🎵" },
 				{ "name": "Button Mash", "color": "#a53a3a", "tag": "🕹️" }
 			],
 			"links": [
-				{ "a": "Dream", "b": "Johnny", "type": "palerom" },
+				{ "a": "Dream", "b": "Jay", "type": "palerom" },
 				{ "a": "Button Mash", "b": "Sweetie Belle" },
 				{ "a": "Apple Bloom", "b": "Sweetie Belle", "type": "palerom" },
 				{ "a": "Sweetie Belle", "b": "Scootaloo", "type": "palerom" },
@@ -205,7 +205,7 @@
 			"nodes": [
 				"Ty:Rose", "Ty:Dave", "Ty:Sans", "Ty:Qrow", "Ty",
 				"Tesla:Tango", "Tesla:Skye", "Tesla",
-				"Kids:Johnny", "Kids:Dream", "Kids:Apple Bloom", "Kids:Scootaloo", "Kids:Sweetie Belle", "Kids:Button Mash",
+				"Kids:Jay", "Kids:Dream", "Kids:Apple Bloom", "Kids:Scootaloo", "Kids:Sweetie Belle", "Kids:Button Mash",
 				"Lumine", "Aether"
 			]
 		},
