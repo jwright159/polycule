@@ -78,7 +78,8 @@
 			"color": "#81c784",
 			"bgcolor": "#81c78488",
 			"nodes": [
-				{ "name": "Ei", "color": "#603db4", "tag": "⚡" }
+				{ "name": "Ei", "color": "#603db4", "tag": "⚡" },
+				{ "name": "Luna", "color": "#383c78", "tag": "🌛" }
 			],
 			"links": [
 			]
@@ -90,7 +91,8 @@
 			"color": "#f06292",
 			"bgcolor": "#f0629288",
 			"nodes": [
-				{ "name": "Miko", "color": "#e2868c", "tag": "⛩️" }
+				{ "name": "Miko", "color": "#e2868c", "tag": "⛩️" },
+				{ "name": "Toriel", "color": "#3f0000", "tag": "🥧" }
 			],
 			"links": [
 			]
@@ -193,8 +195,8 @@
 				"Rudy:Ruby", "Rudy:Ralsei", "Rudy:Roxy", "Rudy:Penny", "Rudy",
 				"Jill:Sucrose", "Jill:John", "Jill:Twilight", "Jill",
 				"Kris:Collei", "Kris",
-				"Alpha Jady:Ei", "Alpha Jady",
-				"Beta Rudy:Miko", "Beta Rudy",
+				"Alpha Jady:Ei", "Alpha Jady:Luna", "Alpha Jady",
+				"Beta Rudy:Miko", "Beta Rudy:Toriel", "Beta Rudy",
 				"Lil Jady", "Speck"
 			]
 		},
