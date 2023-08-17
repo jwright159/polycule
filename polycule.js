@@ -72,6 +72,9 @@ async function doSimulation(filename)
 			});
 		}
 
+		if ('groups' in group)
+			group.groups.forEach(subgroup => newGroup.members.push(...parseGroup(subgroup, newGroup).createdMembers));
+
 		if ('proxy' in group)
 		{
 			let proxy = parseNode({
@@ -93,9 +96,6 @@ async function doSimulation(filename)
 			newGroup.members.push(proxy);
 			newGroup.proxy = proxy;
 		}
-
-		if ('groups' in group)
-			group.groups.forEach(subgroup => newGroup.members.push(...parseGroup(subgroup, newGroup).createdMembers));
 		
 		if ('links' in group)
 			group.links.forEach(link => parseLink(link, newGroup));

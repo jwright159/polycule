@@ -143,10 +143,34 @@
 			"color": "#2196f3",
 			"bgcolor": "#2196f388",
 			"nodes": [
-				{ "name": "Tango", "color": "#ffc107", "tag": "🛼" },
-				{ "name": "Skye", "color": "#2196f3", "tag": "🩰" }
 			],
 			"links": [
+			],
+			"groups": [
+				{
+					"proxy": "Tango",
+					"tag": "🛼",
+					"type": "subsystem",
+					"color": "#ffc107",
+					"bgcolor": "#ffc10788",
+					"nodes": [
+						{ "name": "AT!Toriel", "color": "#76368b", "tag": "🔥" }
+					],
+					"links": [
+					]
+				},
+				{
+					"proxy": "Skye",
+					"tag": "🩰",
+					"type": "subsystem",
+					"color": "#2196f3",
+					"bgcolor": "#2196f388",
+					"nodes": [
+						{ "name": "AS!Toriel", "color": "#eaa0df", "tag": "🍓" }
+					],
+					"links": [
+					]
+				}
 			]
 		},
 
@@ -206,7 +230,7 @@
 			"radius": 30,
 			"nodes": [
 				"Ty:Rose", "Ty:Dave", "Ty:Sans", "Ty:Qrow", "Ty",
-				"Tesla:Tango", "Tesla:Skye", "Tesla",
+				"Tesla:Tango:AT!Toriel", "Tesla:Tango", "Tesla:Skye:AS!Toriel", "Tesla:Skye", "Tesla",
 				"Kids:Jay", "Kids:Dream", "Kids:Apple Bloom", "Kids:Scootaloo", "Kids:Sweetie Belle", "Kids:Button Mash",
 				"Lumine", "Aether"
 			]
