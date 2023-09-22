@@ -46,7 +46,7 @@
 			]
 		},
 		{
-			"proxy": "Jill",
+			"proxy": "Lucy",
 			"tag": "🦄",
 			"type": "subsystem",
 			"color": "#673ab7",
@@ -196,7 +196,7 @@
 		{
 			"proxy": "Fox Sisters",
 			"type": "siblings",
-			"nodes": ["Jady", "Rudy", "Jill", "Kris"]
+			"nodes": ["Jady", "Rudy", "Lucy", "Kris"]
 		},
 		{
 			"proxy": "Fox Moms",
@@ -217,7 +217,7 @@
 			"nodes": [
 				"Jady:Halley", "Jady:Kanaya", "Jady:Chara", "Jady:Red", "Jady",
 				"Rudy:Ruby", "Rudy:Ralsei", "Rudy:Roxy", "Rudy:Penny", "Rudy",
-				"Jill:Sucrose", "Jill:John", "Jill:Twilight", "Jill",
+				"Lucy:Sucrose", "Lucy:John", "Lucy:Twilight", "Lucy",
 				"Kris:Collei", "Kris",
 				"Alpha Jady:Ei", "Alpha Jady:Luna", "Alpha Jady",
 				"Beta Rudy:Miko", "Beta Rudy:Toriel", "Beta Rudy",
