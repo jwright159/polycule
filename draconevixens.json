@@ -72,6 +72,18 @@
 			]
 		},
 		{
+			"proxy": "Benn",
+			"tag": "Benn",
+			"type": "subsystem",
+			"color": "#cddc39",
+			"bgcolor": "#cddc3988",
+			"nodes": [
+				{ "name": "Scara", "color": "#4e4477", "tag": "🎩" }
+			],
+			"links": [
+			]
+		},
+		{
 			"proxy": "Alpha Jady",
 			"tag": "A🦊",
 			"type": "subsystem",
@@ -196,7 +208,7 @@
 		{
 			"proxy": "Fox Sisters",
 			"type": "siblings",
-			"nodes": ["Jady", "Rudy", "Lucy", "Kris"]
+			"nodes": ["Jady", "Rudy", "Lucy", "Kris", "Benn"]
 		},
 		{
 			"proxy": "Fox Moms",
@@ -219,6 +231,7 @@
 				"Rudy:Ruby", "Rudy:Ralsei", "Rudy:Roxy", "Rudy:Penny", "Rudy",
 				"Lucy:Sucrose", "Lucy:John", "Lucy:Twilight", "Lucy",
 				"Kris:Collei", "Kris",
+				"Benn:Scara", "Benn",
 				"Alpha Jady:Ei", "Alpha Jady:Luna", "Alpha Jady",
 				"Beta Rudy:Miko", "Beta Rudy:Toriel", "Beta Rudy",
 				"Lil Jady", "Speck"
