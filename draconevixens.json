@@ -188,7 +188,7 @@
 
 		{
 			"proxy": "Kids",
-			"type": "parent",
+			"type": "siblings",
 			"nodes": [
 				{ "name": "Dream", "color": "#ffeb3b", "tag": "👼" },
 				{ "name": "Jay", "color": "#3f51b5", "tag": "🖊️" },
@@ -215,6 +215,14 @@
 			"type": "redrom",
 			"nodes": ["Alpha Jady", "Beta Rudy"]
 		},
+		{
+			"proxy": "Fox Kids",
+			"type": "siblings",
+			"nodes": [
+				{ "name": "Domori", "color": "#9b2816", "tag": "🐍" },
+				{ "name": "Rei", "color": "#708d30", "tag": "🔔" }
+			]
+		},
 
 		{
 			"name": "Lives in Mondstadt",
@@ -234,6 +242,7 @@
 				"Benn:Scara", "Benn",
 				"Alpha Jady:Ei", "Alpha Jady:Luna", "Alpha Jady",
 				"Beta Rudy:Miko", "Beta Rudy:Toriel", "Beta Rudy",
+				"Fox Kids:Domori", "Fox Kids:Rei",
 				"Lil Jady", "Speck"
 			]
 		},
@@ -284,6 +293,7 @@
 		{ "a": "Fox Sisters", "b": "Lil Jady", "type": "parent" },
 		{ "a": "Mama Jady", "b": "Fox Sisters", "type": "parent" },
 		{ "a": "Fox Moms", "b": "Fox Sisters", "type": "parent" },
+		{ "a": "Fox Sisters", "b": "Fox Kids", "type": "parent" },
 		{ "a": "Mama Jady", "b": "Bec" },
 		{ "a": "Alpha Jady", "b": "Beta Rudy" },
 		{ "a": "Sera", "b": "Brandon", "type": "parent" },
