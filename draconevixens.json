@@ -11,7 +11,9 @@
 		{ "name": "Luna", "color": "#1e9c86", "tag": "🌕" },
 		{ "name": "Ruffles", "color": "#a3dbf6", "tag": "🦦" },
 		{ "name": "Lumine", "color": "#a4bfdd", "tag": "🌙" },
-		{ "name": "Aether", "color": "#e4b875", "tag": "⭐" }
+		{ "name": "Aether", "color": "#e4b875", "tag": "⭐" },
+		{ "name": "Domori", "color": "#9b2816", "tag": "🐍" },
+		{ "name": "Rei", "color": "#708d30", "tag": "🔔" }
 	],
 
 	"groups": [
@@ -75,7 +77,7 @@
 		},
 		{
 			"proxy": "Benn",
-			"tag": "Benn",
+			"tag": "🌼",
 			"type": "subsystem",
 			"color": "#cddc39",
 			"bgcolor": "#cddc3988",
@@ -125,11 +127,12 @@
 		},
 		{
 			"proxy": "Bec",
-			"tag": "⚛️",
+			"tag": "🐶",
 			"type": "subsystem",
-			"color": "#4bec13",
-			"bgcolor": "#4bec1388",
+			"color": "#ffeb3b",
+			"bgcolor": "#ffeb3b88",
 			"nodes": [
+				{ "name": "Becquerel", "color": "#4bec13", "tag": "⚛️" },
 				{ "name": "Azazel", "color": "#161616", "tag": "😈" }
 			],
 			"links": [
@@ -210,7 +213,7 @@
 		{
 			"proxy": "Fox Sisters",
 			"type": "siblings",
-			"nodes": ["Jady", "Rudy", "Lucy", "Kris", "Benn"]
+			"nodes": ["Jady", "Rudy", "Lucy", "Kris"]
 		},
 		{
 			"proxy": "Fox Moms",
@@ -220,10 +223,12 @@
 		{
 			"proxy": "Fox Kids",
 			"type": "siblings",
-			"nodes": [
-				{ "name": "Domori", "color": "#9b2816", "tag": "🐍" },
-				{ "name": "Rei", "color": "#708d30", "tag": "🔔" }
-			]
+			"nodes": ["Domori", "Rei"]
+		},
+		{
+			"proxy": "Feral Foxes",
+			"type": "redrom",
+			"nodes": ["Mama Jady", "Bec"]
 		},
 		
 		{
@@ -236,7 +241,7 @@
 				"Lucy:Sucrose", "Lucy:John", "Lucy:Twilight", "Lucy:Cyn", "Lucy",
 				"Kris:Collei", "Kris:Krissy", "Kris",
 				"Fox Sisters",
-				"Fox Kids:Domori", "Fox Kids:Rei", "Fox Kids",
+				"Domori", "Rei", "Fox Kids",
 				"Lil Jady", "Speck"
 			]
 		},
@@ -274,7 +279,7 @@
 			"radius": 30,
 			"nodes": [
 				"Mama Jady:Lilith", "Mama Jady",
-				"Bec:Azazel", "Bec",
+				"Bec:Becquerel", "Bec:Azazel", "Bec",
 				"Barry", "Brandon"
 			]
 		},
@@ -302,11 +307,13 @@
 		{ "a": "Sara", "b": "Sera", "type": "siblings" },
 		{ "a": "Tesla:Tango", "b": "Repyt" },
 		{ "a": "Fox Sisters", "b": "Lil Jady", "type": "parent" },
-		{ "a": "Mama Jady", "b": "Fox Sisters", "type": "parent" },
+		{ "a": "Feral Foxes", "b": "Jady", "type": "parent" },
 		{ "a": "Fox Moms", "b": "Fox Sisters", "type": "parent" },
 		{ "a": "Fox Sisters", "b": "Fox Kids", "type": "parent" },
-		{ "a": "Mama Jady", "b": "Bec" },
+		{ "a": "Fox Moms", "b": "Feral Foxes", "type": "parent" },
 		{ "a": "Alpha Jady", "b": "Beta Rudy" },
+		{ "a": "Bec", "b": "Mama Jady" },
+		{ "a": "Benn", "b": "Fox Sisters", "type": "siblings" },
 		{ "a": "Sera", "b": "Brandon", "type": "parent" },
 		{ "a": "Dia", "b": "Barry", "type": "parent" },
 		{ "a": "Repyt", "b": "Sara" },
