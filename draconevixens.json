@@ -223,15 +223,9 @@
 				{ "name": "Rei", "color": "#708d30", "tag": "🔔" }
 			]
 		},
-
+		
 		{
-			"name": "Lives in Mondstadt",
-			"type": "general",
-			"radius": 30,
-			"nodes": ["Sera", "Dia"]
-		},
-		{
-			"name": "Lives in Inazuma",
+			"name": "Lives in the Voidroom",
 			"type": "general",
 			"radius": 30,
 			"nodes": [
@@ -239,11 +233,18 @@
 				"Rudy:Ruby", "Rudy:Ralsei", "Rudy:Roxy", "Rudy:Penny", "Rudy",
 				"Lucy:Sucrose", "Lucy:John", "Lucy:Twilight", "Lucy",
 				"Kris:Collei", "Kris",
-				"Benn:Scara", "Benn",
-				"Alpha Jady:Ei", "Alpha Jady:Luna", "Alpha Jady",
-				"Beta Rudy:Miko", "Beta Rudy:Toriel", "Beta Rudy",
 				"Fox Kids:Domori", "Fox Kids:Rei",
 				"Lil Jady", "Speck"
+			]
+		},
+		{
+			"name": "Lives in Inazuma",
+			"type": "general",
+			"radius": 30,
+			"nodes": [
+				"Benn:Scara", "Benn",
+				"Alpha Jady:Ei", "Alpha Jady:Luna", "Alpha Jady",
+				"Beta Rudy:Miko", "Beta Rudy:Toriel", "Beta Rudy"
 			]
 		},
 		{
@@ -256,6 +257,12 @@
 				"Kids:Jay", "Kids:Dream", "Kids:Apple Bloom", "Kids:Scootaloo", "Kids:Sweetie Belle", "Kids:Button Mash",
 				"Lumine", "Aether"
 			]
+		},
+		{
+			"name": "Lives in Mondstadt",
+			"type": "general",
+			"radius": 30,
+			"nodes": ["Sera", "Dia"]
 		},
 		{
 			"name": "Lives in Wolvendom",
