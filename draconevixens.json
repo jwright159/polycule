@@ -67,7 +67,8 @@
 			"color": "#cddc39",
 			"bgcolor": "#cddc3988",
 			"nodes": [
-				{ "name": "Collei", "color": "#c0cd7e", "tag": "🥦" }
+				{ "name": "Collei", "color": "#c0cd7e", "tag": "🥦" },
+				{ "name": "Krissy", "color": "#b5e61d", "tag": "🔪" }
 			],
 			"links": [
 			]
@@ -233,8 +234,9 @@
 				"Jady:Halley", "Jady:Kanaya", "Jady:Chara", "Jady:Red", "Jady",
 				"Rudy:Ruby", "Rudy:Ralsei", "Rudy:Roxy", "Rudy:Penny", "Rudy",
 				"Lucy:Sucrose", "Lucy:John", "Lucy:Twilight", "Lucy:Cyn", "Lucy",
-				"Kris:Collei", "Kris",
-				"Fox Kids:Domori", "Fox Kids:Rei",
+				"Kris:Collei", "Kris:Krissy", "Kris",
+				"Fox Sisters",
+				"Fox Kids:Domori", "Fox Kids:Rei", "Fox Kids",
 				"Lil Jady", "Speck"
 			]
 		},
@@ -245,7 +247,8 @@
 			"nodes": [
 				"Benn:Scara", "Benn",
 				"Alpha Jady:Ei", "Alpha Jady:Luna", "Alpha Jady",
-				"Beta Rudy:Miko", "Beta Rudy:Toriel", "Beta Rudy"
+				"Beta Rudy:Miko", "Beta Rudy:Toriel", "Beta Rudy",
+				"Fox Moms"
 			]
 		},
 		{
@@ -255,7 +258,7 @@
 			"nodes": [
 				"Ty:Rose", "Ty:Dave", "Ty:Sans", "Ty:Qrow", "Ty",
 				"Tesla:Tango:AT!Toriel", "Tesla:Tango", "Tesla:Skye:AS!Toriel", "Tesla:Skye", "Tesla",
-				"Kids:Jay", "Kids:Dream", "Kids:Apple Bloom", "Kids:Scootaloo", "Kids:Sweetie Belle", "Kids:Button Mash",
+				"Kids:Jay", "Kids:Dream", "Kids:Apple Bloom", "Kids:Scootaloo", "Kids:Sweetie Belle", "Kids:Button Mash", "Kids",
 				"Lumine", "Aether"
 			]
 		},
