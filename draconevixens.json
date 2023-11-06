@@ -54,7 +54,8 @@
 			"nodes": [
 				{ "name": "Sucrose", "color": "#cbe6cb", "tag": "🌸" },
 				{ "name": "John", "color": "#0715cd", "tag": "♏" },
-				{ "name": "Twilight", "color": "#cc94e0", "tag": "🪄" }
+				{ "name": "Twilight", "color": "#cc94e0", "tag": "🪄" },
+				{ "name": "Cyn", "color": "#fcfc7f", "tag": "📹" }
 			],
 			"links": [
 			]
@@ -231,7 +232,7 @@
 			"nodes": [
 				"Jady:Halley", "Jady:Kanaya", "Jady:Chara", "Jady:Red", "Jady",
 				"Rudy:Ruby", "Rudy:Ralsei", "Rudy:Roxy", "Rudy:Penny", "Rudy",
-				"Lucy:Sucrose", "Lucy:John", "Lucy:Twilight", "Lucy",
+				"Lucy:Sucrose", "Lucy:John", "Lucy:Twilight", "Lucy:Cyn", "Lucy",
 				"Kris:Collei", "Kris",
 				"Fox Kids:Domori", "Fox Kids:Rei",
 				"Lil Jady", "Speck"
