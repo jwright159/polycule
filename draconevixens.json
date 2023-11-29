@@ -120,7 +120,8 @@
 			"color": "#ffeb3b",
 			"bgcolor": "#ffeb3b88",
 			"nodes": [
-				{ "name": "Lilith", "color": "#9a060c", "tag": "🩹" }
+				{ "name": "Lilith", "color": "#9a060c", "tag": "🩹" },
+				{ "name": "Frisk", "color": "#67a4e0", "tag": "❤️" }
 			],
 			"links": [
 			]
@@ -278,7 +279,7 @@
 			"type": "general",
 			"radius": 30,
 			"nodes": [
-				"Mama Jady:Lilith", "Mama Jady",
+				"Mama Jady:Lilith", "Mama Jady:Frisk", "Mama Jady",
 				"Bec:Becquerel", "Bec:Azazel", "Bec",
 				"Barry", "Brandon"
 			]
