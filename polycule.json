@@ -163,6 +163,7 @@
 		{ "a": "Draconevixens:Jady", "b": "Psistem:Roxxie", "type": "benefits" },
 		{ "a": "Plant Sys:Karkat", "b": "Gremlin Sys" },
 		{ "a": "Rat Gang:Strider", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
-		{ "a": "Plant Sys:Dain", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" }
+		{ "a": "Plant Sys:Dain", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
+		{ "a": "Plant Sys:Proxy", "b": "Draconevixens:Ty" }
 	]
 }
