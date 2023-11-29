@@ -81,7 +81,8 @@
 				{ "name": "Jake", "color": "#209401" },
 				{ "name": "Proxy", "color": "#ff6ff3" },
 				{ "name": "Wolfie", "color": "black" },
-				{ "name": "Dante", "color": "#f2a400" }
+				{ "name": "Dante", "color": "#f2a400" },
+				{ "name": "Albedo", "color": "#e7e1d1" }
 			],
 			"groups": [
 			],
@@ -164,6 +165,7 @@
 		{ "a": "Plant Sys:Karkat", "b": "Gremlin Sys" },
 		{ "a": "Rat Gang:Strider", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
 		{ "a": "Plant Sys:Dain", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
-		{ "a": "Plant Sys:Proxy", "b": "Draconevixens:Ty" }
+		{ "a": "Plant Sys:Proxy", "b": "Draconevixens:Ty" },
+		{ "a": "Plant Sys:Albedo", "b": "Draconevixens:Sucrose" }
 	]
 }
