@@ -104,7 +104,8 @@
 				{ "name": "Jaden", "color": "#4ac925" },
 				{ "name": "Minette", "color": "#992211" },
 				{ "name": "Sollux", "color": "#a1a100" },
-				{ "name": "Cyn", "color": "#fcfc7f" }
+				{ "name": "Cyn", "color": "#fcfc7f" },
+				{ "name": "Roxie", "color": "#e6a600" }
 			],
 			"groups": [
 			],
@@ -121,7 +122,8 @@
 				{ "a": "Kanaya", "b": "Cyn", "type": "parent" },
 				{ "a": "Jaden", "b": "Cyn", "type": "parent" },
 				{ "a": "Minette", "b": "Cyn", "type": "parent" },
-				{ "a": "Sollux", "b": "Cyn", "type": "parent" }
+				{ "a": "Sollux", "b": "Cyn", "type": "parent" },
+				{ "a": "Roxxie", "b": "Roxie" }
 			]
 		},
 
