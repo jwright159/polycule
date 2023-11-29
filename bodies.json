@@ -1,13 +1,10 @@
 {
 	"nodes": [
 		{ "name": "Callie", "color": "#de2916" },
-		{ "name": "Sen", "color": "" },
-		{ "name": "Sim", "color": "" },
 		{ "name": "Psistem", "color": "#631db4" },
 		{ "name": "Draconevixens", "color": "#03a9f4" },
 		{ "name": "Rat Gang", "color": "#ffbded" },
 		{ "name": "Plant Sys", "color": "#698657" },
-		{ "name": "Mystery System", "color": "#06ffc9" },
 		{ "name": "Basil Sys", "color": "#96f8b8" },
 		{ "name": "Gremlin Sys", "color": "#d06f94" }
 	],
@@ -21,11 +18,8 @@
 		{ "a": "Plant Sys", "b": "Rat Gang" },
 		{ "a": "Plant Sys", "b": "Basil Sys" },
 		{ "a": "Plant Sys", "b": "Gremlin Sys" },
-		{ "a": "Mystery System", "b": "Sen" },
-		{ "a": "Mystery System", "b": "Sim" },
 		{ "a": "Draconevixens", "b": "Callie" },
 		{ "a": "Rat Gang", "b": "Gremlin Sys" },
-		{ "a": "Draconevixens", "b": "Psistem", "type": "benefits" },
-		{ "a": "Psistem", "b": "Mystery System" }
+		{ "a": "Draconevixens", "b": "Psistem", "type": "benefits" }
 	]
 }

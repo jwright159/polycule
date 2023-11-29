@@ -1,8 +1,6 @@
 {
 	"nodes": [
 		{ "name": "Callie", "color": "#de2916" },
-		{ "name": "Sen", "color": "" },
-		{ "name": "Sim", "color": "" },
 		{ "name": "Gremlin Sys", "color": "#d06f94" }
 	],
 
@@ -94,24 +92,6 @@
 		},
 
 		{
-			"name": "Mystery System",
-			"type": "system",
-			"color": "#06ffc9",
-			"bgcolor": "#06ffc988",
-			"radius": 30,
-			"nodes": [
-				{ "name": "Bonnie", "color": "#06ffc9" },
-				{ "name": "September", "color": "#b90f15" },
-				{ "name": "Casey", "color": "#f7f95d" },
-				{ "name": "Ytil", "color": "#10e0ff" }
-			],
-			"groups": [
-			],
-			"links": [
-			]
-		},
-
-		{
 			"name": "PsichoSphere",
 			"type": "system",
 			"color": "#631db4",
@@ -163,9 +143,6 @@
 		{ "a": "Plant Sys:Lichen", "b": "Rat Gang:dating proxy" },
 		{ "a": "Plant Sys:Lichen", "b": "Basil Sys:Basil" },
 		{ "a": "Plant Sys:Lichen", "b": "Gremlin Sys" },
-		{ "a": "Mystery System:Bonnie", "b": "Sen" },
-		{ "a": "Mystery System:Bonnie", "b": "Sim" },
-		{ "a": "Mystery System:September", "b": "Draconevixens:dating proxy" },
 		{ "a": "Draconevixens:dating proxy", "b": "Callie" },
 		{ "a": "Rat Gang:dating proxy", "b": "Gremlin Sys" },
 		{ "a": "Plant Sys:Cas", "b": "Rat Gang:Strider" },
@@ -179,7 +156,6 @@
 		{ "a": "Rat Gang:Sol", "b":"Plant Sys:Wolfie" },
 		{ "a": "Draconevixens:Jady", "b": "PsichoSphere:Roxxie", "type": "benefits" },
 		{ "a": "Plant Sys:Karkat", "b": "Gremlin Sys" },
-		{ "a": "PsichoSphere:Roxxie", "b": "Mystery System:Bonnie" },
 		{ "a": "Rat Gang:Strider", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
 		{ "a": "Plant Sys:Dain", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" }
 	]
