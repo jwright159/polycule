@@ -102,19 +102,25 @@
 				{ "name": "Kanaya", "color": "#008141" },
 				{ "name": "Jaden", "color": "#4ac925" },
 				{ "name": "Minette", "color": "#992211" },
-				{ "name": "Sollux", "color": "#a1a100" }
+				{ "name": "Sollux", "color": "#a1a100" },
+				{ "name": "Cyn", "color": "#fcfc7f" }
 			],
 			"groups": [
 			],
 			"links": [
-				{ "a": "Roxxie", "b": "Kanaya", "type": "palerom" },
+				{ "a": "Roxxie", "b": "Kanaya" },
 				{ "a": "Roxxie", "b": "Minette", "type": "parent" },
 				{ "a": "Roxxie", "b": "Jaden" },
 				{ "a": "Roxxie", "b": "Sollux" },
 				{ "a": "Jaden", "b": "Sollux", "type": "palerom" },
 				{ "a": "Kanaya", "b": "Sollux", "type": "palerom" },
 				{ "a": "Minette", "b": "Sollux", "type": "palerom" },
-				{ "a": "Jaden", "b": "Kanaya", "type": "vacillating-red-pale" }
+				{ "a": "Jaden", "b": "Kanaya", "type": "vacillating-red-pale" },
+				{ "a": "Roxxie", "b": "Cyn", "type": "parent" },
+				{ "a": "Kanaya", "b": "Cyn", "type": "parent" },
+				{ "a": "Jaden", "b": "Cyn", "type": "parent" },
+				{ "a": "Minette", "b": "Cyn", "type": "parent" },
+				{ "a": "Sollux", "b": "Cyn", "type": "parent" }
 			]
 		},
 
