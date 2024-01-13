@@ -2,7 +2,7 @@
 	"nodes": [
 		{ "name": "Callie", "color": "#de2916" },
 		{ "name": "Gremlin Sys", "color": "#d06f94" },
-		{ "name": "Lilith", "color": "#005682" }
+		{ "name": "Lilith", "color": "#005682", "tag": "🌺" }
 	],
 
 	"groups": [
@@ -13,12 +13,12 @@
 			"bgcolor": "#03a9f488",
 			"radius": 30,
 			"nodes": [
-				{ "name": "Jady", "color": "#4caf50" },
-				{ "name": "Ty", "color": "#00bcd4" },
-				{ "name": "Speck", "color": "#ffeb3b" },
-				{ "name": "Lil Jady", "color": "#ff6600" },
-				{ "name": "Rudy", "color": "#e91e63" },
-				{ "name": "Sucrose", "color": "#cbe6cb" }
+				{ "name": "Jady", "color": "#4caf50", "tag": "🦊" },
+				{ "name": "Ty", "color": "#00bcd4", "tag": "🐲" },
+				{ "name": "Speck", "color": "#ffeb3b", "tag": "✨" },
+				{ "name": "Lil Jady", "color": "#ff6600", "tag": "🍼" },
+				{ "name": "Rudy", "color": "#e91e63", "tag": "🪷" },
+				{ "name": "Sucrose", "color": "#cbe6cb", "tag": "🌸" }
 			],
 			"groups": [
 				{
@@ -45,15 +45,15 @@
 			"bgcolor": "#ffbded88",
 			"radius": 30,
 			"nodes": [
-				{ "name": "Lily", "color": "#ffbded" },
-				{ "name": "Strider", "color": "#ff0032" },
-				{ "name": "Kitty", "color": "#669900" },
-				{ "name": "Night", "color": "#961ba6" },
-				{ "name": "Sol", "color": "white" },
-				{ "name": "Second", "color": "#f0b2bc" },
-				{ "name": "G11.4", "color": "#00ff00" },
-				{ "name": "Ianite", "color": "#611083" },
-				{ "name": "Link", "color": "#ff0032" }
+				{ "name": "Lily", "color": "#ffbded", "tag": "🐀" },
+				{ "name": "Strider", "color": "#ff0032", "tag": "🕶️" },
+				{ "name": "Kitty", "color": "#669900", "tag": "🐈" },
+				{ "name": "Night", "color": "#961ba6", "tag": "🌙" },
+				{ "name": "Sol", "color": "white", "tag": "❔" },
+				{ "name": "Second", "color": "#f0b2bc", "tag": "2️⃣" },
+				{ "name": "G11.4", "color": "#00ff00", "tag": "🥚" },
+				{ "name": "Ianite", "color": "#611083", "tag": "💜" },
+				{ "name": "Link", "color": "#ff0032", "tag": "a🕶️" }
 			],
 			"groups": [
 				{
@@ -75,15 +75,15 @@
 			"bgcolor": "#69865788",
 			"radius": 30,
 			"nodes": [
-				{ "name": "Lichen", "color": "#698657" },
-				{ "name": "Cas", "color": "#0434a2" },
-				{ "name": "Karkat", "color": "#626262" },
-				{ "name": "Dain", "color": "#f2a400" },
-				{ "name": "Jake", "color": "#209401" },
-				{ "name": "Proxy", "color": "#ff6ff3" },
-				{ "name": "Wolfie", "color": "black" },
-				{ "name": "Dante", "color": "#f2a400" },
-				{ "name": "Albedo", "color": "#e7e1d1" }
+				{ "name": "Lichen", "color": "#698657", "tag": "🐶" },
+				{ "name": "Cas", "color": "#0434a2", "tag": "🐝" },
+				{ "name": "Karkat", "color": "#626262", "tag": "🐮" },
+				{ "name": "Dain", "color": "#f2a400", "tag": "🐴" },
+				{ "name": "Jake", "color": "#209401", "tag": "🦎" },
+				{ "name": "Proxy", "color": "#ff6ff3", "tag": "🐈‍⬛" },
+				{ "name": "Wolfie", "color": "black", "tag": "🐺" },
+				{ "name": "Dante", "color": "#f2a400", "tag": "a🐴" },
+				{ "name": "Albedo", "color": "#e7e1d1", "tag": "✨" }
 			],
 			"groups": [
 			],
@@ -100,13 +100,13 @@
 			"bgcolor": "#631db488",
 			"radius": 30,
 			"nodes": [
-				{ "name": "Roxxie", "color": "#631db4" },
-				{ "name": "Kanaya", "color": "#008141" },
-				{ "name": "Jaden", "color": "#4ac925" },
-				{ "name": "Minette", "color": "#992211" },
-				{ "name": "Sollux", "color": "#a1a100" },
-				{ "name": "Cyn", "color": "#fcfc7f" },
-				{ "name": "Roxie", "color": "#e6a600" }
+				{ "name": "Roxxie", "color": "#631db4", "tag": "|R|" },
+				{ "name": "Kanaya", "color": "#008141", "tag": "|||" },
+				{ "name": "Jaden", "color": "#4ac925", "tag": "|J|" },
+				{ "name": "Minette", "color": "#992211", "tag": "|M|" },
+				{ "name": "Sollux", "color": "#a1a100", "tag": "|S|" },
+				{ "name": "Cyn", "color": "#fcfc7f", "tag": "|C|" },
+				{ "name": "Roxie", "color": "#e6a600", "tag": "|X|" }
 			],
 			"groups": [
 			],
