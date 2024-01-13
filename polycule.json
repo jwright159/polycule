@@ -1,7 +1,8 @@
 {
 	"nodes": [
 		{ "name": "Callie", "color": "#de2916" },
-		{ "name": "Gremlin Sys", "color": "#d06f94" }
+		{ "name": "Gremlin Sys", "color": "#d06f94" },
+		{ "name": "Lilith", "color": "#005682" }
 	],
 
 	"groups": [
@@ -167,6 +168,10 @@
 		{ "a": "Rat Gang:Strider", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
 		{ "a": "Plant Sys:Dain", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
 		{ "a": "Plant Sys:Proxy", "b": "Draconevixens:Ty" },
-		{ "a": "Plant Sys:Albedo", "b": "Draconevixens:Sucrose" }
+		{ "a": "Plant Sys:Albedo", "b": "Draconevixens:Sucrose" },
+		{ "a": "Rat Gang:Lily", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
+		{ "a": "Lilith", "b": "Draconevixens:Jady", "type": "vacillating-red-siblings" },
+		{ "a": "Rat Gang:Lily", "b": "Lilith", "type": "vacillating-red-siblings" },
+		{ "a": "Plant Sys:Lichen", "b": "Lilith" }
 	]
 }
