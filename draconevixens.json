@@ -82,7 +82,8 @@
 			"color": "#cddc39",
 			"bgcolor": "#cddc3988",
 			"nodes": [
-				{ "name": "Scara", "color": "#4e4477", "tag": "🎩" }
+				{ "name": "Scara", "color": "#4e4477", "tag": "🎩" },
+				{ "name": "9S", "color": "#999999", "tag": "9️⃣" }
 			],
 			"links": [
 			]
@@ -95,7 +96,8 @@
 			"bgcolor": "#81c78488",
 			"nodes": [
 				{ "name": "Ei", "color": "#603db4", "tag": "⚡" },
-				{ "name": "Luna", "color": "#383c78", "tag": "🌛" }
+				{ "name": "Luna", "color": "#383c78", "tag": "🌛" },
+				{ "name": "2B", "color": "#222222", "tag": "2️⃣" }
 			],
 			"links": [
 			]
@@ -241,6 +243,7 @@
 				"Rudy:Ruby", "Rudy:Ralsei", "Rudy:Roxy", "Rudy:Penny", "Rudy",
 				"Lucy:Sucrose", "Lucy:John", "Lucy:Twilight", "Lucy:Cyn", "Lucy",
 				"Kris:Collei", "Kris:Krissy", "Kris",
+				"Benn:Scara", "Benn:9S", "Benn",
 				"Fox Sisters",
 				"Domori", "Rei", "Fox Kids",
 				"Lil Jady", "Speck"
@@ -251,8 +254,7 @@
 			"type": "general",
 			"radius": 30,
 			"nodes": [
-				"Benn:Scara", "Benn",
-				"Alpha Jady:Ei", "Alpha Jady:Luna", "Alpha Jady",
+				"Alpha Jady:Ei", "Alpha Jady:Luna", "Alpha Jady:2B", "Alpha Jady",
 				"Beta Rudy:Miko", "Beta Rudy:Toriel", "Beta Rudy",
 				"Fox Moms"
 			]
