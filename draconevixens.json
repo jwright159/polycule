@@ -97,7 +97,8 @@
 			"nodes": [
 				{ "name": "Ei", "color": "#603db4", "tag": "⚡" },
 				{ "name": "Luna", "color": "#383c78", "tag": "🌛" },
-				{ "name": "2B", "color": "#222222", "tag": "2️⃣" }
+				{ "name": "2B", "color": "#222222", "tag": "2️⃣" },
+				{ "name": "Dirk", "color": "#f2a400", "tag": "🤖" }
 			],
 			"links": [
 			]
@@ -110,7 +111,8 @@
 			"bgcolor": "#f0629288",
 			"nodes": [
 				{ "name": "Miko", "color": "#e2868c", "tag": "⛩️" },
-				{ "name": "Toriel", "color": "#3f0000", "tag": "🥧" }
+				{ "name": "Toriel", "color": "#3f0000", "tag": "🥧" },
+				{ "name": "Roxanne", "color": "#ff6ff2", "tag": "⚛️" }
 			],
 			"links": [
 			]
@@ -254,8 +256,8 @@
 			"type": "general",
 			"radius": 30,
 			"nodes": [
-				"Alpha Jady:Ei", "Alpha Jady:Luna", "Alpha Jady:2B", "Alpha Jady",
-				"Beta Rudy:Miko", "Beta Rudy:Toriel", "Beta Rudy",
+				"Alpha Jady:Ei", "Alpha Jady:Luna", "Alpha Jady:Dirk", "Alpha Jady:2B", "Alpha Jady",
+				"Beta Rudy:Miko", "Beta Rudy:Toriel", "Beta Rudy:Roxanne", "Beta Rudy",
 				"Fox Moms"
 			]
 		},
