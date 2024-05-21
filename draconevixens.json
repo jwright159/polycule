@@ -144,6 +144,18 @@
 			]
 		},
 		{
+			"proxy": "Mama's Lil Jady",
+			"tag": "🦮",
+			"type": "subsystem",
+			"color": "#ff6600",
+			"bgcolor": "#ff660088",
+			"nodes": [
+				{ "name": "Incubus", "color": "#9a060c", "tag": "👶" }
+			],
+			"links": [
+			]
+		},
+		{
 			"proxy": "Ty",
 			"tag": "🥁/🐲",
 			"type": "subsystem",
@@ -285,6 +297,7 @@
 			"nodes": [
 				"Mama Jady:Lilith", "Mama Jady:Frisk", "Mama Jady",
 				"Bec:Becquerel", "Bec:Azazel", "Bec",
+				"Mama's Lil Jady:Incubus", "Mama's Lil Jady",
 				"Barry", "Brandon"
 			]
 		},
@@ -327,6 +340,7 @@
 		{ "a": "Ruffles", "b": "Tesla", "type": "palerom" },
 		{ "a": "Ty", "b": "Kids", "type": "parent" },
 		{ "a": "Tesla", "b": "Kids", "type": "parent" },
-		{ "a": "Lumine", "b": "Aether", "type": "siblings" }
+		{ "a": "Lumine", "b": "Aether", "type": "siblings" },
+		{ "a": "Mama Jady", "b": "Mama's Lil Jady", "type": "parent" }
 	]
 }
