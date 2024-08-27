@@ -12,7 +12,6 @@
 		{ "name": "Ruffles", "color": "#a3dbf6", "tag": "🦦" },
 		{ "name": "Lumine", "color": "#a4bfdd", "tag": "🌙" },
 		{ "name": "Aether", "color": "#e4b875", "tag": "⭐" },
-		{ "name": "Domori", "color": "#9b2816", "tag": "🐍" },
 		{ "name": "Rei", "color": "#708d30", "tag": "🔔" }
 	],
 
@@ -98,7 +97,8 @@
 				{ "name": "Ei", "color": "#603db4", "tag": "⚡" },
 				{ "name": "Luna", "color": "#383c78", "tag": "🌛" },
 				{ "name": "2B", "color": "#222222", "tag": "2️⃣" },
-				{ "name": "Dirk", "color": "#f2a400", "tag": "🤖" }
+				{ "name": "Dirk", "color": "#f2a400", "tag": "🤖" },
+				{ "name": "The Heir", "color": "#97defb", "tag": "⚔️" }
 			],
 			"links": [
 			]
@@ -151,6 +151,21 @@
 			"bgcolor": "#ff660088",
 			"nodes": [
 				{ "name": "Incubus", "color": "#9a060c", "tag": "👶" }
+			],
+			"links": [
+			]
+		},
+		{
+			"proxy": "Domori",
+			"tag": "🐍",
+			"type": "subsystem",
+			"color": "#9b2816",
+			"bgcolor": "#9b281688",
+			"nodes": [
+				{ "name": "Domori", "color": "#9b2816", "tag": "🐍" },
+				{ "name": "Shiro", "color": "#bf4040", "tag": "🎮" },
+				{ "name": "Sweetie Belle", "color": "#f6b9d2", "tag": "🎵" }
+
 			],
 			"links": [
 			]
@@ -216,14 +231,11 @@
 				{ "name": "Jay", "color": "#3f51b5", "tag": "🖊️" },
 				{ "name": "Apple Bloom", "color": "#f4f49b", "tag": "🍎" },
 				{ "name": "Scootaloo", "color": "#fbba65", "tag": "🛴" },
-				{ "name": "Sweetie Belle", "color": "#f6b9d2", "tag": "🎵" },
-				{ "name": "Button Mash", "color": "#a53a3a", "tag": "🕹️" }
+				{ "name": "Button Mash", "color": "#a53a3a", "tag": "🕹️" },
+				"Domori:Sweetie Belle"
 			],
 			"links": [
 				{ "a": "Dream", "b": "Jay", "type": "palerom" },
-				{ "a": "Button Mash", "b": "Sweetie Belle" },
-				{ "a": "Apple Bloom", "b": "Sweetie Belle", "type": "palerom" },
-				{ "a": "Sweetie Belle", "b": "Scootaloo", "type": "palerom" },
 				{ "a": "Scootaloo", "b": "Apple Bloom", "type": "palerom" }
 			]
 		},
@@ -259,7 +271,8 @@
 				"Kris:Collei", "Kris:Krissy", "Kris",
 				"Benn:Scara", "Benn:9S", "Benn",
 				"Fox Sisters",
-				"Domori", "Rei", "Fox Kids",
+				"Domori:Domori", "Domori:Shiro", "Domori:Sweetie Belle", "Domori",
+				"Rei", "Fox Kids",
 				"Lil Jady", "Speck"
 			]
 		},
@@ -280,7 +293,7 @@
 			"nodes": [
 				"Ty:Rose", "Ty:Dave", "Ty:Sans", "Ty:Qrow", "Ty",
 				"Tesla:Tango:AT!Toriel", "Tesla:Tango", "Tesla:Skye:AS!Toriel", "Tesla:Skye", "Tesla",
-				"Kids:Jay", "Kids:Dream", "Kids:Apple Bloom", "Kids:Scootaloo", "Kids:Sweetie Belle", "Kids:Button Mash", "Kids",
+				"Kids:Jay", "Kids:Dream", "Kids:Apple Bloom", "Kids:Scootaloo", "Kids:Button Mash", "Kids",
 				"Lumine", "Aether"
 			]
 		},
@@ -341,6 +354,9 @@
 		{ "a": "Ty", "b": "Kids", "type": "parent" },
 		{ "a": "Tesla", "b": "Kids", "type": "parent" },
 		{ "a": "Lumine", "b": "Aether", "type": "siblings" },
-		{ "a": "Mama Jady", "b": "Mama's Lil Jady", "type": "parent" }
+		{ "a": "Mama Jady", "b": "Mama's Lil Jady", "type": "parent" },
+		{ "a": "Kids:Button Mash", "b": "Domori:Sweetie Belle" },
+		{ "a": "Kids:Apple Bloom", "b": "Domori:Sweetie Belle", "type": "palerom" },
+		{ "a": "Domori:Sweetie Belle", "b": "Kids:Scootaloo", "type": "palerom" }
 	]
 }
