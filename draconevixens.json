@@ -165,7 +165,6 @@
 				{ "name": "Domori", "color": "#9b2816", "tag": "🐍" },
 				{ "name": "Shiro", "color": "#bf4040", "tag": "🎮" },
 				{ "name": "Sweetie Belle", "color": "#f6b9d2", "tag": "🎵" }
-
 			],
 			"links": [
 			]
@@ -179,7 +178,7 @@
 			"nodes": [
 				{ "name": "Rose", "color": "#b536da", "tag": "📚" },
 				{ "name": "Dave", "color": "#e00707", "tag": "💿" },
-				{ "name": "Sans", "color": "#326dcb", "tag": "💀" },
+				{ "name": "sans", "color": "#326dcb", "tag": "💀" },
 				{ "name": "Qrow", "color": "#333333", "tag": "🐦" }
 			],
 			"links": [
