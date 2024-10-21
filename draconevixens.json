@@ -290,7 +290,7 @@
 			"type": "general",
 			"radius": 30,
 			"nodes": [
-				"Ty:Rose", "Ty:Dave", "Ty:Sans", "Ty:Qrow", "Ty",
+				"Ty:Rose", "Ty:Dave", "Ty:sans", "Ty:Qrow", "Ty",
 				"Tesla:Tango:AT!Toriel", "Tesla:Tango", "Tesla:Skye:AS!Toriel", "Tesla:Skye", "Tesla",
 				"Kids:Jay", "Kids:Dream", "Kids:Apple Bloom", "Kids:Scootaloo", "Kids:Button Mash", "Kids",
 				"Lumine", "Aether"
