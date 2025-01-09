@@ -1,6 +1,8 @@
 {
 	"nodes": [
 		{ "name": "Speck", "color": "#ffeb3b", "tag": "✨" },
+		{ "name": "Ghirha", "color": "#e91e63", "tag": "🖋️" },
+		{ "name": "Myxo", "color": "#000000", "tag": "🖊️" },
 		{ "name": "Sera", "color": "#03a9f4", "tag": "🐴" },
 		{ "name": "Dia", "color": "orange", "tag": "🦹‍♀️" },
 		{ "name": "Repyt", "color": "#d4bc00", "tag": "🐉" },
@@ -18,7 +20,7 @@
 	"groups": [
 		{
 			"proxy": "Jady",
-			"tag": "🦊",
+			"tag": "🦊/👾/🐁",
 			"type": "subsystem",
 			"color": "#4caf50",
 			"bgcolor": "#4caf5088",
@@ -26,7 +28,8 @@
 				{ "name": "Halley", "color": "#4ae45f", "tag": "💻" },
 				{ "name": "Kanaya", "color": "#008141", "tag": "🩸" },
 				{ "name": "Chara", "color": "#54ff70", "tag": "🍫" },
-				{ "name": "Red", "color": "#971e13", "tag": "🌹" }
+				{ "name": "Red", "color": "#971e13", "tag": "🌹" },
+				{ "name": "Scotty", "color": "#ffed48", "tag": "🎮" }
 			],
 			"links": [
 			]
@@ -56,7 +59,8 @@
 				{ "name": "Sucrose", "color": "#cbe6cb", "tag": "🌸" },
 				{ "name": "John", "color": "#0715cd", "tag": "♏" },
 				{ "name": "Twilight", "color": "#cc94e0", "tag": "🪄" },
-				{ "name": "Cyn", "color": "#fcfc7f", "tag": "📹" }
+				{ "name": "Cyn", "color": "#fcfc7f", "tag": "📹" },
+				{ "name": "Alice", "color": "#00ccff", "tag": "🐦‍🔥" }
 			],
 			"links": [
 			]
@@ -264,15 +268,15 @@
 			"type": "general",
 			"radius": 30,
 			"nodes": [
-				"Jady:Halley", "Jady:Kanaya", "Jady:Chara", "Jady:Red", "Jady",
+				"Jady:Halley", "Jady:Kanaya", "Jady:Chara", "Jady:Red", "Jady:Scotty", "Jady",
 				"Rudy:Ruby", "Rudy:Ralsei", "Rudy:Roxy", "Rudy:Penny", "Rudy",
-				"Lucy:Sucrose", "Lucy:John", "Lucy:Twilight", "Lucy:Cyn", "Lucy",
+				"Lucy:Sucrose", "Lucy:John", "Lucy:Twilight", "Lucy:Cyn", "Lucy:Alice", "Lucy",
 				"Kris:Collei", "Kris:Krissy", "Kris",
 				"Benn:Scara", "Benn:9S", "Benn",
 				"Fox Sisters",
 				"Domori:Domori", "Domori:Shiro", "Domori:Sweetie Belle", "Domori",
 				"Rei", "Fox Kids",
-				"Lil Jady", "Speck"
+				"Lil Jady", "Speck", "Ghirha", "Myxo"
 			]
 		},
 		{
@@ -356,6 +360,9 @@
 		{ "a": "Mama Jady", "b": "Mama's Lil Jady", "type": "parent" },
 		{ "a": "Kids:Button Mash", "b": "Domori:Sweetie Belle" },
 		{ "a": "Kids:Apple Bloom", "b": "Domori:Sweetie Belle", "type": "palerom" },
-		{ "a": "Domori:Sweetie Belle", "b": "Kids:Scootaloo", "type": "palerom" }
+		{ "a": "Domori:Sweetie Belle", "b": "Kids:Scootaloo", "type": "palerom" },
+		{ "a": "Speck", "b": "Ghirha", "type": "blackrom" },
+		{ "a": "Speck", "b": "Myxo", "type": "blackrom" },
+		{ "a": "Myxo", "b": "Ghirha", "type": "blackrom" }
 	]
 }
