@@ -86,7 +86,8 @@
 			"bgcolor": "#cddc3988",
 			"nodes": [
 				{ "name": "Scara", "color": "#4e4477", "tag": "🎩" },
-				{ "name": "9S", "color": "#999999", "tag": "9️⃣" }
+				{ "name": "9S", "color": "#999999", "tag": "9️⃣" },
+				{ "name": "Hal", "color": "#ff0000", "tag": "🧿" }
 			],
 			"links": [
 			]
