@@ -5,7 +5,7 @@
 		{ "name": "Myxo", "color": "#000000", "tag": "🖊️" },
 		{ "name": "Sera", "color": "#03a9f4", "tag": "🐴" },
 		{ "name": "Dia", "color": "orange", "tag": "🦹‍♀️" },
-		{ "name": "Repyt", "color": "#d4bc00", "tag": "🐉" },
+		{ "name": "Repyt", "color": "#d4bc00", "tag": "🐲" },
 		{ "name": "Sara", "color": "#1a237e", "tag": "🧮" },
 		{ "name": "Lil Jady", "color": "#ff6600", "tag": "🍼" },
 		{ "name": "Brandon", "color": "#b2b2dd", "tag": "🐎" },
@@ -226,6 +226,21 @@
 				}
 			]
 		},
+		{
+			"proxy": "Jean",
+			"tag": "🐉",
+			"type": "subsystem",
+			"color": "#000000",
+			"bgcolor": "#00000088",
+			"nodes": [
+			],
+			"links": [
+			],
+			"groups": [
+				{ "name": "Jean", "color": "#000000", "tag": "🐉" },
+				{ "name": "Celestia", "color": "#FFFFFF", "tag": "☀️" }
+			]
+		},
 
 		{
 			"proxy": "Kids",
@@ -265,7 +280,7 @@
 		},
 		
 		{
-			"name": "Lives in the Voidroom",
+			"name": "Lives in LoNaV",
 			"type": "general",
 			"radius": 30,
 			"nodes": [
@@ -277,7 +292,8 @@
 				"Fox Sisters",
 				"Domori:Domori", "Domori:Shiro", "Domori:Sweetie Belle", "Domori",
 				"Rei", "Fox Kids",
-				"Lil Jady", "Speck", "Ghirha", "Myxo"
+				"Lil Jady", "Speck", "Ghirha", "Myxo",
+				"Jean:Jean", "Jean:Celestia", "Jean"
 			]
 		},
 		{
