@@ -233,12 +233,12 @@
 			"color": "#000000",
 			"bgcolor": "#00000088",
 			"nodes": [
+				{ "name": "Jean", "color": "#000000", "tag": "🐉" },
+				{ "name": "Celestia", "color": "#FFFFFF", "tag": "☀️" }
 			],
 			"links": [
 			],
 			"groups": [
-				{ "name": "Jean", "color": "#000000", "tag": "🐉" },
-				{ "name": "Celestia", "color": "#FFFFFF", "tag": "☀️" }
 			]
 		},
 
